@@ -1,0 +1,457 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 56
+Rules claiming more threads will be scaled down.
+Provided resources: mem_mb=50000
+Job stats:
+job                   count
+------------------  -------
+all                       1
+cdhit                    50
+hmmscan                  50
+protein_prediction       50
+total                   151
+
+Select jobs to execute...
+
+[Tue Jun 11 16:55:28 2024]
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_21.fasta
+    output: ../results/protein/Hugo.metaT_21.faa
+    jobid: 63
+    reason: Missing output files: ../results/protein/Hugo.metaT_21.faa
+    wildcards: ident=Hugo.metaT_21
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: pyrodigal
+
+[Tue Jun 11 16:55:30 2024]
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_3.fasta
+    output: ../results/protein/Hugo.metaT_3.faa
+    jobid: 42
+    reason: Missing output files: ../results/protein/Hugo.metaT_3.faa
+    wildcards: ident=Hugo.metaT_3
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: pyrodigal
+
+[Tue Jun 11 16:55:30 2024]
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_41.fasta
+    output: ../results/protein/Hugo.metaT_41.faa
+    jobid: 3
+    reason: Missing output files: ../results/protein/Hugo.metaT_41.faa
+    wildcards: ident=Hugo.metaT_41
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: pyrodigal
+
+[Tue Jun 11 16:55:30 2024]
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_45.fasta
+    output: ../results/protein/Hugo.metaT_45.faa
+    jobid: 81
+    reason: Missing output files: ../results/protein/Hugo.metaT_45.faa
+    wildcards: ident=Hugo.metaT_45
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: pyrodigal
+[Tue Jun 11 16:55:31 2024]
+Error in rule protein_prediction:
+    jobid: 42
+    input: ../resources/fasta/Hugo.metaT_3.fasta
+    output: ../results/protein/Hugo.metaT_3.faa
+    conda-env: pyrodigal
+    shell:
+        
+        pyrodigal -i ../resources/fasta/Hugo.metaT_3.fasta         -a ../results/protein/Hugo.metaT_3.faa meta -p         -j 12 --min-gene 200
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Tue Jun 11 16:55:31 2024]
+Error in rule protein_prediction:
+    jobid: 63
+    input: ../resources/fasta/Hugo.metaT_21.fasta
+    output: ../results/protein/Hugo.metaT_21.faa
+    conda-env: pyrodigal
+    shell:
+        
+        pyrodigal -i ../resources/fasta/Hugo.metaT_21.fasta         -a ../results/protein/Hugo.metaT_21.faa meta -p         -j 12 --min-gene 200
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Tue Jun 11 16:55:31 2024]
+Error in rule protein_prediction:
+    jobid: 81
+    input: ../resources/fasta/Hugo.metaT_45.fasta
+    output: ../results/protein/Hugo.metaT_45.faa
+    conda-env: pyrodigal
+    shell:
+        
+        pyrodigal -i ../resources/fasta/Hugo.metaT_45.fasta         -a ../results/protein/Hugo.metaT_45.faa meta -p         -j 12 --min-gene 200
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Select jobs to execute...
+[Tue Jun 11 16:55:31 2024]
+Error in rule protein_prediction:
+    jobid: 3
+    input: ../resources/fasta/Hugo.metaT_41.fasta
+    output: ../results/protein/Hugo.metaT_41.faa
+    conda-env: pyrodigal
+    shell:
+        
+        pyrodigal -i ../resources/fasta/Hugo.metaT_41.fasta         -a ../results/protein/Hugo.metaT_41.faa meta -p         -j 12 --min-gene 200
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+
+[Tue Jun 11 16:55:31 2024]
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_0.fasta
+    output: ../results/protein/Hugo.metaT_0.faa
+    jobid: 51
+    reason: Missing output files: ../results/protein/Hugo.metaT_0.faa
+    wildcards: ident=Hugo.metaT_0
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: pyrodigal
+Select jobs to execute...
+
+[Tue Jun 11 16:55:31 2024]
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_44.fasta
+    output: ../results/protein/Hugo.metaT_44.faa
+    jobid: 99
+    reason: Missing output files: ../results/protein/Hugo.metaT_44.faa
+    wildcards: ident=Hugo.metaT_44
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: pyrodigal
+
+[Tue Jun 11 16:55:31 2024]
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_12.fasta
+    output: ../results/protein/Hugo.metaT_12.faa
+    jobid: 147
+    reason: Missing output files: ../results/protein/Hugo.metaT_12.faa
+    wildcards: ident=Hugo.metaT_12
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: pyrodigal
+
+[Tue Jun 11 16:55:31 2024]
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_26.fasta
+    output: ../results/protein/Hugo.metaT_26.faa
+    jobid: 75
+    reason: Missing output files: ../results/protein/Hugo.metaT_26.faa
+    wildcards: ident=Hugo.metaT_26
+    threads: 12
+    resources: tmpdir=/tmp
+
+Select jobs to execute...
+Activating conda environment: pyrodigal
+[Tue Jun 11 16:55:32 2024]
+Error in rule protein_prediction:
+    jobid: 51
+    input: ../resources/fasta/Hugo.metaT_0.fasta
+    output: ../results/protein/Hugo.metaT_0.faa
+    conda-env: pyrodigal
+    shell:
+        
+        pyrodigal -i ../resources/fasta/Hugo.metaT_0.fasta         -a ../results/protein/Hugo.metaT_0.faa meta -p         -j 12 --min-gene 200
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Tue Jun 11 16:55:32 2024]
+Error in rule protein_prediction:
+    jobid: 147
+    input: ../resources/fasta/Hugo.metaT_12.fasta
+    output: ../results/protein/Hugo.metaT_12.faa
+    conda-env: pyrodigal
+    shell:
+        
+        pyrodigal -i ../resources/fasta/Hugo.metaT_12.fasta         -a ../results/protein/Hugo.metaT_12.faa meta -p         -j 12 --min-gene 200
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Tue Jun 11 16:55:32 2024]
+Error in rule protein_prediction:
+    jobid: 99
+    input: ../resources/fasta/Hugo.metaT_44.fasta
+    output: ../results/protein/Hugo.metaT_44.faa
+    conda-env: pyrodigal
+    shell:
+        
+        pyrodigal -i ../resources/fasta/Hugo.metaT_44.fasta         -a ../results/protein/Hugo.metaT_44.faa meta -p         -j 12 --min-gene 200
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Tue Jun 11 16:55:32 2024]
+Error in rule protein_prediction:
+    jobid: 75
+    input: ../resources/fasta/Hugo.metaT_26.fasta
+    output: ../results/protein/Hugo.metaT_26.faa
+    conda-env: pyrodigal
+    shell:
+        
+        pyrodigal -i ../resources/fasta/Hugo.metaT_26.fasta         -a ../results/protein/Hugo.metaT_26.faa meta -p         -j 12 --min-gene 200
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+
+[Tue Jun 11 16:55:32 2024]
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_8.fasta
+    output: ../results/protein/Hugo.metaT_8.faa
+    jobid: 129
+    reason: Missing output files: ../results/protein/Hugo.metaT_8.faa
+    wildcards: ident=Hugo.metaT_8
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: pyrodigal
+Select jobs to execute...
+
+[Tue Jun 11 16:55:32 2024]
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_39.fasta
+    output: ../results/protein/Hugo.metaT_39.faa
+    jobid: 30
+    reason: Missing output files: ../results/protein/Hugo.metaT_39.faa
+    wildcards: ident=Hugo.metaT_39
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: pyrodigal
+
+[Tue Jun 11 16:55:32 2024]
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_32.fasta
+    output: ../results/protein/Hugo.metaT_32.faa
+    jobid: 120
+    reason: Missing output files: ../results/protein/Hugo.metaT_32.faa
+    wildcards: ident=Hugo.metaT_32
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: pyrodigal
+
+[Tue Jun 11 16:55:32 2024]
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_46.fasta
+    output: ../results/protein/Hugo.metaT_46.faa
+    jobid: 135
+    reason: Missing output files: ../results/protein/Hugo.metaT_46.faa
+    wildcards: ident=Hugo.metaT_46
+    threads: 12
+    resources: tmpdir=/tmp
+
+Select jobs to execute...
+Activating conda environment: pyrodigal
+[Tue Jun 11 16:55:33 2024]
+Error in rule protein_prediction:
+    jobid: 129
+    input: ../resources/fasta/Hugo.metaT_8.fasta
+    output: ../results/protein/Hugo.metaT_8.faa
+    conda-env: pyrodigal
+    shell:
+        
+        pyrodigal -i ../resources/fasta/Hugo.metaT_8.fasta         -a ../results/protein/Hugo.metaT_8.faa meta -p         -j 12 --min-gene 200
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Tue Jun 11 16:55:33 2024]
+Error in rule protein_prediction:
+    jobid: 120
+    input: ../resources/fasta/Hugo.metaT_32.fasta
+    output: ../results/protein/Hugo.metaT_32.faa
+    conda-env: pyrodigal
+    shell:
+        
+        pyrodigal -i ../resources/fasta/Hugo.metaT_32.fasta         -a ../results/protein/Hugo.metaT_32.faa meta -p         -j 12 --min-gene 200
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Tue Jun 11 16:55:33 2024]
+Error in rule protein_prediction:
+    jobid: 30
+    input: ../resources/fasta/Hugo.metaT_39.fasta
+    output: ../results/protein/Hugo.metaT_39.faa
+    conda-env: pyrodigal
+    shell:
+        
+        pyrodigal -i ../resources/fasta/Hugo.metaT_39.fasta         -a ../results/protein/Hugo.metaT_39.faa meta -p         -j 12 --min-gene 200
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Tue Jun 11 16:55:33 2024]
+Error in rule protein_prediction:
+    jobid: 135
+    input: ../resources/fasta/Hugo.metaT_46.fasta
+    output: ../results/protein/Hugo.metaT_46.faa
+    conda-env: pyrodigal
+    shell:
+        
+        pyrodigal -i ../resources/fasta/Hugo.metaT_46.fasta         -a ../results/protein/Hugo.metaT_46.faa meta -p         -j 12 --min-gene 200
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+
+[Tue Jun 11 16:55:33 2024]
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_4.fasta
+    output: ../results/protein/Hugo.metaT_4.faa
+    jobid: 123
+    reason: Missing output files: ../results/protein/Hugo.metaT_4.faa
+    wildcards: ident=Hugo.metaT_4
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: pyrodigal
+Select jobs to execute...
+
+[Tue Jun 11 16:55:33 2024]
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_16.fasta
+    output: ../results/protein/Hugo.metaT_16.faa
+    jobid: 72
+    reason: Missing output files: ../results/protein/Hugo.metaT_16.faa
+    wildcards: ident=Hugo.metaT_16
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: pyrodigal
+
+[Tue Jun 11 16:55:33 2024]
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_31.fasta
+    output: ../results/protein/Hugo.metaT_31.faa
+    jobid: 108
+    reason: Missing output files: ../results/protein/Hugo.metaT_31.faa
+    wildcards: ident=Hugo.metaT_31
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: pyrodigal
+
+[Tue Jun 11 16:55:33 2024]
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_42.fasta
+    output: ../results/protein/Hugo.metaT_42.faa
+    jobid: 60
+    reason: Missing output files: ../results/protein/Hugo.metaT_42.faa
+    wildcards: ident=Hugo.metaT_42
+    threads: 12
+    resources: tmpdir=/tmp
+
+Select jobs to execute...
+Activating conda environment: pyrodigal
+[Tue Jun 11 16:55:34 2024]
+Error in rule protein_prediction:
+    jobid: 123
+    input: ../resources/fasta/Hugo.metaT_4.fasta
+    output: ../results/protein/Hugo.metaT_4.faa
+    conda-env: pyrodigal
+    shell:
+        
+        pyrodigal -i ../resources/fasta/Hugo.metaT_4.fasta         -a ../results/protein/Hugo.metaT_4.faa meta -p         -j 12 --min-gene 200
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+
+[Tue Jun 11 16:55:34 2024]
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_7.fasta
+    output: ../results/protein/Hugo.metaT_7.faa
+    jobid: 105
+    reason: Missing output files: ../results/protein/Hugo.metaT_7.faa
+    wildcards: ident=Hugo.metaT_7
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: pyrodigal
+[Tue Jun 11 16:55:34 2024]
+Error in rule protein_prediction:
+    jobid: 60
+    input: ../resources/fasta/Hugo.metaT_42.fasta
+    output: ../results/protein/Hugo.metaT_42.faa
+    conda-env: pyrodigal
+    shell:
+        
+        pyrodigal -i ../resources/fasta/Hugo.metaT_42.fasta         -a ../results/protein/Hugo.metaT_42.faa meta -p         -j 12 --min-gene 200
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Select jobs to execute...
+[Tue Jun 11 16:55:34 2024]
+Error in rule protein_prediction:
+    jobid: 108
+    input: ../resources/fasta/Hugo.metaT_31.fasta
+    output: ../results/protein/Hugo.metaT_31.faa
+    conda-env: pyrodigal
+    shell:
+        
+        pyrodigal -i ../resources/fasta/Hugo.metaT_31.fasta         -a ../results/protein/Hugo.metaT_31.faa meta -p         -j 12 --min-gene 200
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Tue Jun 11 16:55:34 2024]
+Error in rule protein_prediction:
+    jobid: 72
+    input: ../resources/fasta/Hugo.metaT_16.fasta
+    output: ../results/protein/Hugo.metaT_16.faa
+    conda-env: pyrodigal
+    shell:
+        
+        pyrodigal -i ../resources/fasta/Hugo.metaT_16.fasta         -a ../results/protein/Hugo.metaT_16.faa meta -p         -j 12 --min-gene 200
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+
+[Tue Jun 11 16:55:34 2024]
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_15.fasta
+    output: ../results/protein/Hugo.metaT_15.faa
+    jobid: 15
+    reason: Missing output files: ../results/protein/Hugo.metaT_15.faa
+    wildcards: ident=Hugo.metaT_15
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: pyrodigal
+Terminating processes on user request, this might take some time.
+[Tue Jun 11 16:55:34 2024]
+Error in rule protein_prediction:
+    jobid: 15
+    input: ../resources/fasta/Hugo.metaT_15.fasta
+    output: ../results/protein/Hugo.metaT_15.faa
+    conda-env: pyrodigal
+    shell:
+        
+        pyrodigal -i ../resources/fasta/Hugo.metaT_15.fasta         -a ../results/protein/Hugo.metaT_15.faa meta -p         -j 12 --min-gene 200
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+[Tue Jun 11 16:55:34 2024]
+Error in rule protein_prediction:
+    jobid: 105
+    input: ../resources/fasta/Hugo.metaT_7.fasta
+    output: ../results/protein/Hugo.metaT_7.faa
+    conda-env: pyrodigal
+    shell:
+        
+        pyrodigal -i ../resources/fasta/Hugo.metaT_7.fasta         -a ../results/protein/Hugo.metaT_7.faa meta -p         -j 12 --min-gene 200
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Complete log: .snakemake/log/2024-06-11T165527.443544.snakemake.log

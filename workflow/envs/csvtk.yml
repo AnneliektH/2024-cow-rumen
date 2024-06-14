@@ -1,0 +1,9 @@
+name: csvtk
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+  - r
+dependencies:
+  - csvtk=0.29.0=h9ee0642_0
+prefix: /home/amhorst/mambaforge/envs/csvtk

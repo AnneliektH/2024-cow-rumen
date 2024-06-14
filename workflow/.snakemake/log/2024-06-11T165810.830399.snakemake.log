@@ -1,0 +1,2390 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 84
+Rules claiming more threads will be scaled down.
+Provided resources: mem_mb=50000
+Job stats:
+job                   count
+------------------  -------
+all                       1
+cdhit                    50
+hmmscan                  50
+protein_prediction       50
+total                   151
+
+Select jobs to execute...
+
+[Tue Jun 11 16:58:13 2024]
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_13.fasta
+    output: ../results/protein/Hugo.metaT_13.faa
+    jobid: 126
+    reason: Missing output files: ../results/protein/Hugo.metaT_13.faa
+    wildcards: ident=Hugo.metaT_13
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: pyrodigal
+
+[Tue Jun 11 16:58:14 2024]
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_4.fasta
+    output: ../results/protein/Hugo.metaT_4.faa
+    jobid: 123
+    reason: Missing output files: ../results/protein/Hugo.metaT_4.faa
+    wildcards: ident=Hugo.metaT_4
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: pyrodigal
+
+[Tue Jun 11 16:58:14 2024]
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_1.fasta
+    output: ../results/protein/Hugo.metaT_1.faa
+    jobid: 69
+    reason: Missing output files: ../results/protein/Hugo.metaT_1.faa
+    wildcards: ident=Hugo.metaT_1
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: pyrodigal
+
+[Tue Jun 11 16:58:14 2024]
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_0.fasta
+    output: ../results/protein/Hugo.metaT_0.faa
+    jobid: 51
+    reason: Missing output files: ../results/protein/Hugo.metaT_0.faa
+    wildcards: ident=Hugo.metaT_0
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: pyrodigal
+
+[Tue Jun 11 16:58:14 2024]
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_8.fasta
+    output: ../results/protein/Hugo.metaT_8.faa
+    jobid: 129
+    reason: Missing output files: ../results/protein/Hugo.metaT_8.faa
+    wildcards: ident=Hugo.metaT_8
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: pyrodigal
+
+[Tue Jun 11 16:58:14 2024]
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_26.fasta
+    output: ../results/protein/Hugo.metaT_26.faa
+    jobid: 75
+    reason: Missing output files: ../results/protein/Hugo.metaT_26.faa
+    wildcards: ident=Hugo.metaT_26
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: pyrodigal
+
+[Tue Jun 11 16:58:14 2024]
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_21.fasta
+    output: ../results/protein/Hugo.metaT_21.faa
+    jobid: 63
+    reason: Missing output files: ../results/protein/Hugo.metaT_21.faa
+    wildcards: ident=Hugo.metaT_21
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: pyrodigal
+[Tue Jun 11 16:58:29 2024]
+Finished job 69.
+1 of 151 steps (1%) done
+Select jobs to execute...
+
+[Tue Jun 11 16:58:29 2024]
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_17.fasta
+    output: ../results/protein/Hugo.metaT_17.faa
+    jobid: 57
+    reason: Missing output files: ../results/protein/Hugo.metaT_17.faa
+    wildcards: ident=Hugo.metaT_17
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: pyrodigal
+[Tue Jun 11 16:58:29 2024]
+Finished job 51.
+2 of 151 steps (1%) done
+[Tue Jun 11 16:58:29 2024]
+Finished job 126.
+3 of 151 steps (2%) done
+[Tue Jun 11 16:58:29 2024]
+Finished job 123.
+4 of 151 steps (3%) done
+[Tue Jun 11 16:58:29 2024]
+Finished job 129.
+5 of 151 steps (3%) done
+[Tue Jun 11 16:58:29 2024]
+Finished job 75.
+6 of 151 steps (4%) done
+[Tue Jun 11 16:58:29 2024]
+Finished job 63.
+7 of 151 steps (5%) done
+Select jobs to execute...
+
+[Tue Jun 11 16:58:29 2024]
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_48.fasta
+    output: ../results/protein/Hugo.metaT_48.faa
+    jobid: 96
+    reason: Missing output files: ../results/protein/Hugo.metaT_48.faa
+    wildcards: ident=Hugo.metaT_48
+    threads: 12
+    resources: tmpdir=/tmp
+
+
+[Tue Jun 11 16:58:29 2024]
+Activating conda environment: pyrodigal
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_35.fasta
+    output: ../results/protein/Hugo.metaT_35.faa
+    jobid: 39
+    reason: Missing output files: ../results/protein/Hugo.metaT_35.faa
+    wildcards: ident=Hugo.metaT_35
+    threads: 12
+    resources: tmpdir=/tmp
+
+
+[Tue Jun 11 16:58:29 2024]
+Activating conda environment: pyrodigal
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_39.fasta
+    output: ../results/protein/Hugo.metaT_39.faa
+    jobid: 30
+    reason: Missing output files: ../results/protein/Hugo.metaT_39.faa
+    wildcards: ident=Hugo.metaT_39
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: pyrodigal
+
+[Tue Jun 11 16:58:29 2024]
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_33.fasta
+    output: ../results/protein/Hugo.metaT_33.faa
+    jobid: 144
+    reason: Missing output files: ../results/protein/Hugo.metaT_33.faa
+    wildcards: ident=Hugo.metaT_33
+    threads: 12
+    resources: tmpdir=/tmp
+
+
+Activating conda environment: pyrodigal
+[Tue Jun 11 16:58:29 2024]
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_6.fasta
+    output: ../results/protein/Hugo.metaT_6.faa
+    jobid: 90
+    reason: Missing output files: ../results/protein/Hugo.metaT_6.faa
+    wildcards: ident=Hugo.metaT_6
+    threads: 12
+    resources: tmpdir=/tmp
+
+
+Activating conda environment: pyrodigal
+[Tue Jun 11 16:58:29 2024]
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_9.fasta
+    output: ../results/protein/Hugo.metaT_9.faa
+    jobid: 150
+    reason: Missing output files: ../results/protein/Hugo.metaT_9.faa
+    wildcards: ident=Hugo.metaT_9
+    threads: 12
+    resources: tmpdir=/tmp
+
+Select jobs to execute...
+Activating conda environment: pyrodigal
+[Tue Jun 11 16:58:41 2024]
+Finished job 150.
+8 of 151 steps (5%) done
+
+[Tue Jun 11 16:58:41 2024]
+rule cdhit:
+    input: ../results/protein/Hugo.metaT_8.faa
+    output: ../results/protein/Hugo.metaT_8.cdhit98.faa
+    jobid: 128
+    reason: Missing output files: ../results/protein/Hugo.metaT_8.cdhit98.faa; Input files updated by another job: ../results/protein/Hugo.metaT_8.faa
+    wildcards: ident=Hugo.metaT_8
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: cdhit
+[Tue Jun 11 16:58:42 2024]
+Finished job 144.
+9 of 151 steps (6%) done
+Select jobs to execute...
+
+[Tue Jun 11 16:58:42 2024]
+rule cdhit:
+    input: ../results/protein/Hugo.metaT_0.faa
+    output: ../results/protein/Hugo.metaT_0.cdhit98.faa
+    jobid: 50
+    reason: Missing output files: ../results/protein/Hugo.metaT_0.cdhit98.faa; Input files updated by another job: ../results/protein/Hugo.metaT_0.faa
+    wildcards: ident=Hugo.metaT_0
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: cdhit
+[Tue Jun 11 16:58:42 2024]
+Finished job 30.
+10 of 151 steps (7%) done
+Select jobs to execute...
+
+[Tue Jun 11 16:58:42 2024]
+rule cdhit:
+    input: ../results/protein/Hugo.metaT_26.faa
+    output: ../results/protein/Hugo.metaT_26.cdhit98.faa
+    jobid: 74
+    reason: Missing output files: ../results/protein/Hugo.metaT_26.cdhit98.faa; Input files updated by another job: ../results/protein/Hugo.metaT_26.faa
+    wildcards: ident=Hugo.metaT_26
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: cdhit
+[Tue Jun 11 16:58:42 2024]
+Finished job 96.
+11 of 151 steps (7%) done
+Select jobs to execute...
+
+[Tue Jun 11 16:58:42 2024]
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_29.fasta
+    output: ../results/protein/Hugo.metaT_29.faa
+    jobid: 138
+    reason: Missing output files: ../results/protein/Hugo.metaT_29.faa
+    wildcards: ident=Hugo.metaT_29
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: pyrodigal
+[Tue Jun 11 16:58:42 2024]
+Finished job 39.
+12 of 151 steps (8%) done
+Select jobs to execute...
+
+[Tue Jun 11 16:58:42 2024]
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_11.fasta
+    output: ../results/protein/Hugo.metaT_11.faa
+    jobid: 84
+    reason: Missing output files: ../results/protein/Hugo.metaT_11.faa
+    wildcards: ident=Hugo.metaT_11
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: pyrodigal
+[Tue Jun 11 16:58:42 2024]
+Finished job 57.
+13 of 151 steps (9%) done
+Select jobs to execute...
+
+[Tue Jun 11 16:58:42 2024]
+rule cdhit:
+    input: ../results/protein/Hugo.metaT_21.faa
+    output: ../results/protein/Hugo.metaT_21.cdhit98.faa
+    jobid: 62
+    reason: Missing output files: ../results/protein/Hugo.metaT_21.cdhit98.faa; Input files updated by another job: ../results/protein/Hugo.metaT_21.faa
+    wildcards: ident=Hugo.metaT_21
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: cdhit
+[Tue Jun 11 16:58:42 2024]
+Finished job 90.
+14 of 151 steps (9%) done
+Select jobs to execute...
+
+[Tue Jun 11 16:58:42 2024]
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_22.fasta
+    output: ../results/protein/Hugo.metaT_22.faa
+    jobid: 6
+    reason: Missing output files: ../results/protein/Hugo.metaT_22.faa
+    wildcards: ident=Hugo.metaT_22
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: pyrodigal
+[Tue Jun 11 16:58:47 2024]
+Finished job 128.
+15 of 151 steps (10%) done
+Select jobs to execute...
+
+[Tue Jun 11 16:58:47 2024]
+rule cdhit:
+    input: ../results/protein/Hugo.metaT_9.faa
+    output: ../results/protein/Hugo.metaT_9.cdhit98.faa
+    jobid: 149
+    reason: Missing output files: ../results/protein/Hugo.metaT_9.cdhit98.faa; Input files updated by another job: ../results/protein/Hugo.metaT_9.faa
+    wildcards: ident=Hugo.metaT_9
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: cdhit
+[Tue Jun 11 16:58:48 2024]
+Finished job 50.
+16 of 151 steps (11%) done
+Select jobs to execute...
+
+[Tue Jun 11 16:58:48 2024]
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_19.fasta
+    output: ../results/protein/Hugo.metaT_19.faa
+    jobid: 12
+    reason: Missing output files: ../results/protein/Hugo.metaT_19.faa
+    wildcards: ident=Hugo.metaT_19
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: pyrodigal
+[Tue Jun 11 16:58:48 2024]
+Finished job 74.
+17 of 151 steps (11%) done
+Select jobs to execute...
+
+[Tue Jun 11 16:58:48 2024]
+rule cdhit:
+    input: ../results/protein/Hugo.metaT_4.faa
+    output: ../results/protein/Hugo.metaT_4.cdhit98.faa
+    jobid: 122
+    reason: Missing output files: ../results/protein/Hugo.metaT_4.cdhit98.faa; Input files updated by another job: ../results/protein/Hugo.metaT_4.faa
+    wildcards: ident=Hugo.metaT_4
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: cdhit
+[Tue Jun 11 16:58:49 2024]
+Finished job 62.
+18 of 151 steps (12%) done
+Select jobs to execute...
+
+[Tue Jun 11 16:58:49 2024]
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_2.fasta
+    output: ../results/protein/Hugo.metaT_2.faa
+    jobid: 18
+    reason: Missing output files: ../results/protein/Hugo.metaT_2.faa
+    wildcards: ident=Hugo.metaT_2
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: pyrodigal
+[Tue Jun 11 16:58:51 2024]
+Finished job 84.
+19 of 151 steps (13%) done
+Select jobs to execute...
+
+[Tue Jun 11 16:58:51 2024]
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_42.fasta
+    output: ../results/protein/Hugo.metaT_42.faa
+    jobid: 60
+    reason: Missing output files: ../results/protein/Hugo.metaT_42.faa
+    wildcards: ident=Hugo.metaT_42
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: pyrodigal
+[Tue Jun 11 16:58:51 2024]
+Finished job 138.
+20 of 151 steps (13%) done
+Select jobs to execute...
+
+[Tue Jun 11 16:58:51 2024]
+rule hmmscan:
+    input: ../results/protein/Hugo.metaT_8.cdhit98.faa
+    output: ../results/hmmr/Hugo.metaT_8.out, ../results/hmmr/Hugo.metaT_8.tab.out
+    jobid: 127
+    reason: Missing output files: ../results/hmmr/Hugo.metaT_8.tab.out; Input files updated by another job: ../results/protein/Hugo.metaT_8.cdhit98.faa
+    wildcards: ident=Hugo.metaT_8
+    threads: 4
+    resources: tmpdir=/tmp
+
+Activating conda environment: hmmr
+
+[Tue Jun 11 16:58:51 2024]
+rule hmmscan:
+    input: ../results/protein/Hugo.metaT_26.cdhit98.faa
+    output: ../results/hmmr/Hugo.metaT_26.out, ../results/hmmr/Hugo.metaT_26.tab.out
+    jobid: 73
+    reason: Missing output files: ../results/hmmr/Hugo.metaT_26.tab.out; Input files updated by another job: ../results/protein/Hugo.metaT_26.cdhit98.faa
+    wildcards: ident=Hugo.metaT_26
+    threads: 4
+    resources: tmpdir=/tmp
+
+Activating conda environment: hmmr
+
+[Tue Jun 11 16:58:51 2024]
+rule hmmscan:
+    input: ../results/protein/Hugo.metaT_0.cdhit98.faa
+    output: ../results/hmmr/Hugo.metaT_0.out, ../results/hmmr/Hugo.metaT_0.tab.out
+    jobid: 49
+    reason: Missing output files: ../results/hmmr/Hugo.metaT_0.tab.out; Input files updated by another job: ../results/protein/Hugo.metaT_0.cdhit98.faa
+    wildcards: ident=Hugo.metaT_0
+    threads: 4
+    resources: tmpdir=/tmp
+
+Activating conda environment: hmmr
+[Tue Jun 11 16:58:52 2024]
+Finished job 6.
+21 of 151 steps (14%) done
+Select jobs to execute...
+
+[Tue Jun 11 16:58:52 2024]
+rule cdhit:
+    input: ../results/protein/Hugo.metaT_39.faa
+    output: ../results/protein/Hugo.metaT_39.cdhit98.faa
+    jobid: 29
+    reason: Missing output files: ../results/protein/Hugo.metaT_39.cdhit98.faa; Input files updated by another job: ../results/protein/Hugo.metaT_39.faa
+    wildcards: ident=Hugo.metaT_39
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: cdhit
+[Tue Jun 11 16:58:52 2024]
+Finished job 149.
+22 of 151 steps (15%) done
+Select jobs to execute...
+
+[Tue Jun 11 16:58:52 2024]
+rule cdhit:
+    input: ../results/protein/Hugo.metaT_48.faa
+    output: ../results/protein/Hugo.metaT_48.cdhit98.faa
+    jobid: 95
+    reason: Missing output files: ../results/protein/Hugo.metaT_48.cdhit98.faa; Input files updated by another job: ../results/protein/Hugo.metaT_48.faa
+    wildcards: ident=Hugo.metaT_48
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: cdhit
+[Tue Jun 11 16:58:55 2024]
+Finished job 122.
+23 of 151 steps (15%) done
+Select jobs to execute...
+
+[Tue Jun 11 16:58:55 2024]
+rule cdhit:
+    input: ../results/protein/Hugo.metaT_13.faa
+    output: ../results/protein/Hugo.metaT_13.cdhit98.faa
+    jobid: 125
+    reason: Missing output files: ../results/protein/Hugo.metaT_13.cdhit98.faa; Input files updated by another job: ../results/protein/Hugo.metaT_13.faa
+    wildcards: ident=Hugo.metaT_13
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: cdhit
+[Tue Jun 11 16:58:56 2024]
+Finished job 12.
+24 of 151 steps (16%) done
+Select jobs to execute...
+
+[Tue Jun 11 16:58:56 2024]
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_47.fasta
+    output: ../results/protein/Hugo.metaT_47.faa
+    jobid: 114
+    reason: Missing output files: ../results/protein/Hugo.metaT_47.faa
+    wildcards: ident=Hugo.metaT_47
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: pyrodigal
+[Tue Jun 11 16:58:57 2024]
+Finished job 95.
+25 of 151 steps (17%) done
+Select jobs to execute...
+
+[Tue Jun 11 16:58:57 2024]
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_43.fasta
+    output: ../results/protein/Hugo.metaT_43.faa
+    jobid: 45
+    reason: Missing output files: ../results/protein/Hugo.metaT_43.faa
+    wildcards: ident=Hugo.metaT_43
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: pyrodigal
+[Tue Jun 11 16:58:58 2024]
+Finished job 18.
+26 of 151 steps (17%) done
+Select jobs to execute...
+
+[Tue Jun 11 16:58:58 2024]
+rule cdhit:
+    input: ../results/protein/Hugo.metaT_2.faa
+    output: ../results/protein/Hugo.metaT_2.cdhit98.faa
+    jobid: 17
+    reason: Missing output files: ../results/protein/Hugo.metaT_2.cdhit98.faa; Input files updated by another job: ../results/protein/Hugo.metaT_2.faa
+    wildcards: ident=Hugo.metaT_2
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: cdhit
+[Tue Jun 11 16:58:58 2024]
+Finished job 29.
+27 of 151 steps (18%) done
+Select jobs to execute...
+
+[Tue Jun 11 16:58:58 2024]
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_16.fasta
+    output: ../results/protein/Hugo.metaT_16.faa
+    jobid: 72
+    reason: Missing output files: ../results/protein/Hugo.metaT_16.faa
+    wildcards: ident=Hugo.metaT_16
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: pyrodigal
+[Tue Jun 11 16:58:59 2024]
+Finished job 60.
+28 of 151 steps (19%) done
+Select jobs to execute...
+
+[Tue Jun 11 16:58:59 2024]
+rule cdhit:
+    input: ../results/protein/Hugo.metaT_1.faa
+    output: ../results/protein/Hugo.metaT_1.cdhit98.faa
+    jobid: 68
+    reason: Missing output files: ../results/protein/Hugo.metaT_1.cdhit98.faa; Input files updated by another job: ../results/protein/Hugo.metaT_1.faa
+    wildcards: ident=Hugo.metaT_1
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: cdhit
+[Tue Jun 11 16:59:00 2024]
+Finished job 125.
+29 of 151 steps (19%) done
+Select jobs to execute...
+
+[Tue Jun 11 16:59:00 2024]
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_28.fasta
+    output: ../results/protein/Hugo.metaT_28.faa
+    jobid: 117
+    reason: Missing output files: ../results/protein/Hugo.metaT_28.faa
+    wildcards: ident=Hugo.metaT_28
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: pyrodigal
+[Tue Jun 11 16:59:04 2024]
+Finished job 68.
+30 of 151 steps (20%) done
+Select jobs to execute...
+
+[Tue Jun 11 16:59:04 2024]
+rule hmmscan:
+    input: ../results/protein/Hugo.metaT_4.cdhit98.faa
+    output: ../results/hmmr/Hugo.metaT_4.out, ../results/hmmr/Hugo.metaT_4.tab.out
+    jobid: 121
+    reason: Missing output files: ../results/hmmr/Hugo.metaT_4.tab.out; Input files updated by another job: ../results/protein/Hugo.metaT_4.cdhit98.faa
+    wildcards: ident=Hugo.metaT_4
+    threads: 4
+    resources: tmpdir=/tmp
+
+Activating conda environment: hmmr
+
+[Tue Jun 11 16:59:04 2024]
+rule hmmscan:
+    input: ../results/protein/Hugo.metaT_1.cdhit98.faa
+    output: ../results/hmmr/Hugo.metaT_1.out, ../results/hmmr/Hugo.metaT_1.tab.out
+    jobid: 67
+    reason: Missing output files: ../results/hmmr/Hugo.metaT_1.tab.out; Input files updated by another job: ../results/protein/Hugo.metaT_1.cdhit98.faa
+    wildcards: ident=Hugo.metaT_1
+    threads: 4
+    resources: tmpdir=/tmp
+
+Activating conda environment: hmmr
+
+[Tue Jun 11 16:59:04 2024]
+rule hmmscan:
+    input: ../results/protein/Hugo.metaT_21.cdhit98.faa
+    output: ../results/hmmr/Hugo.metaT_21.out, ../results/hmmr/Hugo.metaT_21.tab.out
+    jobid: 61
+    reason: Missing output files: ../results/hmmr/Hugo.metaT_21.tab.out; Input files updated by another job: ../results/protein/Hugo.metaT_21.cdhit98.faa
+    wildcards: ident=Hugo.metaT_21
+    threads: 4
+    resources: tmpdir=/tmp
+
+Activating conda environment: hmmr
+[Tue Jun 11 16:59:04 2024]
+Finished job 114.
+31 of 151 steps (21%) done
+Select jobs to execute...
+
+[Tue Jun 11 16:59:04 2024]
+rule hmmscan:
+    input: ../results/protein/Hugo.metaT_13.cdhit98.faa
+    output: ../results/hmmr/Hugo.metaT_13.out, ../results/hmmr/Hugo.metaT_13.tab.out
+    jobid: 124
+    reason: Missing output files: ../results/hmmr/Hugo.metaT_13.tab.out; Input files updated by another job: ../results/protein/Hugo.metaT_13.cdhit98.faa
+    wildcards: ident=Hugo.metaT_13
+    threads: 4
+    resources: tmpdir=/tmp
+
+Activating conda environment: hmmr
+
+[Tue Jun 11 16:59:04 2024]
+rule hmmscan:
+    input: ../results/protein/Hugo.metaT_39.cdhit98.faa
+    output: ../results/hmmr/Hugo.metaT_39.out, ../results/hmmr/Hugo.metaT_39.tab.out
+    jobid: 28
+    reason: Missing output files: ../results/hmmr/Hugo.metaT_39.tab.out; Input files updated by another job: ../results/protein/Hugo.metaT_39.cdhit98.faa
+    wildcards: ident=Hugo.metaT_39
+    threads: 4
+    resources: tmpdir=/tmp
+
+Activating conda environment: hmmr
+
+[Tue Jun 11 16:59:04 2024]
+rule hmmscan:
+    input: ../results/protein/Hugo.metaT_9.cdhit98.faa
+    output: ../results/hmmr/Hugo.metaT_9.out, ../results/hmmr/Hugo.metaT_9.tab.out
+    jobid: 148
+    reason: Missing output files: ../results/hmmr/Hugo.metaT_9.tab.out; Input files updated by another job: ../results/protein/Hugo.metaT_9.cdhit98.faa
+    wildcards: ident=Hugo.metaT_9
+    threads: 4
+    resources: tmpdir=/tmp
+
+Activating conda environment: hmmr
+[Tue Jun 11 16:59:05 2024]
+Finished job 17.
+32 of 151 steps (21%) done
+Select jobs to execute...
+
+[Tue Jun 11 16:59:05 2024]
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_38.fasta
+    output: ../results/protein/Hugo.metaT_38.faa
+    jobid: 9
+    reason: Missing output files: ../results/protein/Hugo.metaT_38.faa
+    wildcards: ident=Hugo.metaT_38
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: pyrodigal
+[Tue Jun 11 16:59:06 2024]
+Finished job 45.
+33 of 151 steps (22%) done
+Select jobs to execute...
+
+[Tue Jun 11 16:59:06 2024]
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_5.fasta
+    output: ../results/protein/Hugo.metaT_5.faa
+    jobid: 141
+    reason: Missing output files: ../results/protein/Hugo.metaT_5.faa
+    wildcards: ident=Hugo.metaT_5
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: pyrodigal
+[Tue Jun 11 16:59:07 2024]
+Finished job 72.
+34 of 151 steps (23%) done
+Select jobs to execute...
+
+[Tue Jun 11 16:59:07 2024]
+rule cdhit:
+    input: ../results/protein/Hugo.metaT_16.faa
+    output: ../results/protein/Hugo.metaT_16.cdhit98.faa
+    jobid: 71
+    reason: Missing output files: ../results/protein/Hugo.metaT_16.cdhit98.faa; Input files updated by another job: ../results/protein/Hugo.metaT_16.faa
+    wildcards: ident=Hugo.metaT_16
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: cdhit
+[Tue Jun 11 16:59:07 2024]
+Finished job 117.
+35 of 151 steps (23%) done
+Select jobs to execute...
+
+[Tue Jun 11 16:59:07 2024]
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_30.fasta
+    output: ../results/protein/Hugo.metaT_30.faa
+    jobid: 87
+    reason: Missing output files: ../results/protein/Hugo.metaT_30.faa
+    wildcards: ident=Hugo.metaT_30
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: pyrodigal
+[Tue Jun 11 16:59:13 2024]
+Finished job 9.
+36 of 151 steps (24%) done
+Select jobs to execute...
+
+[Tue Jun 11 16:59:13 2024]
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_31.fasta
+    output: ../results/protein/Hugo.metaT_31.faa
+    jobid: 108
+    reason: Missing output files: ../results/protein/Hugo.metaT_31.faa
+    wildcards: ident=Hugo.metaT_31
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: pyrodigal
+[Tue Jun 11 16:59:14 2024]
+Finished job 71.
+37 of 151 steps (25%) done
+Select jobs to execute...
+
+[Tue Jun 11 16:59:14 2024]
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_18.fasta
+    output: ../results/protein/Hugo.metaT_18.faa
+    jobid: 33
+    reason: Missing output files: ../results/protein/Hugo.metaT_18.faa
+    wildcards: ident=Hugo.metaT_18
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: pyrodigal
+[Tue Jun 11 16:59:14 2024]
+Finished job 141.
+38 of 151 steps (25%) done
+Select jobs to execute...
+
+[Tue Jun 11 16:59:14 2024]
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_46.fasta
+    output: ../results/protein/Hugo.metaT_46.faa
+    jobid: 135
+    reason: Missing output files: ../results/protein/Hugo.metaT_46.faa
+    wildcards: ident=Hugo.metaT_46
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: pyrodigal
+[Tue Jun 11 16:59:15 2024]
+Finished job 87.
+39 of 151 steps (26%) done
+Select jobs to execute...
+
+[Tue Jun 11 16:59:15 2024]
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_45.fasta
+    output: ../results/protein/Hugo.metaT_45.faa
+    jobid: 81
+    reason: Missing output files: ../results/protein/Hugo.metaT_45.faa
+    wildcards: ident=Hugo.metaT_45
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: pyrodigal
+[Tue Jun 11 16:59:21 2024]
+Finished job 108.
+40 of 151 steps (26%) done
+Select jobs to execute...
+
+[Tue Jun 11 16:59:21 2024]
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_41.fasta
+    output: ../results/protein/Hugo.metaT_41.faa
+    jobid: 3
+    reason: Missing output files: ../results/protein/Hugo.metaT_41.faa
+    wildcards: ident=Hugo.metaT_41
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: pyrodigal
+[Tue Jun 11 16:59:22 2024]
+Finished job 135.
+41 of 151 steps (27%) done
+Select jobs to execute...
+
+[Tue Jun 11 16:59:22 2024]
+rule cdhit:
+    input: ../results/protein/Hugo.metaT_42.faa
+    output: ../results/protein/Hugo.metaT_42.cdhit98.faa
+    jobid: 59
+    reason: Missing output files: ../results/protein/Hugo.metaT_42.cdhit98.faa; Input files updated by another job: ../results/protein/Hugo.metaT_42.faa
+    wildcards: ident=Hugo.metaT_42
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: cdhit
+[Tue Jun 11 16:59:22 2024]
+Finished job 33.
+42 of 151 steps (28%) done
+Select jobs to execute...
+
+[Tue Jun 11 16:59:22 2024]
+rule cdhit:
+    input: ../results/protein/Hugo.metaT_31.faa
+    output: ../results/protein/Hugo.metaT_31.cdhit98.faa
+    jobid: 107
+    reason: Missing output files: ../results/protein/Hugo.metaT_31.cdhit98.faa; Input files updated by another job: ../results/protein/Hugo.metaT_31.faa
+    wildcards: ident=Hugo.metaT_31
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: cdhit
+[Tue Jun 11 16:59:24 2024]
+Finished job 81.
+43 of 151 steps (28%) done
+Select jobs to execute...
+
+[Tue Jun 11 16:59:24 2024]
+rule cdhit:
+    input: ../results/protein/Hugo.metaT_45.faa
+    output: ../results/protein/Hugo.metaT_45.cdhit98.faa
+    jobid: 80
+    reason: Missing output files: ../results/protein/Hugo.metaT_45.cdhit98.faa; Input files updated by another job: ../results/protein/Hugo.metaT_45.faa
+    wildcards: ident=Hugo.metaT_45
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: cdhit
+[Tue Jun 11 16:59:28 2024]
+Finished job 107.
+44 of 151 steps (29%) done
+Select jobs to execute...
+
+[Tue Jun 11 16:59:28 2024]
+rule cdhit:
+    input: ../results/protein/Hugo.metaT_47.faa
+    output: ../results/protein/Hugo.metaT_47.cdhit98.faa
+    jobid: 113
+    reason: Missing output files: ../results/protein/Hugo.metaT_47.cdhit98.faa; Input files updated by another job: ../results/protein/Hugo.metaT_47.faa
+    wildcards: ident=Hugo.metaT_47
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: cdhit
+[Tue Jun 11 16:59:28 2024]
+Finished job 59.
+45 of 151 steps (30%) done
+Select jobs to execute...
+
+[Tue Jun 11 16:59:28 2024]
+rule hmmscan:
+    input: ../results/protein/Hugo.metaT_16.cdhit98.faa
+    output: ../results/hmmr/Hugo.metaT_16.out, ../results/hmmr/Hugo.metaT_16.tab.out
+    jobid: 70
+    reason: Missing output files: ../results/hmmr/Hugo.metaT_16.tab.out; Input files updated by another job: ../results/protein/Hugo.metaT_16.cdhit98.faa
+    wildcards: ident=Hugo.metaT_16
+    threads: 4
+    resources: tmpdir=/tmp
+
+Activating conda environment: hmmr
+
+[Tue Jun 11 16:59:28 2024]
+rule hmmscan:
+    input: ../results/protein/Hugo.metaT_42.cdhit98.faa
+    output: ../results/hmmr/Hugo.metaT_42.out, ../results/hmmr/Hugo.metaT_42.tab.out
+    jobid: 58
+    reason: Missing output files: ../results/hmmr/Hugo.metaT_42.tab.out; Input files updated by another job: ../results/protein/Hugo.metaT_42.cdhit98.faa
+    wildcards: ident=Hugo.metaT_42
+    threads: 4
+    resources: tmpdir=/tmp
+
+Activating conda environment: hmmr
+
+[Tue Jun 11 16:59:28 2024]
+rule hmmscan:
+    input: ../results/protein/Hugo.metaT_31.cdhit98.faa
+    output: ../results/hmmr/Hugo.metaT_31.out, ../results/hmmr/Hugo.metaT_31.tab.out
+    jobid: 106
+    reason: Missing output files: ../results/hmmr/Hugo.metaT_31.tab.out; Input files updated by another job: ../results/protein/Hugo.metaT_31.cdhit98.faa
+    wildcards: ident=Hugo.metaT_31
+    threads: 4
+    resources: tmpdir=/tmp
+
+Activating conda environment: hmmr
+[Tue Jun 11 16:59:29 2024]
+Finished job 3.
+46 of 151 steps (30%) done
+Select jobs to execute...
+
+[Tue Jun 11 16:59:29 2024]
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_27.fasta
+    output: ../results/protein/Hugo.metaT_27.faa
+    jobid: 93
+    reason: Missing output files: ../results/protein/Hugo.metaT_27.faa
+    wildcards: ident=Hugo.metaT_27
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: pyrodigal
+[Tue Jun 11 16:59:30 2024]
+Finished job 80.
+47 of 151 steps (31%) done
+Select jobs to execute...
+
+[Tue Jun 11 16:59:30 2024]
+rule cdhit:
+    input: ../results/protein/Hugo.metaT_29.faa
+    output: ../results/protein/Hugo.metaT_29.cdhit98.faa
+    jobid: 137
+    reason: Missing output files: ../results/protein/Hugo.metaT_29.cdhit98.faa; Input files updated by another job: ../results/protein/Hugo.metaT_29.faa
+    wildcards: ident=Hugo.metaT_29
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: cdhit
+[Tue Jun 11 16:59:34 2024]
+Finished job 113.
+48 of 151 steps (32%) done
+Select jobs to execute...
+
+[Tue Jun 11 16:59:34 2024]
+rule hmmscan:
+    input: ../results/protein/Hugo.metaT_48.cdhit98.faa
+    output: ../results/hmmr/Hugo.metaT_48.out, ../results/hmmr/Hugo.metaT_48.tab.out
+    jobid: 94
+    reason: Missing output files: ../results/hmmr/Hugo.metaT_48.tab.out; Input files updated by another job: ../results/protein/Hugo.metaT_48.cdhit98.faa
+    wildcards: ident=Hugo.metaT_48
+    threads: 4
+    resources: tmpdir=/tmp
+
+Activating conda environment: hmmr
+
+[Tue Jun 11 16:59:34 2024]
+rule hmmscan:
+    input: ../results/protein/Hugo.metaT_45.cdhit98.faa
+    output: ../results/hmmr/Hugo.metaT_45.out, ../results/hmmr/Hugo.metaT_45.tab.out
+    jobid: 79
+    reason: Missing output files: ../results/hmmr/Hugo.metaT_45.tab.out; Input files updated by another job: ../results/protein/Hugo.metaT_45.cdhit98.faa
+    wildcards: ident=Hugo.metaT_45
+    threads: 4
+    resources: tmpdir=/tmp
+
+Activating conda environment: hmmr
+
+[Tue Jun 11 16:59:34 2024]
+rule hmmscan:
+    input: ../results/protein/Hugo.metaT_47.cdhit98.faa
+    output: ../results/hmmr/Hugo.metaT_47.out, ../results/hmmr/Hugo.metaT_47.tab.out
+    jobid: 112
+    reason: Missing output files: ../results/hmmr/Hugo.metaT_47.tab.out; Input files updated by another job: ../results/protein/Hugo.metaT_47.cdhit98.faa
+    wildcards: ident=Hugo.metaT_47
+    threads: 4
+    resources: tmpdir=/tmp
+
+Activating conda environment: hmmr
+[Tue Jun 11 16:59:35 2024]
+Finished job 137.
+49 of 151 steps (32%) done
+Select jobs to execute...
+
+[Tue Jun 11 16:59:35 2024]
+rule cdhit:
+    input: ../results/protein/Hugo.metaT_11.faa
+    output: ../results/protein/Hugo.metaT_11.cdhit98.faa
+    jobid: 83
+    reason: Missing output files: ../results/protein/Hugo.metaT_11.cdhit98.faa; Input files updated by another job: ../results/protein/Hugo.metaT_11.faa
+    wildcards: ident=Hugo.metaT_11
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: cdhit
+[Tue Jun 11 16:59:37 2024]
+Finished job 93.
+50 of 151 steps (33%) done
+Select jobs to execute...
+
+[Tue Jun 11 16:59:37 2024]
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_23.fasta
+    output: ../results/protein/Hugo.metaT_23.faa
+    jobid: 27
+    reason: Missing output files: ../results/protein/Hugo.metaT_23.faa
+    wildcards: ident=Hugo.metaT_23
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: pyrodigal
+[Tue Jun 11 16:59:42 2024]
+Finished job 83.
+51 of 151 steps (34%) done
+Select jobs to execute...
+
+[Tue Jun 11 16:59:42 2024]
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_12.fasta
+    output: ../results/protein/Hugo.metaT_12.faa
+    jobid: 147
+    reason: Missing output files: ../results/protein/Hugo.metaT_12.faa
+    wildcards: ident=Hugo.metaT_12
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: pyrodigal
+[Tue Jun 11 16:59:45 2024]
+Finished job 27.
+52 of 151 steps (34%) done
+Select jobs to execute...
+
+[Tue Jun 11 16:59:45 2024]
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_24.fasta
+    output: ../results/protein/Hugo.metaT_24.faa
+    jobid: 111
+    reason: Missing output files: ../results/protein/Hugo.metaT_24.faa
+    wildcards: ident=Hugo.metaT_24
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: pyrodigal
+[Tue Jun 11 16:59:50 2024]
+Finished job 147.
+53 of 151 steps (35%) done
+Select jobs to execute...
+
+[Tue Jun 11 16:59:50 2024]
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_15.fasta
+    output: ../results/protein/Hugo.metaT_15.faa
+    jobid: 15
+    reason: Missing output files: ../results/protein/Hugo.metaT_15.faa
+    wildcards: ident=Hugo.metaT_15
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: pyrodigal
+[Tue Jun 11 16:59:53 2024]
+Finished job 111.
+54 of 151 steps (36%) done
+Select jobs to execute...
+
+[Tue Jun 11 16:59:53 2024]
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_25.fasta
+    output: ../results/protein/Hugo.metaT_25.faa
+    jobid: 132
+    reason: Missing output files: ../results/protein/Hugo.metaT_25.faa
+    wildcards: ident=Hugo.metaT_25
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: pyrodigal
+[Tue Jun 11 16:59:57 2024]
+Finished job 15.
+55 of 151 steps (36%) done
+Select jobs to execute...
+
+[Tue Jun 11 16:59:57 2024]
+rule cdhit:
+    input: ../results/protein/Hugo.metaT_33.faa
+    output: ../results/protein/Hugo.metaT_33.cdhit98.faa
+    jobid: 143
+    reason: Missing output files: ../results/protein/Hugo.metaT_33.cdhit98.faa; Input files updated by another job: ../results/protein/Hugo.metaT_33.faa
+    wildcards: ident=Hugo.metaT_33
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: cdhit
+[Tue Jun 11 17:00:02 2024]
+Finished job 132.
+56 of 151 steps (37%) done
+Select jobs to execute...
+
+[Tue Jun 11 17:00:02 2024]
+rule cdhit:
+    input: ../results/protein/Hugo.metaT_22.faa
+    output: ../results/protein/Hugo.metaT_22.cdhit98.faa
+    jobid: 5
+    reason: Missing output files: ../results/protein/Hugo.metaT_22.cdhit98.faa; Input files updated by another job: ../results/protein/Hugo.metaT_22.faa
+    wildcards: ident=Hugo.metaT_22
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: cdhit
+[Tue Jun 11 17:00:03 2024]
+Finished job 143.
+57 of 151 steps (38%) done
+Select jobs to execute...
+
+[Tue Jun 11 17:00:03 2024]
+rule hmmscan:
+    input: ../results/protein/Hugo.metaT_29.cdhit98.faa
+    output: ../results/hmmr/Hugo.metaT_29.out, ../results/hmmr/Hugo.metaT_29.tab.out
+    jobid: 136
+    reason: Missing output files: ../results/hmmr/Hugo.metaT_29.tab.out; Input files updated by another job: ../results/protein/Hugo.metaT_29.cdhit98.faa
+    wildcards: ident=Hugo.metaT_29
+    threads: 4
+    resources: tmpdir=/tmp
+
+Activating conda environment: hmmr
+
+[Tue Jun 11 17:00:03 2024]
+rule hmmscan:
+    input: ../results/protein/Hugo.metaT_33.cdhit98.faa
+    output: ../results/hmmr/Hugo.metaT_33.out, ../results/hmmr/Hugo.metaT_33.tab.out
+    jobid: 142
+    reason: Missing output files: ../results/hmmr/Hugo.metaT_33.tab.out; Input files updated by another job: ../results/protein/Hugo.metaT_33.cdhit98.faa
+    wildcards: ident=Hugo.metaT_33
+    threads: 4
+    resources: tmpdir=/tmp
+
+Activating conda environment: hmmr
+
+[Tue Jun 11 17:00:03 2024]
+rule hmmscan:
+    input: ../results/protein/Hugo.metaT_2.cdhit98.faa
+    output: ../results/hmmr/Hugo.metaT_2.out, ../results/hmmr/Hugo.metaT_2.tab.out
+    jobid: 16
+    reason: Missing output files: ../results/hmmr/Hugo.metaT_2.tab.out; Input files updated by another job: ../results/protein/Hugo.metaT_2.cdhit98.faa
+    wildcards: ident=Hugo.metaT_2
+    threads: 4
+    resources: tmpdir=/tmp
+
+Activating conda environment: hmmr
+[Tue Jun 11 17:00:08 2024]
+Finished job 5.
+58 of 151 steps (38%) done
+Select jobs to execute...
+
+[Tue Jun 11 17:00:08 2024]
+rule cdhit:
+    input: ../results/protein/Hugo.metaT_19.faa
+    output: ../results/protein/Hugo.metaT_19.cdhit98.faa
+    jobid: 11
+    reason: Missing output files: ../results/protein/Hugo.metaT_19.cdhit98.faa; Input files updated by another job: ../results/protein/Hugo.metaT_19.faa
+    wildcards: ident=Hugo.metaT_19
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: cdhit
+[Tue Jun 11 17:00:13 2024]
+Finished job 11.
+59 of 151 steps (39%) done
+Select jobs to execute...
+
+[Tue Jun 11 17:00:13 2024]
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_44.fasta
+    output: ../results/protein/Hugo.metaT_44.faa
+    jobid: 99
+    reason: Missing output files: ../results/protein/Hugo.metaT_44.faa
+    wildcards: ident=Hugo.metaT_44
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: pyrodigal
+[Tue Jun 11 17:00:21 2024]
+Finished job 99.
+60 of 151 steps (40%) done
+Select jobs to execute...
+
+[Tue Jun 11 17:00:21 2024]
+rule cdhit:
+    input: ../results/protein/Hugo.metaT_6.faa
+    output: ../results/protein/Hugo.metaT_6.cdhit98.faa
+    jobid: 89
+    reason: Missing output files: ../results/protein/Hugo.metaT_6.cdhit98.faa; Input files updated by another job: ../results/protein/Hugo.metaT_6.faa
+    wildcards: ident=Hugo.metaT_6
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: cdhit
+[Tue Jun 11 17:00:25 2024]
+Finished job 89.
+61 of 151 steps (40%) done
+Select jobs to execute...
+
+[Tue Jun 11 17:00:25 2024]
+rule hmmscan:
+    input: ../results/protein/Hugo.metaT_22.cdhit98.faa
+    output: ../results/hmmr/Hugo.metaT_22.out, ../results/hmmr/Hugo.metaT_22.tab.out
+    jobid: 4
+    reason: Missing output files: ../results/hmmr/Hugo.metaT_22.tab.out; Input files updated by another job: ../results/protein/Hugo.metaT_22.cdhit98.faa
+    wildcards: ident=Hugo.metaT_22
+    threads: 4
+    resources: tmpdir=/tmp
+
+Activating conda environment: hmmr
+
+[Tue Jun 11 17:00:25 2024]
+rule hmmscan:
+    input: ../results/protein/Hugo.metaT_11.cdhit98.faa
+    output: ../results/hmmr/Hugo.metaT_11.out, ../results/hmmr/Hugo.metaT_11.tab.out
+    jobid: 82
+    reason: Missing output files: ../results/hmmr/Hugo.metaT_11.tab.out; Input files updated by another job: ../results/protein/Hugo.metaT_11.cdhit98.faa
+    wildcards: ident=Hugo.metaT_11
+    threads: 4
+    resources: tmpdir=/tmp
+
+Activating conda environment: hmmr
+
+[Tue Jun 11 17:00:25 2024]
+rule hmmscan:
+    input: ../results/protein/Hugo.metaT_6.cdhit98.faa
+    output: ../results/hmmr/Hugo.metaT_6.out, ../results/hmmr/Hugo.metaT_6.tab.out
+    jobid: 88
+    reason: Missing output files: ../results/hmmr/Hugo.metaT_6.tab.out; Input files updated by another job: ../results/protein/Hugo.metaT_6.cdhit98.faa
+    wildcards: ident=Hugo.metaT_6
+    threads: 4
+    resources: tmpdir=/tmp
+
+Activating conda environment: hmmr
+[Tue Jun 11 17:06:39 2024]
+Finished job 127.
+62 of 151 steps (41%) done
+Select jobs to execute...
+
+[Tue Jun 11 17:06:39 2024]
+rule hmmscan:
+    input: ../results/protein/Hugo.metaT_19.cdhit98.faa
+    output: ../results/hmmr/Hugo.metaT_19.out, ../results/hmmr/Hugo.metaT_19.tab.out
+    jobid: 10
+    reason: Missing output files: ../results/hmmr/Hugo.metaT_19.tab.out; Input files updated by another job: ../results/protein/Hugo.metaT_19.cdhit98.faa
+    wildcards: ident=Hugo.metaT_19
+    threads: 4
+    resources: tmpdir=/tmp
+
+Activating conda environment: hmmr
+[Tue Jun 11 17:06:44 2024]
+Finished job 73.
+63 of 151 steps (42%) done
+Select jobs to execute...
+[Tue Jun 11 17:06:54 2024]
+Finished job 49.
+64 of 151 steps (42%) done
+[Tue Jun 11 17:07:03 2024]
+Finished job 67.
+65 of 151 steps (43%) done
+
+[Tue Jun 11 17:07:03 2024]
+rule cdhit:
+    input: ../results/protein/Hugo.metaT_18.faa
+    output: ../results/protein/Hugo.metaT_18.cdhit98.faa
+    jobid: 32
+    reason: Missing output files: ../results/protein/Hugo.metaT_18.cdhit98.faa; Input files updated by another job: ../results/protein/Hugo.metaT_18.faa
+    wildcards: ident=Hugo.metaT_18
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: cdhit
+[Tue Jun 11 17:07:06 2024]
+Finished job 28.
+66 of 151 steps (44%) done
+Select jobs to execute...
+[Tue Jun 11 17:07:06 2024]
+Finished job 61.
+67 of 151 steps (44%) done
+[Tue Jun 11 17:07:07 2024]
+Finished job 121.
+68 of 151 steps (45%) done
+
+[Tue Jun 11 17:07:07 2024]
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_34.fasta
+    output: ../results/protein/Hugo.metaT_34.faa
+    jobid: 21
+    reason: Missing output files: ../results/protein/Hugo.metaT_34.faa
+    wildcards: ident=Hugo.metaT_34
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: pyrodigal
+[Tue Jun 11 17:07:08 2024]
+Finished job 148.
+69 of 151 steps (46%) done
+Select jobs to execute...
+[Tue Jun 11 17:07:09 2024]
+Finished job 32.
+70 of 151 steps (46%) done
+
+[Tue Jun 11 17:07:09 2024]
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_32.fasta
+    output: ../results/protein/Hugo.metaT_32.faa
+    jobid: 120
+    reason: Missing output files: ../results/protein/Hugo.metaT_32.faa
+    wildcards: ident=Hugo.metaT_32
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: pyrodigal
+
+[Tue Jun 11 17:07:09 2024]
+rule hmmscan:
+    input: ../results/protein/Hugo.metaT_18.cdhit98.faa
+    output: ../results/hmmr/Hugo.metaT_18.out, ../results/hmmr/Hugo.metaT_18.tab.out
+    jobid: 31
+    reason: Missing output files: ../results/hmmr/Hugo.metaT_18.tab.out; Input files updated by another job: ../results/protein/Hugo.metaT_18.cdhit98.faa
+    wildcards: ident=Hugo.metaT_18
+    threads: 4
+    resources: tmpdir=/tmp
+
+Activating conda environment: hmmr
+[Tue Jun 11 17:07:09 2024]
+Finished job 124.
+71 of 151 steps (47%) done
+Select jobs to execute...
+[Tue Jun 11 17:07:15 2024]
+Finished job 21.
+72 of 151 steps (48%) done
+
+[Tue Jun 11 17:07:15 2024]
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_20.fasta
+    output: ../results/protein/Hugo.metaT_20.faa
+    jobid: 48
+    reason: Missing output files: ../results/protein/Hugo.metaT_20.faa
+    wildcards: ident=Hugo.metaT_20
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: pyrodigal
+[Tue Jun 11 17:07:18 2024]
+Finished job 120.
+73 of 151 steps (48%) done
+Select jobs to execute...
+
+[Tue Jun 11 17:07:18 2024]
+rule cdhit:
+    input: ../results/protein/Hugo.metaT_35.faa
+    output: ../results/protein/Hugo.metaT_35.cdhit98.faa
+    jobid: 38
+    reason: Missing output files: ../results/protein/Hugo.metaT_35.cdhit98.faa; Input files updated by another job: ../results/protein/Hugo.metaT_35.faa
+    wildcards: ident=Hugo.metaT_35
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: cdhit
+[Tue Jun 11 17:07:23 2024]
+Finished job 48.
+74 of 151 steps (49%) done
+Select jobs to execute...
+
+[Tue Jun 11 17:07:23 2024]
+rule cdhit:
+    input: ../results/protein/Hugo.metaT_25.faa
+    output: ../results/protein/Hugo.metaT_25.cdhit98.faa
+    jobid: 131
+    reason: Missing output files: ../results/protein/Hugo.metaT_25.cdhit98.faa; Input files updated by another job: ../results/protein/Hugo.metaT_25.faa
+    wildcards: ident=Hugo.metaT_25
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: cdhit
+[Tue Jun 11 17:07:23 2024]
+Finished job 38.
+75 of 151 steps (50%) done
+Select jobs to execute...
+
+[Tue Jun 11 17:07:23 2024]
+rule hmmscan:
+    input: ../results/protein/Hugo.metaT_35.cdhit98.faa
+    output: ../results/hmmr/Hugo.metaT_35.out, ../results/hmmr/Hugo.metaT_35.tab.out
+    jobid: 37
+    reason: Missing output files: ../results/hmmr/Hugo.metaT_35.tab.out; Input files updated by another job: ../results/protein/Hugo.metaT_35.cdhit98.faa
+    wildcards: ident=Hugo.metaT_35
+    threads: 4
+    resources: tmpdir=/tmp
+
+
+Activating conda environment: hmmr
+[Tue Jun 11 17:07:23 2024]
+rule cdhit:
+    input: ../results/protein/Hugo.metaT_46.faa
+    output: ../results/protein/Hugo.metaT_46.cdhit98.faa
+    jobid: 134
+    reason: Missing output files: ../results/protein/Hugo.metaT_46.cdhit98.faa; Input files updated by another job: ../results/protein/Hugo.metaT_46.faa
+    wildcards: ident=Hugo.metaT_46
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: cdhit
+[Tue Jun 11 17:07:28 2024]
+Finished job 131.
+76 of 151 steps (50%) done
+Select jobs to execute...
+
+[Tue Jun 11 17:07:28 2024]
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_7.fasta
+    output: ../results/protein/Hugo.metaT_7.faa
+    jobid: 105
+    reason: Missing output files: ../results/protein/Hugo.metaT_7.faa
+    wildcards: ident=Hugo.metaT_7
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: pyrodigal
+[Tue Jun 11 17:07:29 2024]
+Finished job 134.
+77 of 151 steps (51%) done
+Select jobs to execute...
+
+[Tue Jun 11 17:07:29 2024]
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_36.fasta
+    output: ../results/protein/Hugo.metaT_36.faa
+    jobid: 54
+    reason: Missing output files: ../results/protein/Hugo.metaT_36.faa
+    wildcards: ident=Hugo.metaT_36
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: pyrodigal
+[Tue Jun 11 17:07:31 2024]
+Finished job 106.
+78 of 151 steps (52%) done
+Select jobs to execute...
+
+[Tue Jun 11 17:07:31 2024]
+rule hmmscan:
+    input: ../results/protein/Hugo.metaT_46.cdhit98.faa
+    output: ../results/hmmr/Hugo.metaT_46.out, ../results/hmmr/Hugo.metaT_46.tab.out
+    jobid: 133
+    reason: Missing output files: ../results/hmmr/Hugo.metaT_46.tab.out; Input files updated by another job: ../results/protein/Hugo.metaT_46.cdhit98.faa
+    wildcards: ident=Hugo.metaT_46
+    threads: 4
+    resources: tmpdir=/tmp
+
+Activating conda environment: hmmr
+[Tue Jun 11 17:07:33 2024]
+Finished job 58.
+79 of 151 steps (52%) done
+Select jobs to execute...
+
+[Tue Jun 11 17:07:33 2024]
+rule hmmscan:
+    input: ../results/protein/Hugo.metaT_25.cdhit98.faa
+    output: ../results/hmmr/Hugo.metaT_25.out, ../results/hmmr/Hugo.metaT_25.tab.out
+    jobid: 130
+    reason: Missing output files: ../results/hmmr/Hugo.metaT_25.tab.out; Input files updated by another job: ../results/protein/Hugo.metaT_25.cdhit98.faa
+    wildcards: ident=Hugo.metaT_25
+    threads: 4
+    resources: tmpdir=/tmp
+
+Activating conda environment: hmmr
+[Tue Jun 11 17:07:37 2024]
+Finished job 70.
+80 of 151 steps (53%) done
+Select jobs to execute...
+[Tue Jun 11 17:07:37 2024]
+Finished job 54.
+81 of 151 steps (54%) done
+
+[Tue Jun 11 17:07:37 2024]
+rule cdhit:
+    input: ../results/protein/Hugo.metaT_36.faa
+    output: ../results/protein/Hugo.metaT_36.cdhit98.faa
+    jobid: 53
+    reason: Missing output files: ../results/protein/Hugo.metaT_36.cdhit98.faa; Input files updated by another job: ../results/protein/Hugo.metaT_36.faa
+    wildcards: ident=Hugo.metaT_36
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: cdhit
+[Tue Jun 11 17:07:37 2024]
+Finished job 105.
+82 of 151 steps (54%) done
+Select jobs to execute...
+
+[Tue Jun 11 17:07:37 2024]
+rule cdhit:
+    input: ../results/protein/Hugo.metaT_7.faa
+    output: ../results/protein/Hugo.metaT_7.cdhit98.faa
+    jobid: 104
+    reason: Missing output files: ../results/protein/Hugo.metaT_7.cdhit98.faa; Input files updated by another job: ../results/protein/Hugo.metaT_7.faa
+    wildcards: ident=Hugo.metaT_7
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: cdhit
+[Tue Jun 11 17:07:39 2024]
+Finished job 79.
+83 of 151 steps (55%) done
+Select jobs to execute...
+[Tue Jun 11 17:07:39 2024]
+Finished job 94.
+84 of 151 steps (56%) done
+
+[Tue Jun 11 17:07:39 2024]
+rule cdhit:
+    input: ../results/protein/Hugo.metaT_43.faa
+    output: ../results/protein/Hugo.metaT_43.cdhit98.faa
+    jobid: 44
+    reason: Missing output files: ../results/protein/Hugo.metaT_43.cdhit98.faa; Input files updated by another job: ../results/protein/Hugo.metaT_43.faa
+    wildcards: ident=Hugo.metaT_43
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: cdhit
+[Tue Jun 11 17:07:42 2024]
+Finished job 112.
+85 of 151 steps (56%) done
+Select jobs to execute...
+[Tue Jun 11 17:07:43 2024]
+Finished job 53.
+86 of 151 steps (57%) done
+
+[Tue Jun 11 17:07:43 2024]
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_49.fasta
+    output: ../results/protein/Hugo.metaT_49.faa
+    jobid: 78
+    reason: Missing output files: ../results/protein/Hugo.metaT_49.faa
+    wildcards: ident=Hugo.metaT_49
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: pyrodigal
+
+[Tue Jun 11 17:07:43 2024]
+rule hmmscan:
+    input: ../results/protein/Hugo.metaT_36.cdhit98.faa
+    output: ../results/hmmr/Hugo.metaT_36.out, ../results/hmmr/Hugo.metaT_36.tab.out
+    jobid: 52
+    reason: Missing output files: ../results/hmmr/Hugo.metaT_36.tab.out; Input files updated by another job: ../results/protein/Hugo.metaT_36.cdhit98.faa
+    wildcards: ident=Hugo.metaT_36
+    threads: 4
+    resources: tmpdir=/tmp
+
+Activating conda environment: hmmr
+[Tue Jun 11 17:07:43 2024]
+Finished job 104.
+87 of 151 steps (58%) done
+Select jobs to execute...
+
+[Tue Jun 11 17:07:43 2024]
+rule cdhit:
+    input: ../results/protein/Hugo.metaT_38.faa
+    output: ../results/protein/Hugo.metaT_38.cdhit98.faa
+    jobid: 8
+    reason: Missing output files: ../results/protein/Hugo.metaT_38.cdhit98.faa; Input files updated by another job: ../results/protein/Hugo.metaT_38.faa
+    wildcards: ident=Hugo.metaT_38
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: cdhit
+[Tue Jun 11 17:07:44 2024]
+Finished job 44.
+88 of 151 steps (58%) done
+Select jobs to execute...
+
+[Tue Jun 11 17:07:44 2024]
+rule cdhit:
+    input: ../results/protein/Hugo.metaT_30.faa
+    output: ../results/protein/Hugo.metaT_30.cdhit98.faa
+    jobid: 86
+    reason: Missing output files: ../results/protein/Hugo.metaT_30.cdhit98.faa; Input files updated by another job: ../results/protein/Hugo.metaT_30.faa
+    wildcards: ident=Hugo.metaT_30
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: cdhit
+[Tue Jun 11 17:07:49 2024]
+Finished job 8.
+89 of 151 steps (59%) done
+Select jobs to execute...
+
+[Tue Jun 11 17:07:49 2024]
+rule cdhit:
+    input: ../results/protein/Hugo.metaT_5.faa
+    output: ../results/protein/Hugo.metaT_5.cdhit98.faa
+    jobid: 140
+    reason: Missing output files: ../results/protein/Hugo.metaT_5.cdhit98.faa; Input files updated by another job: ../results/protein/Hugo.metaT_5.faa
+    wildcards: ident=Hugo.metaT_5
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: cdhit
+[Tue Jun 11 17:07:50 2024]
+Finished job 86.
+90 of 151 steps (60%) done
+Select jobs to execute...
+
+[Tue Jun 11 17:07:50 2024]
+rule hmmscan:
+    input: ../results/protein/Hugo.metaT_7.cdhit98.faa
+    output: ../results/hmmr/Hugo.metaT_7.out, ../results/hmmr/Hugo.metaT_7.tab.out
+    jobid: 103
+    reason: Missing output files: ../results/hmmr/Hugo.metaT_7.tab.out; Input files updated by another job: ../results/protein/Hugo.metaT_7.cdhit98.faa
+    wildcards: ident=Hugo.metaT_7
+    threads: 4
+    resources: tmpdir=/tmp
+
+Activating conda environment: hmmr
+
+[Tue Jun 11 17:07:50 2024]
+rule hmmscan:
+    input: ../results/protein/Hugo.metaT_38.cdhit98.faa
+    output: ../results/hmmr/Hugo.metaT_38.out, ../results/hmmr/Hugo.metaT_38.tab.out
+    jobid: 7
+    reason: Missing output files: ../results/hmmr/Hugo.metaT_38.tab.out; Input files updated by another job: ../results/protein/Hugo.metaT_38.cdhit98.faa
+    wildcards: ident=Hugo.metaT_38
+    threads: 4
+    resources: tmpdir=/tmp
+
+Activating conda environment: hmmr
+
+[Tue Jun 11 17:07:50 2024]
+rule hmmscan:
+    input: ../results/protein/Hugo.metaT_30.cdhit98.faa
+    output: ../results/hmmr/Hugo.metaT_30.out, ../results/hmmr/Hugo.metaT_30.tab.out
+    jobid: 85
+    reason: Missing output files: ../results/hmmr/Hugo.metaT_30.tab.out; Input files updated by another job: ../results/protein/Hugo.metaT_30.cdhit98.faa
+    wildcards: ident=Hugo.metaT_30
+    threads: 4
+    resources: tmpdir=/tmp
+
+Activating conda environment: hmmr
+[Tue Jun 11 17:07:51 2024]
+Finished job 78.
+91 of 151 steps (60%) done
+Select jobs to execute...
+
+[Tue Jun 11 17:07:52 2024]
+rule cdhit:
+    input: ../results/protein/Hugo.metaT_27.faa
+    output: ../results/protein/Hugo.metaT_27.cdhit98.faa
+    jobid: 92
+    reason: Missing output files: ../results/protein/Hugo.metaT_27.cdhit98.faa; Input files updated by another job: ../results/protein/Hugo.metaT_27.faa
+    wildcards: ident=Hugo.metaT_27
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: cdhit
+[Tue Jun 11 17:07:54 2024]
+Finished job 140.
+92 of 151 steps (61%) done
+Select jobs to execute...
+
+[Tue Jun 11 17:07:54 2024]
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_10.fasta
+    output: ../results/protein/Hugo.metaT_10.faa
+    jobid: 102
+    reason: Missing output files: ../results/protein/Hugo.metaT_10.faa
+    wildcards: ident=Hugo.metaT_10
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: pyrodigal
+[Tue Jun 11 17:07:57 2024]
+Finished job 92.
+93 of 151 steps (62%) done
+Select jobs to execute...
+
+[Tue Jun 11 17:07:57 2024]
+rule cdhit:
+    input: ../results/protein/Hugo.metaT_20.faa
+    output: ../results/protein/Hugo.metaT_20.cdhit98.faa
+    jobid: 47
+    reason: Missing output files: ../results/protein/Hugo.metaT_20.cdhit98.faa; Input files updated by another job: ../results/protein/Hugo.metaT_20.faa
+    wildcards: ident=Hugo.metaT_20
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: cdhit
+[Tue Jun 11 17:08:02 2024]
+Finished job 47.
+94 of 151 steps (62%) done
+Select jobs to execute...
+
+[Tue Jun 11 17:08:03 2024]
+rule cdhit:
+    input: ../results/protein/Hugo.metaT_49.faa
+    output: ../results/protein/Hugo.metaT_49.cdhit98.faa
+    jobid: 77
+    reason: Missing output files: ../results/protein/Hugo.metaT_49.cdhit98.faa; Input files updated by another job: ../results/protein/Hugo.metaT_49.faa
+    wildcards: ident=Hugo.metaT_49
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: cdhit
+[Tue Jun 11 17:08:03 2024]
+Finished job 102.
+95 of 151 steps (63%) done
+Select jobs to execute...
+
+[Tue Jun 11 17:08:03 2024]
+rule cdhit:
+    input: ../results/protein/Hugo.metaT_24.faa
+    output: ../results/protein/Hugo.metaT_24.cdhit98.faa
+    jobid: 110
+    reason: Missing output files: ../results/protein/Hugo.metaT_24.cdhit98.faa; Input files updated by another job: ../results/protein/Hugo.metaT_24.faa
+    wildcards: ident=Hugo.metaT_24
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: cdhit
+[Tue Jun 11 17:08:07 2024]
+Finished job 16.
+96 of 151 steps (64%) done
+Select jobs to execute...
+
+[Tue Jun 11 17:08:07 2024]
+rule hmmscan:
+    input: ../results/protein/Hugo.metaT_20.cdhit98.faa
+    output: ../results/hmmr/Hugo.metaT_20.out, ../results/hmmr/Hugo.metaT_20.tab.out
+    jobid: 46
+    reason: Missing output files: ../results/hmmr/Hugo.metaT_20.tab.out; Input files updated by another job: ../results/protein/Hugo.metaT_20.cdhit98.faa
+    wildcards: ident=Hugo.metaT_20
+    threads: 4
+    resources: tmpdir=/tmp
+
+Activating conda environment: hmmr
+[Tue Jun 11 17:08:08 2024]
+Finished job 77.
+97 of 151 steps (64%) done
+Select jobs to execute...
+
+[Tue Jun 11 17:08:08 2024]
+rule hmmscan:
+    input: ../results/protein/Hugo.metaT_43.cdhit98.faa
+    output: ../results/hmmr/Hugo.metaT_43.out, ../results/hmmr/Hugo.metaT_43.tab.out
+    jobid: 43
+    reason: Missing output files: ../results/hmmr/Hugo.metaT_43.tab.out; Input files updated by another job: ../results/protein/Hugo.metaT_43.cdhit98.faa
+    wildcards: ident=Hugo.metaT_43
+    threads: 4
+    resources: tmpdir=/tmp
+
+Activating conda environment: hmmr
+
+[Tue Jun 11 17:08:08 2024]
+rule hmmscan:
+    input: ../results/protein/Hugo.metaT_5.cdhit98.faa
+    output: ../results/hmmr/Hugo.metaT_5.out, ../results/hmmr/Hugo.metaT_5.tab.out
+    jobid: 139
+    reason: Missing output files: ../results/hmmr/Hugo.metaT_5.tab.out; Input files updated by another job: ../results/protein/Hugo.metaT_5.cdhit98.faa
+    wildcards: ident=Hugo.metaT_5
+    threads: 4
+    resources: tmpdir=/tmp
+
+Activating conda environment: hmmr
+
+[Tue Jun 11 17:08:08 2024]
+rule hmmscan:
+    input: ../results/protein/Hugo.metaT_27.cdhit98.faa
+    output: ../results/hmmr/Hugo.metaT_27.out, ../results/hmmr/Hugo.metaT_27.tab.out
+    jobid: 91
+    reason: Missing output files: ../results/hmmr/Hugo.metaT_27.tab.out; Input files updated by another job: ../results/protein/Hugo.metaT_27.cdhit98.faa
+    wildcards: ident=Hugo.metaT_27
+    threads: 4
+    resources: tmpdir=/tmp
+
+Activating conda environment: hmmr
+[Tue Jun 11 17:08:08 2024]
+Finished job 110.
+98 of 151 steps (65%) done
+Select jobs to execute...
+
+[Tue Jun 11 17:08:08 2024]
+rule cdhit:
+    input: ../results/protein/Hugo.metaT_32.faa
+    output: ../results/protein/Hugo.metaT_32.cdhit98.faa
+    jobid: 119
+    reason: Missing output files: ../results/protein/Hugo.metaT_32.cdhit98.faa; Input files updated by another job: ../results/protein/Hugo.metaT_32.faa
+    wildcards: ident=Hugo.metaT_32
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: cdhit
+[Tue Jun 11 17:08:09 2024]
+Finished job 136.
+99 of 151 steps (66%) done
+Select jobs to execute...
+
+[Tue Jun 11 17:08:09 2024]
+rule hmmscan:
+    input: ../results/protein/Hugo.metaT_49.cdhit98.faa
+    output: ../results/hmmr/Hugo.metaT_49.out, ../results/hmmr/Hugo.metaT_49.tab.out
+    jobid: 76
+    reason: Missing output files: ../results/hmmr/Hugo.metaT_49.tab.out; Input files updated by another job: ../results/protein/Hugo.metaT_49.cdhit98.faa
+    wildcards: ident=Hugo.metaT_49
+    threads: 4
+    resources: tmpdir=/tmp
+
+Activating conda environment: hmmr
+[Tue Jun 11 17:08:10 2024]
+Finished job 142.
+100 of 151 steps (66%) done
+Select jobs to execute...
+
+[Tue Jun 11 17:08:10 2024]
+rule hmmscan:
+    input: ../results/protein/Hugo.metaT_24.cdhit98.faa
+    output: ../results/hmmr/Hugo.metaT_24.out, ../results/hmmr/Hugo.metaT_24.tab.out
+    jobid: 109
+    reason: Missing output files: ../results/hmmr/Hugo.metaT_24.tab.out; Input files updated by another job: ../results/protein/Hugo.metaT_24.cdhit98.faa
+    wildcards: ident=Hugo.metaT_24
+    threads: 4
+    resources: tmpdir=/tmp
+
+Activating conda environment: hmmr
+[Tue Jun 11 17:08:14 2024]
+Finished job 119.
+101 of 151 steps (67%) done
+Select jobs to execute...
+
+[Tue Jun 11 17:08:14 2024]
+rule cdhit:
+    input: ../results/protein/Hugo.metaT_28.faa
+    output: ../results/protein/Hugo.metaT_28.cdhit98.faa
+    jobid: 116
+    reason: Missing output files: ../results/protein/Hugo.metaT_28.cdhit98.faa; Input files updated by another job: ../results/protein/Hugo.metaT_28.faa
+    wildcards: ident=Hugo.metaT_28
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: cdhit
+[Tue Jun 11 17:08:19 2024]
+Finished job 116.
+102 of 151 steps (68%) done
+Select jobs to execute...
+
+[Tue Jun 11 17:08:19 2024]
+rule cdhit:
+    input: ../results/protein/Hugo.metaT_44.faa
+    output: ../results/protein/Hugo.metaT_44.cdhit98.faa
+    jobid: 98
+    reason: Missing output files: ../results/protein/Hugo.metaT_44.cdhit98.faa; Input files updated by another job: ../results/protein/Hugo.metaT_44.faa
+    wildcards: ident=Hugo.metaT_44
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: cdhit
+[Tue Jun 11 17:08:25 2024]
+Finished job 98.
+103 of 151 steps (68%) done
+Select jobs to execute...
+
+[Tue Jun 11 17:08:25 2024]
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_40.fasta
+    output: ../results/protein/Hugo.metaT_40.faa
+    jobid: 24
+    reason: Missing output files: ../results/protein/Hugo.metaT_40.faa
+    wildcards: ident=Hugo.metaT_40
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: pyrodigal
+[Tue Jun 11 17:08:33 2024]
+Finished job 24.
+104 of 151 steps (69%) done
+Select jobs to execute...
+
+[Tue Jun 11 17:08:33 2024]
+rule cdhit:
+    input: ../results/protein/Hugo.metaT_15.faa
+    output: ../results/protein/Hugo.metaT_15.cdhit98.faa
+    jobid: 14
+    reason: Missing output files: ../results/protein/Hugo.metaT_15.cdhit98.faa; Input files updated by another job: ../results/protein/Hugo.metaT_15.faa
+    wildcards: ident=Hugo.metaT_15
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: cdhit
+[Tue Jun 11 17:08:34 2024]
+Finished job 88.
+105 of 151 steps (70%) done
+Select jobs to execute...
+
+[Tue Jun 11 17:08:34 2024]
+rule hmmscan:
+    input: ../results/protein/Hugo.metaT_44.cdhit98.faa
+    output: ../results/hmmr/Hugo.metaT_44.out, ../results/hmmr/Hugo.metaT_44.tab.out
+    jobid: 97
+    reason: Missing output files: ../results/hmmr/Hugo.metaT_44.tab.out; Input files updated by another job: ../results/protein/Hugo.metaT_44.cdhit98.faa
+    wildcards: ident=Hugo.metaT_44
+    threads: 4
+    resources: tmpdir=/tmp
+
+Activating conda environment: hmmr
+[Tue Jun 11 17:08:34 2024]
+Finished job 82.
+106 of 151 steps (70%) done
+Select jobs to execute...
+
+[Tue Jun 11 17:08:34 2024]
+rule hmmscan:
+    input: ../results/protein/Hugo.metaT_32.cdhit98.faa
+    output: ../results/hmmr/Hugo.metaT_32.out, ../results/hmmr/Hugo.metaT_32.tab.out
+    jobid: 118
+    reason: Missing output files: ../results/hmmr/Hugo.metaT_32.tab.out; Input files updated by another job: ../results/protein/Hugo.metaT_32.cdhit98.faa
+    wildcards: ident=Hugo.metaT_32
+    threads: 4
+    resources: tmpdir=/tmp
+
+Activating conda environment: hmmr
+[Tue Jun 11 17:08:35 2024]
+Finished job 4.
+107 of 151 steps (71%) done
+Select jobs to execute...
+
+[Tue Jun 11 17:08:35 2024]
+rule hmmscan:
+    input: ../results/protein/Hugo.metaT_28.cdhit98.faa
+    output: ../results/hmmr/Hugo.metaT_28.out, ../results/hmmr/Hugo.metaT_28.tab.out
+    jobid: 115
+    reason: Missing output files: ../results/hmmr/Hugo.metaT_28.tab.out; Input files updated by another job: ../results/protein/Hugo.metaT_28.cdhit98.faa
+    wildcards: ident=Hugo.metaT_28
+    threads: 4
+    resources: tmpdir=/tmp
+
+Activating conda environment: hmmr
+[Tue Jun 11 17:08:39 2024]
+Finished job 14.
+108 of 151 steps (72%) done
+Select jobs to execute...
+
+[Tue Jun 11 17:08:39 2024]
+rule cdhit:
+    input: ../results/protein/Hugo.metaT_34.faa
+    output: ../results/protein/Hugo.metaT_34.cdhit98.faa
+    jobid: 20
+    reason: Missing output files: ../results/protein/Hugo.metaT_34.cdhit98.faa; Input files updated by another job: ../results/protein/Hugo.metaT_34.faa
+    wildcards: ident=Hugo.metaT_34
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: cdhit
+[Tue Jun 11 17:08:47 2024]
+Finished job 20.
+109 of 151 steps (72%) done
+Select jobs to execute...
+
+[Tue Jun 11 17:08:47 2024]
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_37.fasta
+    output: ../results/protein/Hugo.metaT_37.faa
+    jobid: 66
+    reason: Missing output files: ../results/protein/Hugo.metaT_37.faa
+    wildcards: ident=Hugo.metaT_37
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: pyrodigal
+[Tue Jun 11 17:08:55 2024]
+Finished job 66.
+110 of 151 steps (73%) done
+Select jobs to execute...
+
+[Tue Jun 11 17:08:55 2024]
+rule cdhit:
+    input: ../results/protein/Hugo.metaT_37.faa
+    output: ../results/protein/Hugo.metaT_37.cdhit98.faa
+    jobid: 65
+    reason: Missing output files: ../results/protein/Hugo.metaT_37.cdhit98.faa; Input files updated by another job: ../results/protein/Hugo.metaT_37.faa
+    wildcards: ident=Hugo.metaT_37
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: cdhit
+[Tue Jun 11 17:09:02 2024]
+Finished job 65.
+111 of 151 steps (74%) done
+Select jobs to execute...
+
+[Tue Jun 11 17:09:02 2024]
+rule cdhit:
+    input: ../results/protein/Hugo.metaT_17.faa
+    output: ../results/protein/Hugo.metaT_17.cdhit98.faa
+    jobid: 56
+    reason: Missing output files: ../results/protein/Hugo.metaT_17.cdhit98.faa; Input files updated by another job: ../results/protein/Hugo.metaT_17.faa
+    wildcards: ident=Hugo.metaT_17
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: cdhit
+[Tue Jun 11 17:09:07 2024]
+Finished job 56.
+112 of 151 steps (74%) done
+Select jobs to execute...
+
+[Tue Jun 11 17:09:07 2024]
+rule hmmscan:
+    input: ../results/protein/Hugo.metaT_34.cdhit98.faa
+    output: ../results/hmmr/Hugo.metaT_34.out, ../results/hmmr/Hugo.metaT_34.tab.out
+    jobid: 19
+    reason: Missing output files: ../results/hmmr/Hugo.metaT_34.tab.out; Input files updated by another job: ../results/protein/Hugo.metaT_34.cdhit98.faa
+    wildcards: ident=Hugo.metaT_34
+    threads: 4
+    resources: tmpdir=/tmp
+
+Activating conda environment: hmmr
+
+[Tue Jun 11 17:09:07 2024]
+rule hmmscan:
+    input: ../results/protein/Hugo.metaT_37.cdhit98.faa
+    output: ../results/hmmr/Hugo.metaT_37.out, ../results/hmmr/Hugo.metaT_37.tab.out
+    jobid: 64
+    reason: Missing output files: ../results/hmmr/Hugo.metaT_37.tab.out; Input files updated by another job: ../results/protein/Hugo.metaT_37.cdhit98.faa
+    wildcards: ident=Hugo.metaT_37
+    threads: 4
+    resources: tmpdir=/tmp
+
+Activating conda environment: hmmr
+
+[Tue Jun 11 17:09:07 2024]
+rule hmmscan:
+    input: ../results/protein/Hugo.metaT_15.cdhit98.faa
+    output: ../results/hmmr/Hugo.metaT_15.out, ../results/hmmr/Hugo.metaT_15.tab.out
+    jobid: 13
+    reason: Missing output files: ../results/hmmr/Hugo.metaT_15.tab.out; Input files updated by another job: ../results/protein/Hugo.metaT_15.cdhit98.faa
+    wildcards: ident=Hugo.metaT_15
+    threads: 4
+    resources: tmpdir=/tmp
+
+Activating conda environment: hmmr
+[Tue Jun 11 17:14:33 2024]
+Finished job 10.
+113 of 151 steps (75%) done
+Select jobs to execute...
+
+[Tue Jun 11 17:14:33 2024]
+rule hmmscan:
+    input: ../results/protein/Hugo.metaT_17.cdhit98.faa
+    output: ../results/hmmr/Hugo.metaT_17.out, ../results/hmmr/Hugo.metaT_17.tab.out
+    jobid: 55
+    reason: Missing output files: ../results/hmmr/Hugo.metaT_17.tab.out; Input files updated by another job: ../results/protein/Hugo.metaT_17.cdhit98.faa
+    wildcards: ident=Hugo.metaT_17
+    threads: 4
+    resources: tmpdir=/tmp
+
+Activating conda environment: hmmr
+[Tue Jun 11 17:15:14 2024]
+Finished job 31.
+114 of 151 steps (75%) done
+Select jobs to execute...
+[Tue Jun 11 17:15:34 2024]
+Finished job 37.
+115 of 151 steps (76%) done
+[Tue Jun 11 17:15:36 2024]
+Finished job 130.
+116 of 151 steps (77%) done
+
+[Tue Jun 11 17:15:36 2024]
+rule cdhit:
+    input: ../results/protein/Hugo.metaT_41.faa
+    output: ../results/protein/Hugo.metaT_41.cdhit98.faa
+    jobid: 2
+    reason: Missing output files: ../results/protein/Hugo.metaT_41.cdhit98.faa; Input files updated by another job: ../results/protein/Hugo.metaT_41.faa
+    wildcards: ident=Hugo.metaT_41
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: cdhit
+[Tue Jun 11 17:15:43 2024]
+Finished job 2.
+117 of 151 steps (77%) done
+Select jobs to execute...
+
+[Tue Jun 11 17:15:43 2024]
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_3.fasta
+    output: ../results/protein/Hugo.metaT_3.faa
+    jobid: 42
+    reason: Missing output files: ../results/protein/Hugo.metaT_3.faa
+    wildcards: ident=Hugo.metaT_3
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: pyrodigal
+[Tue Jun 11 17:15:46 2024]
+Finished job 133.
+118 of 151 steps (78%) done
+Select jobs to execute...
+
+[Tue Jun 11 17:15:46 2024]
+rule hmmscan:
+    input: ../results/protein/Hugo.metaT_41.cdhit98.faa
+    output: ../results/hmmr/Hugo.metaT_41.out, ../results/hmmr/Hugo.metaT_41.tab.out
+    jobid: 1
+    reason: Missing output files: ../results/hmmr/Hugo.metaT_41.tab.out; Input files updated by another job: ../results/protein/Hugo.metaT_41.cdhit98.faa
+    wildcards: ident=Hugo.metaT_41
+    threads: 4
+    resources: tmpdir=/tmp
+
+Activating conda environment: hmmr
+[Tue Jun 11 17:15:51 2024]
+Finished job 42.
+119 of 151 steps (79%) done
+Select jobs to execute...
+
+[Tue Jun 11 17:15:51 2024]
+rule protein_prediction:
+    input: ../resources/fasta/Hugo.metaT_14.fasta
+    output: ../results/protein/Hugo.metaT_14.faa
+    jobid: 36
+    reason: Missing output files: ../results/protein/Hugo.metaT_14.faa
+    wildcards: ident=Hugo.metaT_14
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: pyrodigal
+[Tue Jun 11 17:15:55 2024]
+Finished job 52.
+120 of 151 steps (79%) done
+Select jobs to execute...
+[Tue Jun 11 17:15:57 2024]
+Finished job 103.
+121 of 151 steps (80%) done
+[Tue Jun 11 17:15:59 2024]
+Finished job 36.
+122 of 151 steps (81%) done
+
+[Tue Jun 11 17:15:59 2024]
+rule cdhit:
+    input: ../results/protein/Hugo.metaT_12.faa
+    output: ../results/protein/Hugo.metaT_12.cdhit98.faa
+    jobid: 146
+    reason: Missing output files: ../results/protein/Hugo.metaT_12.cdhit98.faa; Input files updated by another job: ../results/protein/Hugo.metaT_12.faa
+    wildcards: ident=Hugo.metaT_12
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: cdhit
+[Tue Jun 11 17:16:00 2024]
+Finished job 85.
+123 of 151 steps (81%) done
+Select jobs to execute...
+
+[Tue Jun 11 17:16:01 2024]
+rule cdhit:
+    input: ../results/protein/Hugo.metaT_40.faa
+    output: ../results/protein/Hugo.metaT_40.cdhit98.faa
+    jobid: 23
+    reason: Missing output files: ../results/protein/Hugo.metaT_40.cdhit98.faa; Input files updated by another job: ../results/protein/Hugo.metaT_40.faa
+    wildcards: ident=Hugo.metaT_40
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: cdhit
+[Tue Jun 11 17:16:03 2024]
+Finished job 7.
+124 of 151 steps (82%) done
+Select jobs to execute...
+[Tue Jun 11 17:16:05 2024]
+Finished job 23.
+125 of 151 steps (83%) done
+
+[Tue Jun 11 17:16:05 2024]
+rule hmmscan:
+    input: ../results/protein/Hugo.metaT_40.cdhit98.faa
+    output: ../results/hmmr/Hugo.metaT_40.out, ../results/hmmr/Hugo.metaT_40.tab.out
+    jobid: 22
+    reason: Missing output files: ../results/hmmr/Hugo.metaT_40.tab.out; Input files updated by another job: ../results/protein/Hugo.metaT_40.cdhit98.faa
+    wildcards: ident=Hugo.metaT_40
+    threads: 4
+    resources: tmpdir=/tmp
+
+Activating conda environment: hmmr
+
+[Tue Jun 11 17:16:05 2024]
+rule cdhit:
+    input: ../results/protein/Hugo.metaT_14.faa
+    output: ../results/protein/Hugo.metaT_14.cdhit98.faa
+    jobid: 35
+    reason: Missing output files: ../results/protein/Hugo.metaT_14.cdhit98.faa; Input files updated by another job: ../results/protein/Hugo.metaT_14.faa
+    wildcards: ident=Hugo.metaT_14
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: cdhit
+[Tue Jun 11 17:16:07 2024]
+Finished job 146.
+126 of 151 steps (83%) done
+Select jobs to execute...
+
+[Tue Jun 11 17:16:07 2024]
+rule cdhit:
+    input: ../results/protein/Hugo.metaT_10.faa
+    output: ../results/protein/Hugo.metaT_10.cdhit98.faa
+    jobid: 101
+    reason: Missing output files: ../results/protein/Hugo.metaT_10.cdhit98.faa; Input files updated by another job: ../results/protein/Hugo.metaT_10.faa
+    wildcards: ident=Hugo.metaT_10
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: cdhit
+[Tue Jun 11 17:16:12 2024]
+Finished job 101.
+127 of 151 steps (84%) done
+Select jobs to execute...
+
+[Tue Jun 11 17:16:12 2024]
+rule cdhit:
+    input: ../results/protein/Hugo.metaT_3.faa
+    output: ../results/protein/Hugo.metaT_3.cdhit98.faa
+    jobid: 41
+    reason: Missing output files: ../results/protein/Hugo.metaT_3.cdhit98.faa; Input files updated by another job: ../results/protein/Hugo.metaT_3.faa
+    wildcards: ident=Hugo.metaT_3
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: cdhit
+[Tue Jun 11 17:16:12 2024]
+Finished job 35.
+128 of 151 steps (85%) done
+Select jobs to execute...
+
+[Tue Jun 11 17:16:12 2024]
+rule cdhit:
+    input: ../results/protein/Hugo.metaT_23.faa
+    output: ../results/protein/Hugo.metaT_23.cdhit98.faa
+    jobid: 26
+    reason: Missing output files: ../results/protein/Hugo.metaT_23.cdhit98.faa; Input files updated by another job: ../results/protein/Hugo.metaT_23.faa
+    wildcards: ident=Hugo.metaT_23
+    threads: 12
+    resources: tmpdir=/tmp
+
+Activating conda environment: cdhit
+[Tue Jun 11 17:16:18 2024]
+Finished job 41.
+129 of 151 steps (85%) done
+Select jobs to execute...
+
+[Tue Jun 11 17:16:18 2024]
+rule hmmscan:
+    input: ../results/protein/Hugo.metaT_12.cdhit98.faa
+    output: ../results/hmmr/Hugo.metaT_12.out, ../results/hmmr/Hugo.metaT_12.tab.out
+    jobid: 145
+    reason: Missing output files: ../results/hmmr/Hugo.metaT_12.tab.out; Input files updated by another job: ../results/protein/Hugo.metaT_12.cdhit98.faa
+    wildcards: ident=Hugo.metaT_12
+    threads: 4
+    resources: tmpdir=/tmp
+
+Activating conda environment: hmmr
+
+[Tue Jun 11 17:16:18 2024]
+rule hmmscan:
+    input: ../results/protein/Hugo.metaT_10.cdhit98.faa
+    output: ../results/hmmr/Hugo.metaT_10.out, ../results/hmmr/Hugo.metaT_10.tab.out
+    jobid: 100
+    reason: Missing output files: ../results/hmmr/Hugo.metaT_10.tab.out; Input files updated by another job: ../results/protein/Hugo.metaT_10.cdhit98.faa
+    wildcards: ident=Hugo.metaT_10
+    threads: 4
+    resources: tmpdir=/tmp
+
+Activating conda environment: hmmr
+
+[Tue Jun 11 17:16:18 2024]
+rule hmmscan:
+    input: ../results/protein/Hugo.metaT_14.cdhit98.faa
+    output: ../results/hmmr/Hugo.metaT_14.out, ../results/hmmr/Hugo.metaT_14.tab.out
+    jobid: 34
+    reason: Missing output files: ../results/hmmr/Hugo.metaT_14.tab.out; Input files updated by another job: ../results/protein/Hugo.metaT_14.cdhit98.faa
+    wildcards: ident=Hugo.metaT_14
+    threads: 4
+    resources: tmpdir=/tmp
+
+Activating conda environment: hmmr
+[Tue Jun 11 17:16:19 2024]
+Finished job 109.
+130 of 151 steps (86%) done
+Select jobs to execute...
+
+[Tue Jun 11 17:16:19 2024]
+rule hmmscan:
+    input: ../results/protein/Hugo.metaT_3.cdhit98.faa
+    output: ../results/hmmr/Hugo.metaT_3.out, ../results/hmmr/Hugo.metaT_3.tab.out
+    jobid: 40
+    reason: Missing output files: ../results/hmmr/Hugo.metaT_3.tab.out; Input files updated by another job: ../results/protein/Hugo.metaT_3.cdhit98.faa
+    wildcards: ident=Hugo.metaT_3
+    threads: 4
+    resources: tmpdir=/tmp
+
+Activating conda environment: hmmr
+[Tue Jun 11 17:16:20 2024]
+Finished job 26.
+131 of 151 steps (87%) done
+Select jobs to execute...
+
+[Tue Jun 11 17:16:20 2024]
+rule hmmscan:
+    input: ../results/protein/Hugo.metaT_23.cdhit98.faa
+    output: ../results/hmmr/Hugo.metaT_23.out, ../results/hmmr/Hugo.metaT_23.tab.out
+    jobid: 25
+    reason: Missing output files: ../results/hmmr/Hugo.metaT_23.tab.out; Input files updated by another job: ../results/protein/Hugo.metaT_23.cdhit98.faa
+    wildcards: ident=Hugo.metaT_23
+    threads: 4
+    resources: tmpdir=/tmp
+
+Activating conda environment: hmmr
+[Tue Jun 11 17:16:22 2024]
+Finished job 43.
+132 of 151 steps (87%) done
+[Tue Jun 11 17:16:22 2024]
+Finished job 91.
+133 of 151 steps (88%) done
+[Tue Jun 11 17:16:24 2024]
+Finished job 46.
+134 of 151 steps (89%) done
+[Tue Jun 11 17:16:24 2024]
+Finished job 76.
+135 of 151 steps (89%) done
+[Tue Jun 11 17:16:27 2024]
+Finished job 139.
+136 of 151 steps (90%) done
+[Tue Jun 11 17:16:42 2024]
+Finished job 97.
+137 of 151 steps (91%) done
+[Tue Jun 11 17:16:46 2024]
+Finished job 115.
+138 of 151 steps (91%) done
+[Tue Jun 11 17:16:47 2024]
+Finished job 118.
+139 of 151 steps (92%) done
+[Tue Jun 11 17:17:05 2024]
+Finished job 64.
+140 of 151 steps (93%) done
+[Tue Jun 11 17:17:06 2024]
+Finished job 13.
+141 of 151 steps (93%) done
+[Tue Jun 11 17:17:12 2024]
+Finished job 19.
+142 of 151 steps (94%) done
+[Tue Jun 11 17:20:19 2024]
+Finished job 55.
+143 of 151 steps (95%) done
+[Tue Jun 11 17:20:53 2024]
+Finished job 1.
+144 of 151 steps (95%) done
+[Tue Jun 11 17:21:10 2024]
+Finished job 22.
+145 of 151 steps (96%) done
+[Tue Jun 11 17:21:14 2024]
+Finished job 145.
+146 of 151 steps (97%) done
+[Tue Jun 11 17:21:17 2024]
+Finished job 40.
+147 of 151 steps (97%) done
+[Tue Jun 11 17:21:17 2024]
+Finished job 100.
+148 of 151 steps (98%) done
+[Tue Jun 11 17:21:18 2024]
+Finished job 34.
+149 of 151 steps (99%) done
+[Tue Jun 11 17:21:20 2024]
+Finished job 25.
+150 of 151 steps (99%) done
+Select jobs to execute...
+
+[Tue Jun 11 17:21:20 2024]
+localrule all:
+    input: ../results/hmmr/Hugo.metaT_41.tab.out, ../results/hmmr/Hugo.metaT_22.tab.out, ../results/hmmr/Hugo.metaT_38.tab.out, ../results/hmmr/Hugo.metaT_19.tab.out, ../results/hmmr/Hugo.metaT_15.tab.out, ../results/hmmr/Hugo.metaT_2.tab.out, ../results/hmmr/Hugo.metaT_34.tab.out, ../results/hmmr/Hugo.metaT_40.tab.out, ../results/hmmr/Hugo.metaT_23.tab.out, ../results/hmmr/Hugo.metaT_39.tab.out, ../results/hmmr/Hugo.metaT_18.tab.out, ../results/hmmr/Hugo.metaT_14.tab.out, ../results/hmmr/Hugo.metaT_35.tab.out, ../results/hmmr/Hugo.metaT_3.tab.out, ../results/hmmr/Hugo.metaT_43.tab.out, ../results/hmmr/Hugo.metaT_20.tab.out, ../results/hmmr/Hugo.metaT_0.tab.out, ../results/hmmr/Hugo.metaT_36.tab.out, ../results/hmmr/Hugo.metaT_17.tab.out, ../results/hmmr/Hugo.metaT_42.tab.out, ../results/hmmr/Hugo.metaT_21.tab.out, ../results/hmmr/Hugo.metaT_37.tab.out, ../results/hmmr/Hugo.metaT_1.tab.out, ../results/hmmr/Hugo.metaT_16.tab.out, ../results/hmmr/Hugo.metaT_26.tab.out, ../results/hmmr/Hugo.metaT_49.tab.out, ../results/hmmr/Hugo.metaT_45.tab.out, ../results/hmmr/Hugo.metaT_11.tab.out, ../results/hmmr/Hugo.metaT_30.tab.out, ../results/hmmr/Hugo.metaT_6.tab.out, ../results/hmmr/Hugo.metaT_27.tab.out, ../results/hmmr/Hugo.metaT_48.tab.out, ../results/hmmr/Hugo.metaT_44.tab.out, ../results/hmmr/Hugo.metaT_10.tab.out, ../results/hmmr/Hugo.metaT_7.tab.out, ../results/hmmr/Hugo.metaT_31.tab.out, ../results/hmmr/Hugo.metaT_24.tab.out, ../results/hmmr/Hugo.metaT_47.tab.out, ../results/hmmr/Hugo.metaT_28.tab.out, ../results/hmmr/Hugo.metaT_32.tab.out, ../results/hmmr/Hugo.metaT_4.tab.out, ../results/hmmr/Hugo.metaT_13.tab.out, ../results/hmmr/Hugo.metaT_8.tab.out, ../results/hmmr/Hugo.metaT_25.tab.out, ../results/hmmr/Hugo.metaT_46.tab.out, ../results/hmmr/Hugo.metaT_29.tab.out, ../results/hmmr/Hugo.metaT_5.tab.out, ../results/hmmr/Hugo.metaT_33.tab.out, ../results/hmmr/Hugo.metaT_12.tab.out, ../results/hmmr/Hugo.metaT_9.tab.out
+    jobid: 0
+    reason: Input files updated by another job: ../results/hmmr/Hugo.metaT_29.tab.out, ../results/hmmr/Hugo.metaT_23.tab.out, ../results/hmmr/Hugo.metaT_33.tab.out, ../results/hmmr/Hugo.metaT_39.tab.out, ../results/hmmr/Hugo.metaT_42.tab.out, ../results/hmmr/Hugo.metaT_2.tab.out, ../results/hmmr/Hugo.metaT_27.tab.out, ../results/hmmr/Hugo.metaT_9.tab.out, ../results/hmmr/Hugo.metaT_34.tab.out, ../results/hmmr/Hugo.metaT_22.tab.out, ../results/hmmr/Hugo.metaT_32.tab.out, ../results/hmmr/Hugo.metaT_1.tab.out, ../results/hmmr/Hugo.metaT_26.tab.out, ../results/hmmr/Hugo.metaT_31.tab.out, ../results/hmmr/Hugo.metaT_41.tab.out, ../results/hmmr/Hugo.metaT_44.tab.out, ../results/hmmr/Hugo.metaT_4.tab.out, ../results/hmmr/Hugo.metaT_43.tab.out, ../results/hmmr/Hugo.metaT_10.tab.out, ../results/hmmr/Hugo.metaT_40.tab.out, ../results/hmmr/Hugo.metaT_13.tab.out, ../results/hmmr/Hugo.metaT_5.tab.out, ../results/hmmr/Hugo.metaT_6.tab.out, ../results/hmmr/Hugo.metaT_48.tab.out, ../results/hmmr/Hugo.metaT_15.tab.out, ../results/hmmr/Hugo.metaT_24.tab.out, ../results/hmmr/Hugo.metaT_11.tab.out, ../results/hmmr/Hugo.metaT_7.tab.out, ../results/hmmr/Hugo.metaT_14.tab.out, ../results/hmmr/Hugo.metaT_30.tab.out, ../results/hmmr/Hugo.metaT_47.tab.out, ../results/hmmr/Hugo.metaT_46.tab.out, ../results/hmmr/Hugo.metaT_19.tab.out, ../results/hmmr/Hugo.metaT_17.tab.out, ../results/hmmr/Hugo.metaT_8.tab.out, ../results/hmmr/Hugo.metaT_20.tab.out, ../results/hmmr/Hugo.metaT_45.tab.out, ../results/hmmr/Hugo.metaT_18.tab.out, ../results/hmmr/Hugo.metaT_16.tab.out, ../results/hmmr/Hugo.metaT_21.tab.out, ../results/hmmr/Hugo.metaT_38.tab.out, ../results/hmmr/Hugo.metaT_36.tab.out, ../results/hmmr/Hugo.metaT_28.tab.out, ../results/hmmr/Hugo.metaT_37.tab.out, ../results/hmmr/Hugo.metaT_49.tab.out, ../results/hmmr/Hugo.metaT_25.tab.out, ../results/hmmr/Hugo.metaT_0.tab.out, ../results/hmmr/Hugo.metaT_12.tab.out, ../results/hmmr/Hugo.metaT_3.tab.out, ../results/hmmr/Hugo.metaT_35.tab.out
+    resources: tmpdir=/tmp
+
+[Tue Jun 11 17:21:20 2024]
+Finished job 0.
+151 of 151 steps (100%) done
+Complete log: .snakemake/log/2024-06-11T165810.830399.snakemake.log

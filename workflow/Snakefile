@@ -1,0 +1,24 @@
+# imports
+import os
+import pandas as pd
+
+# Define samples
+SAMPLES, = glob_wildcards('/group/ctbrowngrp2/scratch/annie/2024-cow-rumen/resources/fasta/{ident}.fasta')
+
+
+# define dbs
+RDRP_DIAMOND = '../resources/RdRp-scan/RdRp-scan_0.90.dmnd'
+RDRP_HMM = '../resources/RdRp-scan/Profile_db_and_alignments/RdRp_HMM_profile_CLUSTALO.db'
+ALL_DIAMOND = '/home/hfm/Rumen_Microbiome_Genomics/1_Sequences_Guanhui/functionalAnalysis/not_merged/diamond/ncbi-nr-database/nr.dmnd'
+
+# include snakefiles
+include: "rules/hmmr.smk"
+include: "rules/protein_prediction.smk"
+
+
+wildcard_constraints:
+    sample='\w+',
+
+rule all:
+    input:
+        expand("../results/hmmr/{ident}.tab.out", ident=SAMPLES),

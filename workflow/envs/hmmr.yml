@@ -1,0 +1,14 @@
+name: hmmr
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+  - r
+dependencies:
+  - _libgcc_mutex=0.1=conda_forge
+  - _openmp_mutex=4.5=2_gnu
+  - hmmer=3.4=hdbdd923_1
+  - libgcc-ng=13.2.0=h77fa898_7
+  - libgomp=13.2.0=h77fa898_7
+  - libstdcxx-ng=13.2.0=hc0a3c3a_7
+prefix: /home/amhorst/mambaforge/envs/hmmr

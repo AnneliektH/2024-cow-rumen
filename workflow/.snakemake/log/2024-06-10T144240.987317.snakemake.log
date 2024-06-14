@@ -1,0 +1,25 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 70
+Rules claiming more threads will be scaled down.
+Provided resources: mem_mb=30000
+Job stats:
+job            count
+-----------  -------
+all                1
+diamond_all        1
+total              2
+
+Select jobs to execute...
+
+[Mon Jun 10 14:42:42 2024]
+rule diamond_all:
+    input: ../resources/Hugo_metaT.over600.fa
+    output: ../results/diamond.Hugo_metaT.over600.all.tsv
+    jobid: 1
+    reason: Missing output files: ../results/diamond.Hugo_metaT.over600.all.tsv
+    wildcards: ident=Hugo_metaT.over600
+    threads: 70
+    resources: tmpdir=/tmp
+
+Activating conda environment: diamond

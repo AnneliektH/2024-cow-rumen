@@ -1,0 +1,818 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 50
+Rules claiming more threads will be scaled down.
+Provided resources: mem_mb=30000
+Job stats:
+job                count
+---------------  -------
+all                    1
+fastmultigather       50
+total                 51
+
+Select jobs to execute...
+
+[Wed Jun  5 15:51:55 2024]
+rule fastmultigather:
+    input: ../results/signatures/Hugo.metaT_24.k21.zip
+    output: ../results/fmgdone/Hugo.metaT_24.txt
+    jobid: 73
+    reason: Missing output files: ../results/fmgdone/Hugo.metaT_24.txt
+    wildcards: ident=Hugo.metaT_24
+    threads: 10
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+
+[Wed Jun  5 15:51:57 2024]
+rule fastmultigather:
+    input: ../results/signatures/Hugo.metaT_32.k21.zip
+    output: ../results/fmgdone/Hugo.metaT_32.txt
+    jobid: 79
+    reason: Missing output files: ../results/fmgdone/Hugo.metaT_32.txt
+    wildcards: ident=Hugo.metaT_32
+    threads: 10
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+
+[Wed Jun  5 15:51:57 2024]
+rule fastmultigather:
+    input: ../results/signatures/Hugo.metaT_39.k21.zip
+    output: ../results/fmgdone/Hugo.metaT_39.txt
+    jobid: 19
+    reason: Missing output files: ../results/fmgdone/Hugo.metaT_39.txt
+    wildcards: ident=Hugo.metaT_39
+    threads: 10
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+
+[Wed Jun  5 15:51:57 2024]
+rule fastmultigather:
+    input: ../results/signatures/Hugo.metaT_26.k21.zip
+    output: ../results/fmgdone/Hugo.metaT_26.txt
+    jobid: 49
+    reason: Missing output files: ../results/fmgdone/Hugo.metaT_26.txt
+    wildcards: ident=Hugo.metaT_26
+    threads: 10
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+
+[Wed Jun  5 15:51:57 2024]
+rule fastmultigather:
+    input: ../results/signatures/Hugo.metaT_30.k21.zip
+    output: ../results/fmgdone/Hugo.metaT_30.txt
+    jobid: 57
+    reason: Missing output files: ../results/fmgdone/Hugo.metaT_30.txt
+    wildcards: ident=Hugo.metaT_30
+    threads: 10
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+[Wed Jun  5 15:56:38 2024]
+Finished job 57.
+1 of 51 steps (2%) done
+Select jobs to execute...
+
+[Wed Jun  5 15:56:39 2024]
+rule fastmultigather:
+    input: ../results/signatures/Hugo.metaT_5.k21.zip
+    output: ../results/fmgdone/Hugo.metaT_5.txt
+    jobid: 93
+    reason: Missing output files: ../results/fmgdone/Hugo.metaT_5.txt
+    wildcards: ident=Hugo.metaT_5
+    threads: 10
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+[Wed Jun  5 15:56:39 2024]
+Finished job 73.
+2 of 51 steps (4%) done
+[Wed Jun  5 15:56:39 2024]
+Finished job 79.
+3 of 51 steps (6%) done
+[Wed Jun  5 15:56:39 2024]
+Finished job 19.
+4 of 51 steps (8%) done
+[Wed Jun  5 15:56:39 2024]
+Finished job 49.
+5 of 51 steps (10%) done
+Select jobs to execute...
+
+[Wed Jun  5 15:56:39 2024]
+rule fastmultigather:
+    input: ../results/signatures/Hugo.metaT_3.k21.zip
+    output: ../results/fmgdone/Hugo.metaT_3.txt
+    jobid: 27
+    reason: Missing output files: ../results/fmgdone/Hugo.metaT_3.txt
+    wildcards: ident=Hugo.metaT_3
+    threads: 10
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+
+[Wed Jun  5 15:56:39 2024]
+rule fastmultigather:
+    input: ../results/signatures/Hugo.metaT_12.k21.zip
+    output: ../results/fmgdone/Hugo.metaT_12.txt
+    jobid: 97
+    reason: Missing output files: ../results/fmgdone/Hugo.metaT_12.txt
+    wildcards: ident=Hugo.metaT_12
+    threads: 10
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+
+[Wed Jun  5 15:56:39 2024]
+rule fastmultigather:
+    input: ../results/signatures/Hugo.metaT_18.k21.zip
+    output: ../results/fmgdone/Hugo.metaT_18.txt
+    jobid: 21
+    reason: Missing output files: ../results/fmgdone/Hugo.metaT_18.txt
+    wildcards: ident=Hugo.metaT_18
+    threads: 10
+    resources: tmpdir=/tmp
+
+
+[Wed Jun  5 15:56:39 2024]
+Activating conda environment: branchwater
+rule fastmultigather:
+    input: ../results/signatures/Hugo.metaT_21.k21.zip
+    output: ../results/fmgdone/Hugo.metaT_21.txt
+    jobid: 41
+    reason: Missing output files: ../results/fmgdone/Hugo.metaT_21.txt
+    wildcards: ident=Hugo.metaT_21
+    threads: 10
+    resources: tmpdir=/tmp
+
+Select jobs to execute...
+Activating conda environment: branchwater
+[Wed Jun  5 16:01:04 2024]
+Finished job 93.
+6 of 51 steps (12%) done
+
+[Wed Jun  5 16:01:04 2024]
+rule fastmultigather:
+    input: ../results/signatures/Hugo.metaT_0.k21.zip
+    output: ../results/fmgdone/Hugo.metaT_0.txt
+    jobid: 33
+    reason: Missing output files: ../results/fmgdone/Hugo.metaT_0.txt
+    wildcards: ident=Hugo.metaT_0
+    threads: 10
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+[Wed Jun  5 16:01:05 2024]
+Finished job 97.
+7 of 51 steps (14%) done
+Select jobs to execute...
+
+[Wed Jun  5 16:01:05 2024]
+rule fastmultigather:
+    input: ../results/signatures/Hugo.metaT_48.k21.zip
+    output: ../results/fmgdone/Hugo.metaT_48.txt
+    jobid: 63
+    reason: Missing output files: ../results/fmgdone/Hugo.metaT_48.txt
+    wildcards: ident=Hugo.metaT_48
+    threads: 10
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+[Wed Jun  5 16:01:10 2024]
+Finished job 27.
+8 of 51 steps (16%) done
+Select jobs to execute...
+
+[Wed Jun  5 16:01:11 2024]
+rule fastmultigather:
+    input: ../results/signatures/Hugo.metaT_2.k21.zip
+    output: ../results/fmgdone/Hugo.metaT_2.txt
+    jobid: 11
+    reason: Missing output files: ../results/fmgdone/Hugo.metaT_2.txt
+    wildcards: ident=Hugo.metaT_2
+    threads: 10
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+[Wed Jun  5 16:01:15 2024]
+Finished job 21.
+9 of 51 steps (18%) done
+Select jobs to execute...
+
+[Wed Jun  5 16:01:15 2024]
+rule fastmultigather:
+    input: ../results/signatures/Hugo.metaT_22.k21.zip
+    output: ../results/fmgdone/Hugo.metaT_22.txt
+    jobid: 3
+    reason: Missing output files: ../results/fmgdone/Hugo.metaT_22.txt
+    wildcards: ident=Hugo.metaT_22
+    threads: 10
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+[Wed Jun  5 16:01:17 2024]
+Finished job 41.
+10 of 51 steps (20%) done
+Select jobs to execute...
+
+[Wed Jun  5 16:01:18 2024]
+rule fastmultigather:
+    input: ../results/signatures/Hugo.metaT_31.k21.zip
+    output: ../results/fmgdone/Hugo.metaT_31.txt
+    jobid: 71
+    reason: Missing output files: ../results/fmgdone/Hugo.metaT_31.txt
+    wildcards: ident=Hugo.metaT_31
+    threads: 10
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+[Wed Jun  5 16:05:28 2024]
+Finished job 33.
+11 of 51 steps (22%) done
+Select jobs to execute...
+
+[Wed Jun  5 16:05:28 2024]
+rule fastmultigather:
+    input: ../results/signatures/Hugo.metaT_8.k21.zip
+    output: ../results/fmgdone/Hugo.metaT_8.txt
+    jobid: 85
+    reason: Missing output files: ../results/fmgdone/Hugo.metaT_8.txt
+    wildcards: ident=Hugo.metaT_8
+    threads: 10
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+[Wed Jun  5 16:05:30 2024]
+Finished job 63.
+12 of 51 steps (24%) done
+Select jobs to execute...
+
+[Wed Jun  5 16:05:30 2024]
+rule fastmultigather:
+    input: ../results/signatures/Hugo.metaT_25.k21.zip
+    output: ../results/fmgdone/Hugo.metaT_25.txt
+    jobid: 87
+    reason: Missing output files: ../results/fmgdone/Hugo.metaT_25.txt
+    wildcards: ident=Hugo.metaT_25
+    threads: 10
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+[Wed Jun  5 16:05:43 2024]
+Finished job 11.
+13 of 51 steps (25%) done
+Select jobs to execute...
+
+[Wed Jun  5 16:05:43 2024]
+rule fastmultigather:
+    input: ../results/signatures/Hugo.metaT_10.k21.zip
+    output: ../results/fmgdone/Hugo.metaT_10.txt
+    jobid: 67
+    reason: Missing output files: ../results/fmgdone/Hugo.metaT_10.txt
+    wildcards: ident=Hugo.metaT_10
+    threads: 10
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+[Wed Jun  5 16:05:48 2024]
+Finished job 3.
+14 of 51 steps (27%) done
+Select jobs to execute...
+
+[Wed Jun  5 16:05:48 2024]
+rule fastmultigather:
+    input: ../results/signatures/Hugo.metaT_17.k21.zip
+    output: ../results/fmgdone/Hugo.metaT_17.txt
+    jobid: 37
+    reason: Missing output files: ../results/fmgdone/Hugo.metaT_17.txt
+    wildcards: ident=Hugo.metaT_17
+    threads: 10
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+[Wed Jun  5 16:05:53 2024]
+Finished job 71.
+15 of 51 steps (29%) done
+Select jobs to execute...
+
+[Wed Jun  5 16:05:53 2024]
+rule fastmultigather:
+    input: ../results/signatures/Hugo.metaT_47.k21.zip
+    output: ../results/fmgdone/Hugo.metaT_47.txt
+    jobid: 75
+    reason: Missing output files: ../results/fmgdone/Hugo.metaT_47.txt
+    wildcards: ident=Hugo.metaT_47
+    threads: 10
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+[Wed Jun  5 16:09:58 2024]
+Finished job 87.
+16 of 51 steps (31%) done
+Select jobs to execute...
+
+[Wed Jun  5 16:09:59 2024]
+rule fastmultigather:
+    input: ../results/signatures/Hugo.metaT_40.k21.zip
+    output: ../results/fmgdone/Hugo.metaT_40.txt
+    jobid: 15
+    reason: Missing output files: ../results/fmgdone/Hugo.metaT_40.txt
+    wildcards: ident=Hugo.metaT_40
+    threads: 10
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+[Wed Jun  5 16:10:09 2024]
+Finished job 85.
+17 of 51 steps (33%) done
+Select jobs to execute...
+
+[Wed Jun  5 16:10:09 2024]
+rule fastmultigather:
+    input: ../results/signatures/Hugo.metaT_41.k21.zip
+    output: ../results/fmgdone/Hugo.metaT_41.txt
+    jobid: 1
+    reason: Missing output files: ../results/fmgdone/Hugo.metaT_41.txt
+    wildcards: ident=Hugo.metaT_41
+    threads: 10
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+[Wed Jun  5 16:10:26 2024]
+Finished job 37.
+18 of 51 steps (35%) done
+Select jobs to execute...
+
+[Wed Jun  5 16:10:27 2024]
+rule fastmultigather:
+    input: ../results/signatures/Hugo.metaT_1.k21.zip
+    output: ../results/fmgdone/Hugo.metaT_1.txt
+    jobid: 45
+    reason: Missing output files: ../results/fmgdone/Hugo.metaT_1.txt
+    wildcards: ident=Hugo.metaT_1
+    threads: 10
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+[Wed Jun  5 16:10:29 2024]
+Finished job 67.
+19 of 51 steps (37%) done
+Select jobs to execute...
+
+[Wed Jun  5 16:10:30 2024]
+rule fastmultigather:
+    input: ../results/signatures/Hugo.metaT_46.k21.zip
+    output: ../results/fmgdone/Hugo.metaT_46.txt
+    jobid: 89
+    reason: Missing output files: ../results/fmgdone/Hugo.metaT_46.txt
+    wildcards: ident=Hugo.metaT_46
+    threads: 10
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+[Wed Jun  5 16:10:33 2024]
+Finished job 75.
+20 of 51 steps (39%) done
+Select jobs to execute...
+
+[Wed Jun  5 16:10:33 2024]
+rule fastmultigather:
+    input: ../results/signatures/Hugo.metaT_45.k21.zip
+    output: ../results/fmgdone/Hugo.metaT_45.txt
+    jobid: 53
+    reason: Missing output files: ../results/fmgdone/Hugo.metaT_45.txt
+    wildcards: ident=Hugo.metaT_45
+    threads: 10
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+[Wed Jun  5 16:14:27 2024]
+Finished job 15.
+21 of 51 steps (41%) done
+Select jobs to execute...
+
+[Wed Jun  5 16:14:27 2024]
+rule fastmultigather:
+    input: ../results/signatures/Hugo.metaT_13.k21.zip
+    output: ../results/fmgdone/Hugo.metaT_13.txt
+    jobid: 83
+    reason: Missing output files: ../results/fmgdone/Hugo.metaT_13.txt
+    wildcards: ident=Hugo.metaT_13
+    threads: 10
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+[Wed Jun  5 16:14:43 2024]
+Finished job 1.
+22 of 51 steps (43%) done
+Select jobs to execute...
+
+[Wed Jun  5 16:14:43 2024]
+rule fastmultigather:
+    input: ../results/signatures/Hugo.metaT_14.k21.zip
+    output: ../results/fmgdone/Hugo.metaT_14.txt
+    jobid: 23
+    reason: Missing output files: ../results/fmgdone/Hugo.metaT_14.txt
+    wildcards: ident=Hugo.metaT_14
+    threads: 10
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+[Wed Jun  5 16:14:54 2024]
+Finished job 45.
+23 of 51 steps (45%) done
+Select jobs to execute...
+
+[Wed Jun  5 16:14:54 2024]
+rule fastmultigather:
+    input: ../results/signatures/Hugo.metaT_27.k21.zip
+    output: ../results/fmgdone/Hugo.metaT_27.txt
+    jobid: 61
+    reason: Missing output files: ../results/fmgdone/Hugo.metaT_27.txt
+    wildcards: ident=Hugo.metaT_27
+    threads: 10
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+[Wed Jun  5 16:15:04 2024]
+Finished job 89.
+24 of 51 steps (47%) done
+Select jobs to execute...
+
+[Wed Jun  5 16:15:04 2024]
+rule fastmultigather:
+    input: ../results/signatures/Hugo.metaT_20.k21.zip
+    output: ../results/fmgdone/Hugo.metaT_20.txt
+    jobid: 31
+    reason: Missing output files: ../results/fmgdone/Hugo.metaT_20.txt
+    wildcards: ident=Hugo.metaT_20
+    threads: 10
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+[Wed Jun  5 16:15:07 2024]
+Finished job 53.
+25 of 51 steps (49%) done
+Select jobs to execute...
+
+[Wed Jun  5 16:15:07 2024]
+rule fastmultigather:
+    input: ../results/signatures/Hugo.metaT_29.k21.zip
+    output: ../results/fmgdone/Hugo.metaT_29.txt
+    jobid: 91
+    reason: Missing output files: ../results/fmgdone/Hugo.metaT_29.txt
+    wildcards: ident=Hugo.metaT_29
+    threads: 10
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+[Wed Jun  5 16:19:07 2024]
+Finished job 83.
+26 of 51 steps (51%) done
+Select jobs to execute...
+
+[Wed Jun  5 16:19:07 2024]
+rule fastmultigather:
+    input: ../results/signatures/Hugo.metaT_7.k21.zip
+    output: ../results/fmgdone/Hugo.metaT_7.txt
+    jobid: 69
+    reason: Missing output files: ../results/fmgdone/Hugo.metaT_7.txt
+    wildcards: ident=Hugo.metaT_7
+    threads: 10
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+[Wed Jun  5 16:19:21 2024]
+Finished job 23.
+27 of 51 steps (53%) done
+Select jobs to execute...
+
+[Wed Jun  5 16:19:21 2024]
+rule fastmultigather:
+    input: ../results/signatures/Hugo.metaT_15.k21.zip
+    output: ../results/fmgdone/Hugo.metaT_15.txt
+    jobid: 9
+    reason: Missing output files: ../results/fmgdone/Hugo.metaT_15.txt
+    wildcards: ident=Hugo.metaT_15
+    threads: 10
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+[Wed Jun  5 16:19:27 2024]
+Finished job 61.
+28 of 51 steps (55%) done
+Select jobs to execute...
+
+[Wed Jun  5 16:19:27 2024]
+rule fastmultigather:
+    input: ../results/signatures/Hugo.metaT_36.k21.zip
+    output: ../results/fmgdone/Hugo.metaT_36.txt
+    jobid: 35
+    reason: Missing output files: ../results/fmgdone/Hugo.metaT_36.txt
+    wildcards: ident=Hugo.metaT_36
+    threads: 10
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+[Wed Jun  5 16:19:38 2024]
+Finished job 31.
+29 of 51 steps (57%) done
+Select jobs to execute...
+
+[Wed Jun  5 16:19:38 2024]
+rule fastmultigather:
+    input: ../results/signatures/Hugo.metaT_33.k21.zip
+    output: ../results/fmgdone/Hugo.metaT_33.txt
+    jobid: 95
+    reason: Missing output files: ../results/fmgdone/Hugo.metaT_33.txt
+    wildcards: ident=Hugo.metaT_33
+    threads: 10
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+[Wed Jun  5 16:19:50 2024]
+Finished job 91.
+30 of 51 steps (59%) done
+Select jobs to execute...
+
+[Wed Jun  5 16:19:50 2024]
+rule fastmultigather:
+    input: ../results/signatures/Hugo.metaT_49.k21.zip
+    output: ../results/fmgdone/Hugo.metaT_49.txt
+    jobid: 51
+    reason: Missing output files: ../results/fmgdone/Hugo.metaT_49.txt
+    wildcards: ident=Hugo.metaT_49
+    threads: 10
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+[Wed Jun  5 16:23:32 2024]
+Finished job 69.
+31 of 51 steps (61%) done
+Select jobs to execute...
+
+[Wed Jun  5 16:23:32 2024]
+rule fastmultigather:
+    input: ../results/signatures/Hugo.metaT_44.k21.zip
+    output: ../results/fmgdone/Hugo.metaT_44.txt
+    jobid: 65
+    reason: Missing output files: ../results/fmgdone/Hugo.metaT_44.txt
+    wildcards: ident=Hugo.metaT_44
+    threads: 10
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+[Wed Jun  5 16:23:52 2024]
+Finished job 9.
+32 of 51 steps (63%) done
+Select jobs to execute...
+
+[Wed Jun  5 16:23:52 2024]
+rule fastmultigather:
+    input: ../results/signatures/Hugo.metaT_11.k21.zip
+    output: ../results/fmgdone/Hugo.metaT_11.txt
+    jobid: 55
+    reason: Missing output files: ../results/fmgdone/Hugo.metaT_11.txt
+    wildcards: ident=Hugo.metaT_11
+    threads: 10
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+[Wed Jun  5 16:24:03 2024]
+Finished job 35.
+33 of 51 steps (65%) done
+Select jobs to execute...
+
+[Wed Jun  5 16:24:03 2024]
+rule fastmultigather:
+    input: ../results/signatures/Hugo.metaT_35.k21.zip
+    output: ../results/fmgdone/Hugo.metaT_35.txt
+    jobid: 25
+    reason: Missing output files: ../results/fmgdone/Hugo.metaT_35.txt
+    wildcards: ident=Hugo.metaT_35
+    threads: 10
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+[Wed Jun  5 16:24:10 2024]
+Finished job 95.
+34 of 51 steps (67%) done
+Select jobs to execute...
+
+[Wed Jun  5 16:24:10 2024]
+rule fastmultigather:
+    input: ../results/signatures/Hugo.metaT_6.k21.zip
+    output: ../results/fmgdone/Hugo.metaT_6.txt
+    jobid: 59
+    reason: Missing output files: ../results/fmgdone/Hugo.metaT_6.txt
+    wildcards: ident=Hugo.metaT_6
+    threads: 10
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+[Wed Jun  5 16:24:23 2024]
+Finished job 51.
+35 of 51 steps (69%) done
+Select jobs to execute...
+
+[Wed Jun  5 16:24:23 2024]
+rule fastmultigather:
+    input: ../results/signatures/Hugo.metaT_43.k21.zip
+    output: ../results/fmgdone/Hugo.metaT_43.txt
+    jobid: 29
+    reason: Missing output files: ../results/fmgdone/Hugo.metaT_43.txt
+    wildcards: ident=Hugo.metaT_43
+    threads: 10
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+[Wed Jun  5 16:28:05 2024]
+Finished job 65.
+36 of 51 steps (71%) done
+Select jobs to execute...
+
+[Wed Jun  5 16:28:05 2024]
+rule fastmultigather:
+    input: ../results/signatures/Hugo.metaT_38.k21.zip
+    output: ../results/fmgdone/Hugo.metaT_38.txt
+    jobid: 5
+    reason: Missing output files: ../results/fmgdone/Hugo.metaT_38.txt
+    wildcards: ident=Hugo.metaT_38
+    threads: 10
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+[Wed Jun  5 16:28:18 2024]
+Finished job 55.
+37 of 51 steps (73%) done
+Select jobs to execute...
+
+[Wed Jun  5 16:28:18 2024]
+rule fastmultigather:
+    input: ../results/signatures/Hugo.metaT_4.k21.zip
+    output: ../results/fmgdone/Hugo.metaT_4.txt
+    jobid: 81
+    reason: Missing output files: ../results/fmgdone/Hugo.metaT_4.txt
+    wildcards: ident=Hugo.metaT_4
+    threads: 10
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+[Wed Jun  5 16:28:37 2024]
+Finished job 59.
+38 of 51 steps (75%) done
+Select jobs to execute...
+
+[Wed Jun  5 16:28:37 2024]
+rule fastmultigather:
+    input: ../results/signatures/Hugo.metaT_16.k21.zip
+    output: ../results/fmgdone/Hugo.metaT_16.txt
+    jobid: 47
+    reason: Missing output files: ../results/fmgdone/Hugo.metaT_16.txt
+    wildcards: ident=Hugo.metaT_16
+    threads: 10
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+[Wed Jun  5 16:28:41 2024]
+Finished job 25.
+39 of 51 steps (76%) done
+Select jobs to execute...
+
+[Wed Jun  5 16:28:41 2024]
+rule fastmultigather:
+    input: ../results/signatures/Hugo.metaT_28.k21.zip
+    output: ../results/fmgdone/Hugo.metaT_28.txt
+    jobid: 77
+    reason: Missing output files: ../results/fmgdone/Hugo.metaT_28.txt
+    wildcards: ident=Hugo.metaT_28
+    threads: 10
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+[Wed Jun  5 16:29:02 2024]
+Finished job 29.
+40 of 51 steps (78%) done
+Select jobs to execute...
+
+[Wed Jun  5 16:29:02 2024]
+rule fastmultigather:
+    input: ../results/signatures/Hugo.metaT_23.k21.zip
+    output: ../results/fmgdone/Hugo.metaT_23.txt
+    jobid: 17
+    reason: Missing output files: ../results/fmgdone/Hugo.metaT_23.txt
+    wildcards: ident=Hugo.metaT_23
+    threads: 10
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+[Wed Jun  5 16:32:42 2024]
+Finished job 5.
+41 of 51 steps (80%) done
+Select jobs to execute...
+
+[Wed Jun  5 16:32:42 2024]
+rule fastmultigather:
+    input: ../results/signatures/Hugo.metaT_37.k21.zip
+    output: ../results/fmgdone/Hugo.metaT_37.txt
+    jobid: 43
+    reason: Missing output files: ../results/fmgdone/Hugo.metaT_37.txt
+    wildcards: ident=Hugo.metaT_37
+    threads: 10
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+[Wed Jun  5 16:32:44 2024]
+Finished job 81.
+42 of 51 steps (82%) done
+Select jobs to execute...
+
+[Wed Jun  5 16:32:44 2024]
+rule fastmultigather:
+    input: ../results/signatures/Hugo.metaT_34.k21.zip
+    output: ../results/fmgdone/Hugo.metaT_34.txt
+    jobid: 13
+    reason: Missing output files: ../results/fmgdone/Hugo.metaT_34.txt
+    wildcards: ident=Hugo.metaT_34
+    threads: 10
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+[Wed Jun  5 16:33:03 2024]
+Finished job 47.
+43 of 51 steps (84%) done
+Select jobs to execute...
+
+[Wed Jun  5 16:33:04 2024]
+rule fastmultigather:
+    input: ../results/signatures/Hugo.metaT_42.k21.zip
+    output: ../results/fmgdone/Hugo.metaT_42.txt
+    jobid: 39
+    reason: Missing output files: ../results/fmgdone/Hugo.metaT_42.txt
+    wildcards: ident=Hugo.metaT_42
+    threads: 10
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+[Wed Jun  5 16:33:13 2024]
+Finished job 77.
+44 of 51 steps (86%) done
+Select jobs to execute...
+
+[Wed Jun  5 16:33:13 2024]
+rule fastmultigather:
+    input: ../results/signatures/Hugo.metaT_19.k21.zip
+    output: ../results/fmgdone/Hugo.metaT_19.txt
+    jobid: 7
+    reason: Missing output files: ../results/fmgdone/Hugo.metaT_19.txt
+    wildcards: ident=Hugo.metaT_19
+    threads: 10
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+[Wed Jun  5 16:33:34 2024]
+Finished job 17.
+45 of 51 steps (88%) done
+Select jobs to execute...
+
+[Wed Jun  5 16:33:34 2024]
+rule fastmultigather:
+    input: ../results/signatures/Hugo.metaT_9.k21.zip
+    output: ../results/fmgdone/Hugo.metaT_9.txt
+    jobid: 99
+    reason: Missing output files: ../results/fmgdone/Hugo.metaT_9.txt
+    wildcards: ident=Hugo.metaT_9
+    threads: 10
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+[Wed Jun  5 16:37:09 2024]
+Finished job 13.
+46 of 51 steps (90%) done
+[Wed Jun  5 16:37:12 2024]
+Finished job 43.
+47 of 51 steps (92%) done
+[Wed Jun  5 16:37:43 2024]
+Finished job 39.
+48 of 51 steps (94%) done
+[Wed Jun  5 16:37:47 2024]
+Finished job 7.
+49 of 51 steps (96%) done
+[Wed Jun  5 16:38:07 2024]
+Finished job 99.
+50 of 51 steps (98%) done
+Select jobs to execute...
+
+[Wed Jun  5 16:38:08 2024]
+localrule all:
+    input: ../results/fmgdone/Hugo.metaT_41.txt, ../results/fmgdone/Hugo.metaT_22.txt, ../results/fmgdone/Hugo.metaT_38.txt, ../results/fmgdone/Hugo.metaT_19.txt, ../results/fmgdone/Hugo.metaT_15.txt, ../results/fmgdone/Hugo.metaT_2.txt, ../results/fmgdone/Hugo.metaT_34.txt, ../results/fmgdone/Hugo.metaT_40.txt, ../results/fmgdone/Hugo.metaT_23.txt, ../results/fmgdone/Hugo.metaT_39.txt, ../results/fmgdone/Hugo.metaT_18.txt, ../results/fmgdone/Hugo.metaT_14.txt, ../results/fmgdone/Hugo.metaT_35.txt, ../results/fmgdone/Hugo.metaT_3.txt, ../results/fmgdone/Hugo.metaT_43.txt, ../results/fmgdone/Hugo.metaT_20.txt, ../results/fmgdone/Hugo.metaT_0.txt, ../results/fmgdone/Hugo.metaT_36.txt, ../results/fmgdone/Hugo.metaT_17.txt, ../results/fmgdone/Hugo.metaT_42.txt, ../results/fmgdone/Hugo.metaT_21.txt, ../results/fmgdone/Hugo.metaT_37.txt, ../results/fmgdone/Hugo.metaT_1.txt, ../results/fmgdone/Hugo.metaT_16.txt, ../results/fmgdone/Hugo.metaT_26.txt, ../results/fmgdone/Hugo.metaT_49.txt, ../results/fmgdone/Hugo.metaT_45.txt, ../results/fmgdone/Hugo.metaT_11.txt, ../results/fmgdone/Hugo.metaT_30.txt, ../results/fmgdone/Hugo.metaT_6.txt, ../results/fmgdone/Hugo.metaT_27.txt, ../results/fmgdone/Hugo.metaT_48.txt, ../results/fmgdone/Hugo.metaT_44.txt, ../results/fmgdone/Hugo.metaT_10.txt, ../results/fmgdone/Hugo.metaT_7.txt, ../results/fmgdone/Hugo.metaT_31.txt, ../results/fmgdone/Hugo.metaT_24.txt, ../results/fmgdone/Hugo.metaT_47.txt, ../results/fmgdone/Hugo.metaT_28.txt, ../results/fmgdone/Hugo.metaT_32.txt, ../results/fmgdone/Hugo.metaT_4.txt, ../results/fmgdone/Hugo.metaT_13.txt, ../results/fmgdone/Hugo.metaT_8.txt, ../results/fmgdone/Hugo.metaT_25.txt, ../results/fmgdone/Hugo.metaT_46.txt, ../results/fmgdone/Hugo.metaT_29.txt, ../results/fmgdone/Hugo.metaT_5.txt, ../results/fmgdone/Hugo.metaT_33.txt, ../results/fmgdone/Hugo.metaT_12.txt, ../results/fmgdone/Hugo.metaT_9.txt
+    jobid: 0
+    reason: Input files updated by another job: ../results/fmgdone/Hugo.metaT_39.txt, ../results/fmgdone/Hugo.metaT_27.txt, ../results/fmgdone/Hugo.metaT_15.txt, ../results/fmgdone/Hugo.metaT_32.txt, ../results/fmgdone/Hugo.metaT_5.txt, ../results/fmgdone/Hugo.metaT_24.txt, ../results/fmgdone/Hugo.metaT_38.txt, ../results/fmgdone/Hugo.metaT_44.txt, ../results/fmgdone/Hugo.metaT_1.txt, ../results/fmgdone/Hugo.metaT_37.txt, ../results/fmgdone/Hugo.metaT_34.txt, ../results/fmgdone/Hugo.metaT_0.txt, ../results/fmgdone/Hugo.metaT_46.txt, ../results/fmgdone/Hugo.metaT_4.txt, ../results/fmgdone/Hugo.metaT_22.txt, ../results/fmgdone/Hugo.metaT_3.txt, ../results/fmgdone/Hugo.metaT_30.txt, ../results/fmgdone/Hugo.metaT_48.txt, ../results/fmgdone/Hugo.metaT_42.txt, ../results/fmgdone/Hugo.metaT_17.txt, ../results/fmgdone/Hugo.metaT_35.txt, ../results/fmgdone/Hugo.metaT_28.txt, ../results/fmgdone/Hugo.metaT_33.txt, ../results/fmgdone/Hugo.metaT_20.txt, ../results/fmgdone/Hugo.metaT_41.txt, ../results/fmgdone/Hugo.metaT_6.txt, ../results/fmgdone/Hugo.metaT_25.txt, ../results/fmgdone/Hugo.metaT_13.txt, ../results/fmgdone/Hugo.metaT_29.txt, ../results/fmgdone/Hugo.metaT_18.txt, ../results/fmgdone/Hugo.metaT_14.txt, ../results/fmgdone/Hugo.metaT_16.txt, ../results/fmgdone/Hugo.metaT_49.txt, ../results/fmgdone/Hugo.metaT_21.txt, ../results/fmgdone/Hugo.metaT_40.txt, ../results/fmgdone/Hugo.metaT_47.txt, ../results/fmgdone/Hugo.metaT_26.txt, ../results/fmgdone/Hugo.metaT_23.txt, ../results/fmgdone/Hugo.metaT_8.txt, ../results/fmgdone/Hugo.metaT_9.txt, ../results/fmgdone/Hugo.metaT_7.txt, ../results/fmgdone/Hugo.metaT_10.txt, ../results/fmgdone/Hugo.metaT_31.txt, ../results/fmgdone/Hugo.metaT_43.txt, ../results/fmgdone/Hugo.metaT_45.txt, ../results/fmgdone/Hugo.metaT_19.txt, ../results/fmgdone/Hugo.metaT_11.txt, ../results/fmgdone/Hugo.metaT_12.txt, ../results/fmgdone/Hugo.metaT_36.txt, ../results/fmgdone/Hugo.metaT_2.txt
+    resources: tmpdir=/tmp
+
+[Wed Jun  5 16:38:08 2024]
+Finished job 0.
+51 of 51 steps (100%) done
+Complete log: .snakemake/log/2024-06-05T155153.501695.snakemake.log

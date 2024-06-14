@@ -1,0 +1,5 @@
+Building DAG of jobs...
+WorkflowError:
+Unable to obtain modification time of file ../results/signatures/Hugo.metaT_41.k21.zip although it existed before. It could be that a concurrent process has deleted it while Snakemake was running.
+  File "/home/amhorst/mambaforge/envs/branchwater/lib/python3.10/asyncio/runners.py", line 44, in run
+  File "/home/amhorst/mambaforge/envs/branchwater/lib/python3.10/asyncio/base_events.py", line 649, in run_until_complete

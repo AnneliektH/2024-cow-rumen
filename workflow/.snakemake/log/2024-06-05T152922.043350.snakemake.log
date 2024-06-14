@@ -1,0 +1,726 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 50
+Rules claiming more threads will be scaled down.
+Provided resources: mem_mb=30000
+Job stats:
+job        count
+-------  -------
+all            1
+sketchs       50
+total         51
+
+Select jobs to execute...
+
+[Wed Jun  5 15:29:23 2024]
+rule sketchs:
+    input: ../resources/fasta/Hugo.metaT_34.fasta
+    output: ../results/signatures/Hugo.metaT_34.k21.zip
+    jobid: 7
+    reason: Missing output files: ../results/signatures/Hugo.metaT_34.k21.zip
+    wildcards: ident=Hugo.metaT_34
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+
+[Wed Jun  5 15:29:25 2024]
+rule sketchs:
+    input: ../resources/fasta/Hugo.metaT_24.fasta
+    output: ../results/signatures/Hugo.metaT_24.k21.zip
+    jobid: 37
+    reason: Missing output files: ../results/signatures/Hugo.metaT_24.k21.zip
+    wildcards: ident=Hugo.metaT_24
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+
+[Wed Jun  5 15:29:25 2024]
+rule sketchs:
+    input: ../resources/fasta/Hugo.metaT_37.fasta
+    output: ../results/signatures/Hugo.metaT_37.k21.zip
+    jobid: 22
+    reason: Missing output files: ../results/signatures/Hugo.metaT_37.k21.zip
+    wildcards: ident=Hugo.metaT_37
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+
+[Wed Jun  5 15:29:25 2024]
+rule sketchs:
+    input: ../resources/fasta/Hugo.metaT_43.fasta
+    output: ../results/signatures/Hugo.metaT_43.k21.zip
+    jobid: 15
+    reason: Missing output files: ../results/signatures/Hugo.metaT_43.k21.zip
+    wildcards: ident=Hugo.metaT_43
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+
+[Wed Jun  5 15:29:25 2024]
+rule sketchs:
+    input: ../resources/fasta/Hugo.metaT_41.fasta
+    output: ../results/signatures/Hugo.metaT_41.k21.zip
+    jobid: 1
+    reason: Missing output files: ../results/signatures/Hugo.metaT_41.k21.zip
+    wildcards: ident=Hugo.metaT_41
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+
+[Wed Jun  5 15:29:25 2024]
+rule sketchs:
+    input: ../resources/fasta/Hugo.metaT_46.fasta
+    output: ../results/signatures/Hugo.metaT_46.k21.zip
+    jobid: 45
+    reason: Missing output files: ../results/signatures/Hugo.metaT_46.k21.zip
+    wildcards: ident=Hugo.metaT_46
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+
+[Wed Jun  5 15:29:25 2024]
+rule sketchs:
+    input: ../resources/fasta/Hugo.metaT_6.fasta
+    output: ../results/signatures/Hugo.metaT_6.k21.zip
+    jobid: 30
+    reason: Missing output files: ../results/signatures/Hugo.metaT_6.k21.zip
+    wildcards: ident=Hugo.metaT_6
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+
+[Wed Jun  5 15:29:25 2024]
+rule sketchs:
+    input: ../resources/fasta/Hugo.metaT_40.fasta
+    output: ../results/signatures/Hugo.metaT_40.k21.zip
+    jobid: 8
+    reason: Missing output files: ../results/signatures/Hugo.metaT_40.k21.zip
+    wildcards: ident=Hugo.metaT_40
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+
+[Wed Jun  5 15:29:25 2024]
+rule sketchs:
+    input: ../resources/fasta/Hugo.metaT_22.fasta
+    output: ../results/signatures/Hugo.metaT_22.k21.zip
+    jobid: 2
+    reason: Missing output files: ../results/signatures/Hugo.metaT_22.k21.zip
+    wildcards: ident=Hugo.metaT_22
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+
+[Wed Jun  5 15:29:25 2024]
+rule sketchs:
+    input: ../resources/fasta/Hugo.metaT_47.fasta
+    output: ../results/signatures/Hugo.metaT_47.k21.zip
+    jobid: 38
+    reason: Missing output files: ../results/signatures/Hugo.metaT_47.k21.zip
+    wildcards: ident=Hugo.metaT_47
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+
+[Wed Jun  5 15:29:25 2024]
+rule sketchs:
+    input: ../resources/fasta/Hugo.metaT_1.fasta
+    output: ../results/signatures/Hugo.metaT_1.k21.zip
+    jobid: 23
+    reason: Missing output files: ../results/signatures/Hugo.metaT_1.k21.zip
+    wildcards: ident=Hugo.metaT_1
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+
+[Wed Jun  5 15:29:25 2024]
+rule sketchs:
+    input: ../resources/fasta/Hugo.metaT_20.fasta
+    output: ../results/signatures/Hugo.metaT_20.k21.zip
+    jobid: 16
+    reason: Missing output files: ../results/signatures/Hugo.metaT_20.k21.zip
+    wildcards: ident=Hugo.metaT_20
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+
+[Wed Jun  5 15:29:25 2024]
+rule sketchs:
+    input: ../resources/fasta/Hugo.metaT_29.fasta
+    output: ../results/signatures/Hugo.metaT_29.k21.zip
+    jobid: 46
+    reason: Missing output files: ../results/signatures/Hugo.metaT_29.k21.zip
+    wildcards: ident=Hugo.metaT_29
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+
+[Wed Jun  5 15:29:25 2024]
+rule sketchs:
+    input: ../resources/fasta/Hugo.metaT_27.fasta
+    output: ../results/signatures/Hugo.metaT_27.k21.zip
+    jobid: 31
+    reason: Missing output files: ../results/signatures/Hugo.metaT_27.k21.zip
+    wildcards: ident=Hugo.metaT_27
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+
+[Wed Jun  5 15:29:25 2024]
+rule sketchs:
+    input: ../resources/fasta/Hugo.metaT_23.fasta
+    output: ../results/signatures/Hugo.metaT_23.k21.zip
+    jobid: 9
+    reason: Missing output files: ../results/signatures/Hugo.metaT_23.k21.zip
+    wildcards: ident=Hugo.metaT_23
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+
+[Wed Jun  5 15:29:25 2024]
+rule sketchs:
+    input: ../resources/fasta/Hugo.metaT_28.fasta
+    output: ../results/signatures/Hugo.metaT_28.k21.zip
+    jobid: 39
+    reason: Missing output files: ../results/signatures/Hugo.metaT_28.k21.zip
+    wildcards: ident=Hugo.metaT_28
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+
+[Wed Jun  5 15:29:25 2024]
+rule sketchs:
+    input: ../resources/fasta/Hugo.metaT_16.fasta
+    output: ../results/signatures/Hugo.metaT_16.k21.zip
+    jobid: 24
+    reason: Missing output files: ../results/signatures/Hugo.metaT_16.k21.zip
+    wildcards: ident=Hugo.metaT_16
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+
+[Wed Jun  5 15:29:25 2024]
+rule sketchs:
+    input: ../resources/fasta/Hugo.metaT_0.fasta
+    output: ../results/signatures/Hugo.metaT_0.k21.zip
+    jobid: 17
+    reason: Missing output files: ../results/signatures/Hugo.metaT_0.k21.zip
+    wildcards: ident=Hugo.metaT_0
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+
+[Wed Jun  5 15:29:25 2024]
+rule sketchs:
+    input: ../resources/fasta/Hugo.metaT_5.fasta
+    output: ../results/signatures/Hugo.metaT_5.k21.zip
+    jobid: 47
+    reason: Missing output files: ../results/signatures/Hugo.metaT_5.k21.zip
+    wildcards: ident=Hugo.metaT_5
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+
+[Wed Jun  5 15:29:25 2024]
+rule sketchs:
+    input: ../resources/fasta/Hugo.metaT_48.fasta
+    output: ../results/signatures/Hugo.metaT_48.k21.zip
+    jobid: 32
+    reason: Missing output files: ../results/signatures/Hugo.metaT_48.k21.zip
+    wildcards: ident=Hugo.metaT_48
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+
+[Wed Jun  5 15:29:25 2024]
+rule sketchs:
+    input: ../resources/fasta/Hugo.metaT_39.fasta
+    output: ../results/signatures/Hugo.metaT_39.k21.zip
+    jobid: 10
+    reason: Missing output files: ../results/signatures/Hugo.metaT_39.k21.zip
+    wildcards: ident=Hugo.metaT_39
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+
+[Wed Jun  5 15:29:25 2024]
+rule sketchs:
+    input: ../resources/fasta/Hugo.metaT_32.fasta
+    output: ../results/signatures/Hugo.metaT_32.k21.zip
+    jobid: 40
+    reason: Missing output files: ../results/signatures/Hugo.metaT_32.k21.zip
+    wildcards: ident=Hugo.metaT_32
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+
+[Wed Jun  5 15:29:25 2024]
+rule sketchs:
+    input: ../resources/fasta/Hugo.metaT_26.fasta
+    output: ../results/signatures/Hugo.metaT_26.k21.zip
+    jobid: 25
+    reason: Missing output files: ../results/signatures/Hugo.metaT_26.k21.zip
+    wildcards: ident=Hugo.metaT_26
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+
+[Wed Jun  5 15:29:25 2024]
+rule sketchs:
+    input: ../resources/fasta/Hugo.metaT_36.fasta
+    output: ../results/signatures/Hugo.metaT_36.k21.zip
+    jobid: 18
+    reason: Missing output files: ../results/signatures/Hugo.metaT_36.k21.zip
+    wildcards: ident=Hugo.metaT_36
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+
+[Wed Jun  5 15:29:25 2024]
+rule sketchs:
+    input: ../resources/fasta/Hugo.metaT_38.fasta
+    output: ../results/signatures/Hugo.metaT_38.k21.zip
+    jobid: 3
+    reason: Missing output files: ../results/signatures/Hugo.metaT_38.k21.zip
+    wildcards: ident=Hugo.metaT_38
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+
+[Wed Jun  5 15:29:25 2024]
+rule sketchs:
+    input: ../resources/fasta/Hugo.metaT_33.fasta
+    output: ../results/signatures/Hugo.metaT_33.k21.zip
+    jobid: 48
+    reason: Missing output files: ../results/signatures/Hugo.metaT_33.k21.zip
+    wildcards: ident=Hugo.metaT_33
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+
+[Wed Jun  5 15:29:25 2024]
+rule sketchs:
+    input: ../resources/fasta/Hugo.metaT_44.fasta
+    output: ../results/signatures/Hugo.metaT_44.k21.zip
+    jobid: 33
+    reason: Missing output files: ../results/signatures/Hugo.metaT_44.k21.zip
+    wildcards: ident=Hugo.metaT_44
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+
+[Wed Jun  5 15:29:25 2024]
+rule sketchs:
+    input: ../resources/fasta/Hugo.metaT_18.fasta
+    output: ../results/signatures/Hugo.metaT_18.k21.zip
+    jobid: 11
+    reason: Missing output files: ../results/signatures/Hugo.metaT_18.k21.zip
+    wildcards: ident=Hugo.metaT_18
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+
+[Wed Jun  5 15:29:25 2024]
+rule sketchs:
+    input: ../resources/fasta/Hugo.metaT_4.fasta
+    output: ../results/signatures/Hugo.metaT_4.k21.zip
+    jobid: 41
+    reason: Missing output files: ../results/signatures/Hugo.metaT_4.k21.zip
+    wildcards: ident=Hugo.metaT_4
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+
+[Wed Jun  5 15:29:25 2024]
+rule sketchs:
+    input: ../resources/fasta/Hugo.metaT_49.fasta
+    output: ../results/signatures/Hugo.metaT_49.k21.zip
+    jobid: 26
+    reason: Missing output files: ../results/signatures/Hugo.metaT_49.k21.zip
+    wildcards: ident=Hugo.metaT_49
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+
+[Wed Jun  5 15:29:25 2024]
+rule sketchs:
+    input: ../resources/fasta/Hugo.metaT_17.fasta
+    output: ../results/signatures/Hugo.metaT_17.k21.zip
+    jobid: 19
+    reason: Missing output files: ../results/signatures/Hugo.metaT_17.k21.zip
+    wildcards: ident=Hugo.metaT_17
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+
+[Wed Jun  5 15:29:25 2024]
+rule sketchs:
+    input: ../resources/fasta/Hugo.metaT_19.fasta
+    output: ../results/signatures/Hugo.metaT_19.k21.zip
+    jobid: 4
+    reason: Missing output files: ../results/signatures/Hugo.metaT_19.k21.zip
+    wildcards: ident=Hugo.metaT_19
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+
+[Wed Jun  5 15:29:25 2024]
+rule sketchs:
+    input: ../resources/fasta/Hugo.metaT_12.fasta
+    output: ../results/signatures/Hugo.metaT_12.k21.zip
+    jobid: 49
+    reason: Missing output files: ../results/signatures/Hugo.metaT_12.k21.zip
+    wildcards: ident=Hugo.metaT_12
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+
+[Wed Jun  5 15:29:25 2024]
+rule sketchs:
+    input: ../resources/fasta/Hugo.metaT_10.fasta
+    output: ../results/signatures/Hugo.metaT_10.k21.zip
+    jobid: 34
+    reason: Missing output files: ../results/signatures/Hugo.metaT_10.k21.zip
+    wildcards: ident=Hugo.metaT_10
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+
+[Wed Jun  5 15:29:25 2024]
+rule sketchs:
+    input: ../resources/fasta/Hugo.metaT_14.fasta
+    output: ../results/signatures/Hugo.metaT_14.k21.zip
+    jobid: 12
+    reason: Missing output files: ../results/signatures/Hugo.metaT_14.k21.zip
+    wildcards: ident=Hugo.metaT_14
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+
+[Wed Jun  5 15:29:25 2024]
+rule sketchs:
+    input: ../resources/fasta/Hugo.metaT_13.fasta
+    output: ../results/signatures/Hugo.metaT_13.k21.zip
+    jobid: 42
+    reason: Missing output files: ../results/signatures/Hugo.metaT_13.k21.zip
+    wildcards: ident=Hugo.metaT_13
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+
+[Wed Jun  5 15:29:25 2024]
+rule sketchs:
+    input: ../resources/fasta/Hugo.metaT_45.fasta
+    output: ../results/signatures/Hugo.metaT_45.k21.zip
+    jobid: 27
+    reason: Missing output files: ../results/signatures/Hugo.metaT_45.k21.zip
+    wildcards: ident=Hugo.metaT_45
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+
+[Wed Jun  5 15:29:25 2024]
+rule sketchs:
+    input: ../resources/fasta/Hugo.metaT_42.fasta
+    output: ../results/signatures/Hugo.metaT_42.k21.zip
+    jobid: 20
+    reason: Missing output files: ../results/signatures/Hugo.metaT_42.k21.zip
+    wildcards: ident=Hugo.metaT_42
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+
+[Wed Jun  5 15:29:25 2024]
+rule sketchs:
+    input: ../resources/fasta/Hugo.metaT_15.fasta
+    output: ../results/signatures/Hugo.metaT_15.k21.zip
+    jobid: 5
+    reason: Missing output files: ../results/signatures/Hugo.metaT_15.k21.zip
+    wildcards: ident=Hugo.metaT_15
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+
+[Wed Jun  5 15:29:25 2024]
+rule sketchs:
+    input: ../resources/fasta/Hugo.metaT_9.fasta
+    output: ../results/signatures/Hugo.metaT_9.k21.zip
+    jobid: 50
+    reason: Missing output files: ../results/signatures/Hugo.metaT_9.k21.zip
+    wildcards: ident=Hugo.metaT_9
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+
+[Wed Jun  5 15:29:25 2024]
+rule sketchs:
+    input: ../resources/fasta/Hugo.metaT_7.fasta
+    output: ../results/signatures/Hugo.metaT_7.k21.zip
+    jobid: 35
+    reason: Missing output files: ../results/signatures/Hugo.metaT_7.k21.zip
+    wildcards: ident=Hugo.metaT_7
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+
+[Wed Jun  5 15:29:25 2024]
+rule sketchs:
+    input: ../resources/fasta/Hugo.metaT_35.fasta
+    output: ../results/signatures/Hugo.metaT_35.k21.zip
+    jobid: 13
+    reason: Missing output files: ../results/signatures/Hugo.metaT_35.k21.zip
+    wildcards: ident=Hugo.metaT_35
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+
+[Wed Jun  5 15:29:25 2024]
+rule sketchs:
+    input: ../resources/fasta/Hugo.metaT_8.fasta
+    output: ../results/signatures/Hugo.metaT_8.k21.zip
+    jobid: 43
+    reason: Missing output files: ../results/signatures/Hugo.metaT_8.k21.zip
+    wildcards: ident=Hugo.metaT_8
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+
+[Wed Jun  5 15:29:25 2024]
+rule sketchs:
+    input: ../resources/fasta/Hugo.metaT_11.fasta
+    output: ../results/signatures/Hugo.metaT_11.k21.zip
+    jobid: 28
+    reason: Missing output files: ../results/signatures/Hugo.metaT_11.k21.zip
+    wildcards: ident=Hugo.metaT_11
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+
+[Wed Jun  5 15:29:25 2024]
+rule sketchs:
+    input: ../resources/fasta/Hugo.metaT_21.fasta
+    output: ../results/signatures/Hugo.metaT_21.k21.zip
+    jobid: 21
+    reason: Missing output files: ../results/signatures/Hugo.metaT_21.k21.zip
+    wildcards: ident=Hugo.metaT_21
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+
+[Wed Jun  5 15:29:25 2024]
+rule sketchs:
+    input: ../resources/fasta/Hugo.metaT_2.fasta
+    output: ../results/signatures/Hugo.metaT_2.k21.zip
+    jobid: 6
+    reason: Missing output files: ../results/signatures/Hugo.metaT_2.k21.zip
+    wildcards: ident=Hugo.metaT_2
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+
+[Wed Jun  5 15:29:25 2024]
+rule sketchs:
+    input: ../resources/fasta/Hugo.metaT_31.fasta
+    output: ../results/signatures/Hugo.metaT_31.k21.zip
+    jobid: 36
+    reason: Missing output files: ../results/signatures/Hugo.metaT_31.k21.zip
+    wildcards: ident=Hugo.metaT_31
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+
+[Wed Jun  5 15:29:25 2024]
+rule sketchs:
+    input: ../resources/fasta/Hugo.metaT_3.fasta
+    output: ../results/signatures/Hugo.metaT_3.k21.zip
+    jobid: 14
+    reason: Missing output files: ../results/signatures/Hugo.metaT_3.k21.zip
+    wildcards: ident=Hugo.metaT_3
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+
+[Wed Jun  5 15:29:25 2024]
+rule sketchs:
+    input: ../resources/fasta/Hugo.metaT_25.fasta
+    output: ../results/signatures/Hugo.metaT_25.k21.zip
+    jobid: 44
+    reason: Missing output files: ../results/signatures/Hugo.metaT_25.k21.zip
+    wildcards: ident=Hugo.metaT_25
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+
+[Wed Jun  5 15:29:25 2024]
+rule sketchs:
+    input: ../resources/fasta/Hugo.metaT_30.fasta
+    output: ../results/signatures/Hugo.metaT_30.k21.zip
+    jobid: 29
+    reason: Missing output files: ../results/signatures/Hugo.metaT_30.k21.zip
+    wildcards: ident=Hugo.metaT_30
+    resources: tmpdir=/tmp
+
+Activating conda environment: branchwater
+[Wed Jun  5 15:29:44 2024]
+Finished job 22.
+1 of 51 steps (2%) done
+[Wed Jun  5 15:29:44 2024]
+Finished job 31.
+2 of 51 steps (4%) done
+[Wed Jun  5 15:29:44 2024]
+Finished job 16.
+3 of 51 steps (6%) done
+[Wed Jun  5 15:29:44 2024]
+Finished job 23.
+4 of 51 steps (8%) done
+[Wed Jun  5 15:29:44 2024]
+Finished job 2.
+5 of 51 steps (10%) done
+[Wed Jun  5 15:29:44 2024]
+Finished job 37.
+6 of 51 steps (12%) done
+[Wed Jun  5 15:29:44 2024]
+Finished job 45.
+7 of 51 steps (14%) done
+[Wed Jun  5 15:29:44 2024]
+Finished job 32.
+8 of 51 steps (16%) done
+[Wed Jun  5 15:29:44 2024]
+Finished job 7.
+9 of 51 steps (18%) done
+[Wed Jun  5 15:29:44 2024]
+Finished job 9.
+10 of 51 steps (20%) done
+[Wed Jun  5 15:29:44 2024]
+Finished job 1.
+11 of 51 steps (22%) done
+[Wed Jun  5 15:29:44 2024]
+Finished job 8.
+12 of 51 steps (24%) done
+[Wed Jun  5 15:29:44 2024]
+Finished job 46.
+13 of 51 steps (25%) done
+[Wed Jun  5 15:29:44 2024]
+Finished job 39.
+14 of 51 steps (27%) done
+[Wed Jun  5 15:29:44 2024]
+Finished job 24.
+15 of 51 steps (29%) done
+[Wed Jun  5 15:29:44 2024]
+Finished job 38.
+16 of 51 steps (31%) done
+[Wed Jun  5 15:29:44 2024]
+Finished job 15.
+17 of 51 steps (33%) done
+[Wed Jun  5 15:29:44 2024]
+Finished job 3.
+18 of 51 steps (35%) done
+[Wed Jun  5 15:29:44 2024]
+Finished job 30.
+19 of 51 steps (37%) done
+[Wed Jun  5 15:29:44 2024]
+Finished job 10.
+20 of 51 steps (39%) done
+[Wed Jun  5 15:29:44 2024]
+Finished job 26.
+21 of 51 steps (41%) done
+[Wed Jun  5 15:29:44 2024]
+Finished job 19.
+22 of 51 steps (43%) done
+[Wed Jun  5 15:29:44 2024]
+Finished job 47.
+23 of 51 steps (45%) done
+[Wed Jun  5 15:29:44 2024]
+Finished job 17.
+24 of 51 steps (47%) done
+[Wed Jun  5 15:29:44 2024]
+Finished job 33.
+25 of 51 steps (49%) done
+[Wed Jun  5 15:29:44 2024]
+Finished job 4.
+26 of 51 steps (51%) done
+[Wed Jun  5 15:29:44 2024]
+Finished job 34.
+27 of 51 steps (53%) done
+[Wed Jun  5 15:29:44 2024]
+Finished job 28.
+28 of 51 steps (55%) done
+[Wed Jun  5 15:29:44 2024]
+Finished job 14.
+29 of 51 steps (57%) done
+[Wed Jun  5 15:29:44 2024]
+Finished job 49.
+30 of 51 steps (59%) done
+[Wed Jun  5 15:29:44 2024]
+Finished job 48.
+31 of 51 steps (61%) done
+[Wed Jun  5 15:29:44 2024]
+Finished job 12.
+32 of 51 steps (63%) done
+[Wed Jun  5 15:29:44 2024]
+Finished job 36.
+33 of 51 steps (65%) done
+[Wed Jun  5 15:29:44 2024]
+Finished job 18.
+34 of 51 steps (67%) done
+[Wed Jun  5 15:29:44 2024]
+Finished job 40.
+35 of 51 steps (69%) done
+[Wed Jun  5 15:29:44 2024]
+Finished job 27.
+36 of 51 steps (71%) done
+[Wed Jun  5 15:29:44 2024]
+Finished job 5.
+37 of 51 steps (73%) done
+[Wed Jun  5 15:29:44 2024]
+Finished job 29.
+38 of 51 steps (75%) done
+[Wed Jun  5 15:29:44 2024]
+Finished job 41.
+39 of 51 steps (76%) done
+[Wed Jun  5 15:29:44 2024]
+Finished job 11.
+40 of 51 steps (78%) done
+[Wed Jun  5 15:29:44 2024]
+Finished job 25.
+41 of 51 steps (80%) done
+[Wed Jun  5 15:29:44 2024]
+Finished job 43.
+42 of 51 steps (82%) done
+[Wed Jun  5 15:29:44 2024]
+Finished job 20.
+43 of 51 steps (84%) done
+[Wed Jun  5 15:29:44 2024]
+Finished job 35.
+44 of 51 steps (86%) done
+[Wed Jun  5 15:29:44 2024]
+Finished job 6.
+45 of 51 steps (88%) done
+[Wed Jun  5 15:29:44 2024]
+Finished job 50.
+46 of 51 steps (90%) done
+[Wed Jun  5 15:29:44 2024]
+Finished job 21.
+47 of 51 steps (92%) done
+[Wed Jun  5 15:29:44 2024]
+Finished job 13.
+48 of 51 steps (94%) done
+[Wed Jun  5 15:29:44 2024]
+Finished job 42.
+49 of 51 steps (96%) done
+[Wed Jun  5 15:29:44 2024]
+Finished job 44.
+50 of 51 steps (98%) done
+Select jobs to execute...
+
+[Wed Jun  5 15:29:44 2024]
+localrule all:
+    input: ../results/signatures/Hugo.metaT_41.k21.zip, ../results/signatures/Hugo.metaT_22.k21.zip, ../results/signatures/Hugo.metaT_38.k21.zip, ../results/signatures/Hugo.metaT_19.k21.zip, ../results/signatures/Hugo.metaT_15.k21.zip, ../results/signatures/Hugo.metaT_2.k21.zip, ../results/signatures/Hugo.metaT_34.k21.zip, ../results/signatures/Hugo.metaT_40.k21.zip, ../results/signatures/Hugo.metaT_23.k21.zip, ../results/signatures/Hugo.metaT_39.k21.zip, ../results/signatures/Hugo.metaT_18.k21.zip, ../results/signatures/Hugo.metaT_14.k21.zip, ../results/signatures/Hugo.metaT_35.k21.zip, ../results/signatures/Hugo.metaT_3.k21.zip, ../results/signatures/Hugo.metaT_43.k21.zip, ../results/signatures/Hugo.metaT_20.k21.zip, ../results/signatures/Hugo.metaT_0.k21.zip, ../results/signatures/Hugo.metaT_36.k21.zip, ../results/signatures/Hugo.metaT_17.k21.zip, ../results/signatures/Hugo.metaT_42.k21.zip, ../results/signatures/Hugo.metaT_21.k21.zip, ../results/signatures/Hugo.metaT_37.k21.zip, ../results/signatures/Hugo.metaT_1.k21.zip, ../results/signatures/Hugo.metaT_16.k21.zip, ../results/signatures/Hugo.metaT_26.k21.zip, ../results/signatures/Hugo.metaT_49.k21.zip, ../results/signatures/Hugo.metaT_45.k21.zip, ../results/signatures/Hugo.metaT_11.k21.zip, ../results/signatures/Hugo.metaT_30.k21.zip, ../results/signatures/Hugo.metaT_6.k21.zip, ../results/signatures/Hugo.metaT_27.k21.zip, ../results/signatures/Hugo.metaT_48.k21.zip, ../results/signatures/Hugo.metaT_44.k21.zip, ../results/signatures/Hugo.metaT_10.k21.zip, ../results/signatures/Hugo.metaT_7.k21.zip, ../results/signatures/Hugo.metaT_31.k21.zip, ../results/signatures/Hugo.metaT_24.k21.zip, ../results/signatures/Hugo.metaT_47.k21.zip, ../results/signatures/Hugo.metaT_28.k21.zip, ../results/signatures/Hugo.metaT_32.k21.zip, ../results/signatures/Hugo.metaT_4.k21.zip, ../results/signatures/Hugo.metaT_13.k21.zip, ../results/signatures/Hugo.metaT_8.k21.zip, ../results/signatures/Hugo.metaT_25.k21.zip, ../results/signatures/Hugo.metaT_46.k21.zip, ../results/signatures/Hugo.metaT_29.k21.zip, ../results/signatures/Hugo.metaT_5.k21.zip, ../results/signatures/Hugo.metaT_33.k21.zip, ../results/signatures/Hugo.metaT_12.k21.zip, ../results/signatures/Hugo.metaT_9.k21.zip
+    jobid: 0
+    reason: Input files updated by another job: ../results/signatures/Hugo.metaT_26.k21.zip, ../results/signatures/Hugo.metaT_15.k21.zip, ../results/signatures/Hugo.metaT_30.k21.zip, ../results/signatures/Hugo.metaT_31.k21.zip, ../results/signatures/Hugo.metaT_43.k21.zip, ../results/signatures/Hugo.metaT_34.k21.zip, ../results/signatures/Hugo.metaT_42.k21.zip, ../results/signatures/Hugo.metaT_45.k21.zip, ../results/signatures/Hugo.metaT_33.k21.zip, ../results/signatures/Hugo.metaT_9.k21.zip, ../results/signatures/Hugo.metaT_23.k21.zip, ../results/signatures/Hugo.metaT_46.k21.zip, ../results/signatures/Hugo.metaT_18.k21.zip, ../results/signatures/Hugo.metaT_36.k21.zip, ../results/signatures/Hugo.metaT_3.k21.zip, ../results/signatures/Hugo.metaT_4.k21.zip, ../results/signatures/Hugo.metaT_35.k21.zip, ../results/signatures/Hugo.metaT_28.k21.zip, ../results/signatures/Hugo.metaT_27.k21.zip, ../results/signatures/Hugo.metaT_12.k21.zip, ../results/signatures/Hugo.metaT_49.k21.zip, ../results/signatures/Hugo.metaT_39.k21.zip, ../results/signatures/Hugo.metaT_48.k21.zip, ../results/signatures/Hugo.metaT_11.k21.zip, ../results/signatures/Hugo.metaT_37.k21.zip, ../results/signatures/Hugo.metaT_1.k21.zip, ../results/signatures/Hugo.metaT_47.k21.zip, ../results/signatures/Hugo.metaT_14.k21.zip, ../results/signatures/Hugo.metaT_0.k21.zip, ../results/signatures/Hugo.metaT_38.k21.zip, ../results/signatures/Hugo.metaT_21.k21.zip, ../results/signatures/Hugo.metaT_13.k21.zip, ../results/signatures/Hugo.metaT_25.k21.zip, ../results/signatures/Hugo.metaT_7.k21.zip, ../results/signatures/Hugo.metaT_5.k21.zip, ../results/signatures/Hugo.metaT_22.k21.zip, ../results/signatures/Hugo.metaT_10.k21.zip, ../results/signatures/Hugo.metaT_8.k21.zip, ../results/signatures/Hugo.metaT_17.k21.zip, ../results/signatures/Hugo.metaT_32.k21.zip, ../results/signatures/Hugo.metaT_19.k21.zip, ../results/signatures/Hugo.metaT_2.k21.zip, ../results/signatures/Hugo.metaT_16.k21.zip, ../results/signatures/Hugo.metaT_41.k21.zip, ../results/signatures/Hugo.metaT_44.k21.zip, ../results/signatures/Hugo.metaT_24.k21.zip, ../results/signatures/Hugo.metaT_40.k21.zip, ../results/signatures/Hugo.metaT_6.k21.zip, ../results/signatures/Hugo.metaT_29.k21.zip, ../results/signatures/Hugo.metaT_20.k21.zip
+    resources: tmpdir=/tmp
+
+[Wed Jun  5 15:29:44 2024]
+Finished job 0.
+51 of 51 steps (100%) done
+Complete log: .snakemake/log/2024-06-05T152922.043350.snakemake.log

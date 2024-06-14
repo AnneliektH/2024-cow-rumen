@@ -1,0 +1,342 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 70
+Rules claiming more threads will be scaled down.
+Provided resources: mem_mb=30000
+Job stats:
+job            count
+-----------  -------
+all                1
+diamond_all       50
+total             51
+
+Select jobs to execute...
+
+[Tue Jun 11 10:01:38 2024]
+rule diamond_all:
+    input: ../resources/fasta/Hugo.metaT_25.fasta
+    output: ../results/diamond/diamond.Hugo.metaT_25.all.tsv
+    jobid: 44
+    reason: Missing output files: ../results/diamond/diamond.Hugo.metaT_25.all.tsv
+    wildcards: ident=Hugo.metaT_25
+    threads: 10
+    resources: tmpdir=/tmp
+
+Activating conda environment: diamond
+
+[Tue Jun 11 10:01:42 2024]
+rule diamond_all:
+    input: ../resources/fasta/Hugo.metaT_48.fasta
+    output: ../results/diamond/diamond.Hugo.metaT_48.all.tsv
+    jobid: 32
+    reason: Missing output files: ../results/diamond/diamond.Hugo.metaT_48.all.tsv
+    wildcards: ident=Hugo.metaT_48
+    threads: 10
+    resources: tmpdir=/tmp
+
+Activating conda environment: diamond
+
+[Tue Jun 11 10:01:42 2024]
+rule diamond_all:
+    input: ../resources/fasta/Hugo.metaT_0.fasta
+    output: ../results/diamond/diamond.Hugo.metaT_0.all.tsv
+    jobid: 17
+    reason: Missing output files: ../results/diamond/diamond.Hugo.metaT_0.all.tsv
+    wildcards: ident=Hugo.metaT_0
+    threads: 10
+    resources: tmpdir=/tmp
+
+Activating conda environment: diamond
+
+[Tue Jun 11 10:01:42 2024]
+rule diamond_all:
+    input: ../resources/fasta/Hugo.metaT_5.fasta
+    output: ../results/diamond/diamond.Hugo.metaT_5.all.tsv
+    jobid: 47
+    reason: Missing output files: ../results/diamond/diamond.Hugo.metaT_5.all.tsv
+    wildcards: ident=Hugo.metaT_5
+    threads: 10
+    resources: tmpdir=/tmp
+
+Activating conda environment: diamond
+
+[Tue Jun 11 10:01:42 2024]
+rule diamond_all:
+    input: ../resources/fasta/Hugo.metaT_2.fasta
+    output: ../results/diamond/diamond.Hugo.metaT_2.all.tsv
+    jobid: 6
+    reason: Missing output files: ../results/diamond/diamond.Hugo.metaT_2.all.tsv
+    wildcards: ident=Hugo.metaT_2
+    threads: 10
+    resources: tmpdir=/tmp
+
+Activating conda environment: diamond
+
+[Tue Jun 11 10:01:42 2024]
+rule diamond_all:
+    input: ../resources/fasta/Hugo.metaT_31.fasta
+    output: ../results/diamond/diamond.Hugo.metaT_31.all.tsv
+    jobid: 36
+    reason: Missing output files: ../results/diamond/diamond.Hugo.metaT_31.all.tsv
+    wildcards: ident=Hugo.metaT_31
+    threads: 10
+    resources: tmpdir=/tmp
+
+Activating conda environment: diamond
+
+[Tue Jun 11 10:01:42 2024]
+rule diamond_all:
+    input: ../resources/fasta/Hugo.metaT_21.fasta
+    output: ../results/diamond/diamond.Hugo.metaT_21.all.tsv
+    jobid: 21
+    reason: Missing output files: ../results/diamond/diamond.Hugo.metaT_21.all.tsv
+    wildcards: ident=Hugo.metaT_21
+    threads: 10
+    resources: tmpdir=/tmp
+
+Activating conda environment: diamond
+[Tue Jun 11 11:03:37 2024]
+Error in rule diamond_all:
+    jobid: 36
+    input: ../resources/fasta/Hugo.metaT_31.fasta
+    output: ../results/diamond/diamond.Hugo.metaT_31.all.tsv
+    conda-env: diamond
+    shell:
+        
+        diamond blastx -q ../resources/fasta/Hugo.metaT_31.fasta         --min-orf 600         -e 1e-5 --threads 10         --very-sensitive         --db /home/hfm/Rumen_Microbiome_Genomics/1_Sequences_Guanhui/functionalAnalysis/not_merged/diamond/ncbi-nr-database/nr.dmnd -o ../results/diamond/diamond.Hugo.metaT_31.all.tsv
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job diamond_all since they might be corrupted:
+../results/diamond/diamond.Hugo.metaT_31.all.tsv
+Select jobs to execute...
+
+[Tue Jun 11 11:03:37 2024]
+rule diamond_all:
+    input: ../resources/fasta/Hugo.metaT_16.fasta
+    output: ../results/diamond/diamond.Hugo.metaT_16.all.tsv
+    jobid: 24
+    reason: Missing output files: ../results/diamond/diamond.Hugo.metaT_16.all.tsv
+    wildcards: ident=Hugo.metaT_16
+    threads: 10
+    resources: tmpdir=/tmp
+
+Activating conda environment: diamond
+[Tue Jun 11 11:19:01 2024]
+Error in rule diamond_all:
+    jobid: 32
+    input: ../resources/fasta/Hugo.metaT_48.fasta
+    output: ../results/diamond/diamond.Hugo.metaT_48.all.tsv
+    conda-env: diamond
+    shell:
+        
+        diamond blastx -q ../resources/fasta/Hugo.metaT_48.fasta         --min-orf 600         -e 1e-5 --threads 10         --very-sensitive         --db /home/hfm/Rumen_Microbiome_Genomics/1_Sequences_Guanhui/functionalAnalysis/not_merged/diamond/ncbi-nr-database/nr.dmnd -o ../results/diamond/diamond.Hugo.metaT_48.all.tsv
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job diamond_all since they might be corrupted:
+../results/diamond/diamond.Hugo.metaT_48.all.tsv
+Select jobs to execute...
+
+[Tue Jun 11 11:19:01 2024]
+rule diamond_all:
+    input: ../resources/fasta/Hugo.metaT_11.fasta
+    output: ../results/diamond/diamond.Hugo.metaT_11.all.tsv
+    jobid: 28
+    reason: Missing output files: ../results/diamond/diamond.Hugo.metaT_11.all.tsv
+    wildcards: ident=Hugo.metaT_11
+    threads: 10
+    resources: tmpdir=/tmp
+
+Activating conda environment: diamond
+[Tue Jun 11 11:33:17 2024]
+Error in rule diamond_all:
+    jobid: 17
+    input: ../resources/fasta/Hugo.metaT_0.fasta
+    output: ../results/diamond/diamond.Hugo.metaT_0.all.tsv
+    conda-env: diamond
+    shell:
+        
+        diamond blastx -q ../resources/fasta/Hugo.metaT_0.fasta         --min-orf 600         -e 1e-5 --threads 10         --very-sensitive         --db /home/hfm/Rumen_Microbiome_Genomics/1_Sequences_Guanhui/functionalAnalysis/not_merged/diamond/ncbi-nr-database/nr.dmnd -o ../results/diamond/diamond.Hugo.metaT_0.all.tsv
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job diamond_all since they might be corrupted:
+../results/diamond/diamond.Hugo.metaT_0.all.tsv
+Select jobs to execute...
+
+[Tue Jun 11 11:33:18 2024]
+rule diamond_all:
+    input: ../resources/fasta/Hugo.metaT_28.fasta
+    output: ../results/diamond/diamond.Hugo.metaT_28.all.tsv
+    jobid: 39
+    reason: Missing output files: ../results/diamond/diamond.Hugo.metaT_28.all.tsv
+    wildcards: ident=Hugo.metaT_28
+    threads: 10
+    resources: tmpdir=/tmp
+
+Activating conda environment: diamond
+[Tue Jun 11 11:43:30 2024]
+Error in rule diamond_all:
+    jobid: 47
+    input: ../resources/fasta/Hugo.metaT_5.fasta
+    output: ../results/diamond/diamond.Hugo.metaT_5.all.tsv
+    conda-env: diamond
+    shell:
+        
+        diamond blastx -q ../resources/fasta/Hugo.metaT_5.fasta         --min-orf 600         -e 1e-5 --threads 10         --very-sensitive         --db /home/hfm/Rumen_Microbiome_Genomics/1_Sequences_Guanhui/functionalAnalysis/not_merged/diamond/ncbi-nr-database/nr.dmnd -o ../results/diamond/diamond.Hugo.metaT_5.all.tsv
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job diamond_all since they might be corrupted:
+../results/diamond/diamond.Hugo.metaT_5.all.tsv
+Select jobs to execute...
+
+[Tue Jun 11 11:43:30 2024]
+rule diamond_all:
+    input: ../resources/fasta/Hugo.metaT_35.fasta
+    output: ../results/diamond/diamond.Hugo.metaT_35.all.tsv
+    jobid: 13
+    reason: Missing output files: ../results/diamond/diamond.Hugo.metaT_35.all.tsv
+    wildcards: ident=Hugo.metaT_35
+    threads: 10
+    resources: tmpdir=/tmp
+
+Activating conda environment: diamond
+[Tue Jun 11 12:14:51 2024]
+Error in rule diamond_all:
+    jobid: 44
+    input: ../resources/fasta/Hugo.metaT_25.fasta
+    output: ../results/diamond/diamond.Hugo.metaT_25.all.tsv
+    conda-env: diamond
+    shell:
+        
+        diamond blastx -q ../resources/fasta/Hugo.metaT_25.fasta         --min-orf 600         -e 1e-5 --threads 10         --very-sensitive         --db /home/hfm/Rumen_Microbiome_Genomics/1_Sequences_Guanhui/functionalAnalysis/not_merged/diamond/ncbi-nr-database/nr.dmnd -o ../results/diamond/diamond.Hugo.metaT_25.all.tsv
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job diamond_all since they might be corrupted:
+../results/diamond/diamond.Hugo.metaT_25.all.tsv
+Select jobs to execute...
+
+[Tue Jun 11 12:14:51 2024]
+rule diamond_all:
+    input: ../resources/fasta/Hugo.metaT_23.fasta
+    output: ../results/diamond/diamond.Hugo.metaT_23.all.tsv
+    jobid: 9
+    reason: Missing output files: ../results/diamond/diamond.Hugo.metaT_23.all.tsv
+    wildcards: ident=Hugo.metaT_23
+    threads: 10
+    resources: tmpdir=/tmp
+
+Activating conda environment: diamond
+[Tue Jun 11 12:29:04 2024]
+Error in rule diamond_all:
+    jobid: 21
+    input: ../resources/fasta/Hugo.metaT_21.fasta
+    output: ../results/diamond/diamond.Hugo.metaT_21.all.tsv
+    conda-env: diamond
+    shell:
+        
+        diamond blastx -q ../resources/fasta/Hugo.metaT_21.fasta         --min-orf 600         -e 1e-5 --threads 10         --very-sensitive         --db /home/hfm/Rumen_Microbiome_Genomics/1_Sequences_Guanhui/functionalAnalysis/not_merged/diamond/ncbi-nr-database/nr.dmnd -o ../results/diamond/diamond.Hugo.metaT_21.all.tsv
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job diamond_all since they might be corrupted:
+../results/diamond/diamond.Hugo.metaT_21.all.tsv
+Select jobs to execute...
+
+[Tue Jun 11 12:29:04 2024]
+rule diamond_all:
+    input: ../resources/fasta/Hugo.metaT_8.fasta
+    output: ../results/diamond/diamond.Hugo.metaT_8.all.tsv
+    jobid: 43
+    reason: Missing output files: ../results/diamond/diamond.Hugo.metaT_8.all.tsv
+    wildcards: ident=Hugo.metaT_8
+    threads: 10
+    resources: tmpdir=/tmp
+
+Activating conda environment: diamond
+[Tue Jun 11 12:57:47 2024]
+Error in rule diamond_all:
+    jobid: 6
+    input: ../resources/fasta/Hugo.metaT_2.fasta
+    output: ../results/diamond/diamond.Hugo.metaT_2.all.tsv
+    conda-env: diamond
+    shell:
+        
+        diamond blastx -q ../resources/fasta/Hugo.metaT_2.fasta         --min-orf 600         -e 1e-5 --threads 10         --very-sensitive         --db /home/hfm/Rumen_Microbiome_Genomics/1_Sequences_Guanhui/functionalAnalysis/not_merged/diamond/ncbi-nr-database/nr.dmnd -o ../results/diamond/diamond.Hugo.metaT_2.all.tsv
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job diamond_all since they might be corrupted:
+../results/diamond/diamond.Hugo.metaT_2.all.tsv
+Select jobs to execute...
+
+[Tue Jun 11 12:57:48 2024]
+rule diamond_all:
+    input: ../resources/fasta/Hugo.metaT_24.fasta
+    output: ../results/diamond/diamond.Hugo.metaT_24.all.tsv
+    jobid: 37
+    reason: Missing output files: ../results/diamond/diamond.Hugo.metaT_24.all.tsv
+    wildcards: ident=Hugo.metaT_24
+    threads: 10
+    resources: tmpdir=/tmp
+
+Activating conda environment: diamond
+[Tue Jun 11 13:18:52 2024]
+Error in rule diamond_all:
+    jobid: 13
+    input: ../resources/fasta/Hugo.metaT_35.fasta
+    output: ../results/diamond/diamond.Hugo.metaT_35.all.tsv
+    conda-env: diamond
+    shell:
+        
+        diamond blastx -q ../resources/fasta/Hugo.metaT_35.fasta         --min-orf 600         -e 1e-5 --threads 10         --very-sensitive         --db /home/hfm/Rumen_Microbiome_Genomics/1_Sequences_Guanhui/functionalAnalysis/not_merged/diamond/ncbi-nr-database/nr.dmnd -o ../results/diamond/diamond.Hugo.metaT_35.all.tsv
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job diamond_all since they might be corrupted:
+../results/diamond/diamond.Hugo.metaT_35.all.tsv
+Select jobs to execute...
+
+[Tue Jun 11 13:18:52 2024]
+rule diamond_all:
+    input: ../resources/fasta/Hugo.metaT_22.fasta
+    output: ../results/diamond/diamond.Hugo.metaT_22.all.tsv
+    jobid: 2
+    reason: Missing output files: ../results/diamond/diamond.Hugo.metaT_22.all.tsv
+    wildcards: ident=Hugo.metaT_22
+    threads: 10
+    resources: tmpdir=/tmp
+
+Activating conda environment: diamond
+[Tue Jun 11 13:36:17 2024]
+Error in rule diamond_all:
+    jobid: 24
+    input: ../resources/fasta/Hugo.metaT_16.fasta
+    output: ../results/diamond/diamond.Hugo.metaT_16.all.tsv
+    conda-env: diamond
+    shell:
+        
+        diamond blastx -q ../resources/fasta/Hugo.metaT_16.fasta         --min-orf 600         -e 1e-5 --threads 10         --very-sensitive         --db /home/hfm/Rumen_Microbiome_Genomics/1_Sequences_Guanhui/functionalAnalysis/not_merged/diamond/ncbi-nr-database/nr.dmnd -o ../results/diamond/diamond.Hugo.metaT_16.all.tsv
+        
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job diamond_all since they might be corrupted:
+../results/diamond/diamond.Hugo.metaT_16.all.tsv
+Select jobs to execute...
+
+[Tue Jun 11 13:36:17 2024]
+rule diamond_all:
+    input: ../resources/fasta/Hugo.metaT_9.fasta
+    output: ../results/diamond/diamond.Hugo.metaT_9.all.tsv
+    jobid: 50
+    reason: Missing output files: ../results/diamond/diamond.Hugo.metaT_9.all.tsv
+    wildcards: ident=Hugo.metaT_9
+    threads: 10
+    resources: tmpdir=/tmp
+
+Activating conda environment: diamond
+Terminating processes on user request, this might take some time.
+Cancelling snakemake on user request.

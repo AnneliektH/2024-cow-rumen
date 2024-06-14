@@ -1,0 +1,49 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 70
+Rules claiming more threads will be scaled down.
+Provided resources: mem_mb=30000
+Job stats:
+job            count
+-----------  -------
+all                1
+diamond_all       50
+total             51
+
+Select jobs to execute...
+
+[Tue Jun 11 13:46:47 2024]
+rule diamond_all:
+    input: ../resources/fasta/Hugo.metaT_10.fasta
+    output: ../results/diamond/diamond.Hugo.metaT_10.all.tsv
+    jobid: 34
+    reason: Missing output files: ../results/diamond/diamond.Hugo.metaT_10.all.tsv
+    wildcards: ident=Hugo.metaT_10
+    threads: 20
+    resources: tmpdir=/tmp
+
+Activating conda environment: diamond
+
+[Tue Jun 11 13:46:50 2024]
+rule diamond_all:
+    input: ../resources/fasta/Hugo.metaT_11.fasta
+    output: ../results/diamond/diamond.Hugo.metaT_11.all.tsv
+    jobid: 28
+    reason: Missing output files: ../results/diamond/diamond.Hugo.metaT_11.all.tsv
+    wildcards: ident=Hugo.metaT_11
+    threads: 20
+    resources: tmpdir=/tmp
+
+Activating conda environment: diamond
+
+[Tue Jun 11 13:46:50 2024]
+rule diamond_all:
+    input: ../resources/fasta/Hugo.metaT_12.fasta
+    output: ../results/diamond/diamond.Hugo.metaT_12.all.tsv
+    jobid: 49
+    reason: Missing output files: ../results/diamond/diamond.Hugo.metaT_12.all.tsv
+    wildcards: ident=Hugo.metaT_12
+    threads: 20
+    resources: tmpdir=/tmp
+
+Activating conda environment: diamond

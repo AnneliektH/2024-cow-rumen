@@ -1,0 +1,15 @@
+name: clustalo
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+  - r
+dependencies:
+  - _libgcc_mutex=0.1=conda_forge
+  - _openmp_mutex=4.5=2_gnu
+  - argtable2=2.13=hd590300_1004
+  - clustalo=1.2.4=hdbdd923_8
+  - libgcc-ng=13.2.0=h77fa898_9
+  - libgomp=13.2.0=h77fa898_9
+  - libstdcxx-ng=13.2.0=hc0a3c3a_9
+prefix: /home/amhorst/mambaforge/envs/clustalo
