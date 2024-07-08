@@ -1,0 +1,13 @@
+name: fasttree
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+  - r
+dependencies:
+  - _libgcc_mutex=0.1=conda_forge
+  - _openmp_mutex=4.5=2_gnu
+  - fasttree=2.1.11=h031d066_3
+  - libgcc-ng=14.1.0=h77fa898_0
+  - libgomp=14.1.0=h77fa898_0
+prefix: /home/amhorst/mambaforge/envs/fasttree
