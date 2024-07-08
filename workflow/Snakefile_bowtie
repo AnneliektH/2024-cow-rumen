@@ -1,0 +1,37 @@
+SAMPLES, = glob_wildcards('TRIMMED/{sample}_R1_001_trim.fixed.gz')
+BT2 = '240708_rdrp_contigs'
+
+
+rule all:
+    input:
+        expand("mapping/{sample}.bam", sample=SAMPLES),
+
+
+rule bowtie:
+    input:
+        fw = "TRIMMED/{sample}_R1_001_trim.fixed.gz", 
+        rv = "TRIMMED/{sample}_R2_001_trim.fixed.gz",
+    output:
+        samfile = "mapping/{sample}.sam",
+    conda: 
+        "bowtie2"
+    threads: 10
+    shell:
+        """
+        bowtie2 --threads {threads} -x {BT2} \
+        -1 {input.fw} -2 {input.rv} \
+        -S {output.samfile} --no-unal --sensitive
+        """
+rule samtools:
+    input:
+        samfile = "mapping/{sample}.sam",
+    output:
+        bamfile = "mapping/{sample}.bam",
+    conda: 
+        "samtools"
+    threads: 10
+    shell:
+        """
+        samtools view -@ {threads} -F 4 -bS {input.samfile} | samtools sort > {output.bamfile} && \
+        samtools index {output.bamfile} 
+        """

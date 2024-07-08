@@ -1,0 +1,63 @@
+# Do an alignment for each phylum with all seqs? See what fits best? It will be easy in a snakefile
+PHYLA, = glob_wildcards('family_trees/fam_list/{ident}.txt')
+
+rule all:
+    input:
+        expand("family_trees/{ident}.fasttree.nwk", ident=PHYLA),
+
+rule subset_fasta:
+    input:
+        fasta = 'own_refseq.rdrp.dedup.faa', 
+        txt = "family_trees/fam_list/{ident}.txt",
+    output:
+        faa='family_trees/{ident}.faa',
+    conda: 
+        "seqkit"
+    threads: 1
+    shell:
+        """
+        seqkit grep -n -f {input.txt} \
+        {input.fasta} -o {output.faa}
+        """
+
+rule clustalo:
+    input:
+        fasta = 'family_trees/{ident}.faa', 
+    output:
+        alignment='family_trees/{ident}.clustalo.faa',
+    conda: 
+        "clustalo"
+    threads: 12
+    shell:
+        """
+        clustalo -i {input.fasta} --auto -t Protein --threads={threads} \
+        -o {output.alignment}
+        """
+
+rule trimal:
+    input:
+        fasta = 'family_trees/{ident}.clustalo.faa', 
+    output:
+        trim='family_trees/{ident}.trimal.faa'
+    conda: 
+        "trimal"
+    threads: 1
+    shell:
+        """
+        trimal -in {input.fasta} -gappyout -out {output.trim}
+        """
+
+rule fasttree:
+    input:
+        fasta = 'family_trees/{ident}.trimal.faa', 
+    output:
+        tree='family_trees/{ident}.fasttree.nwk',
+        log='family_trees/{ident}.fasttree.log'
+    conda: 
+        "fasttree"
+    threads: 1
+    shell:
+        """
+        FastTree < {input.fasta} > {output.tree} \
+        -wag -log {output.log}
+        """
