@@ -1,0 +1,20 @@
+FASTA, = glob_wildcards('../resources/split_DNA_contigs/{fasta}.fasta')
+
+rule all:
+    input:
+        expand("../results/virsorter2/DNA/check/{fasta}.done", fasta=FASTA),
+
+rule virsorter2:
+    input:
+        fasta = '../resources/split_DNA_contigs/{fasta}.fasta',
+    output:
+        check='../results/virsorter2/DNA/check/{fasta}.done',
+    conda: 
+        "virsorter2"
+    threads: 8
+    shell:
+        """
+        virsorter run all -w ../results/virsorter2/DNA/{wildcards.fasta} \
+        -i {input.fasta} -d /group/jbemersogrp/databases/virsorter/ \
+        --min-length 10000 -j {threads} --min-score 0.9 && touch {output.check}
+        """
