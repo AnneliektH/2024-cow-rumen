@@ -1,11 +1,12 @@
 SAMPLES_DNA, = glob_wildcards('/home/hfm/ER_rumenShotgun/ER_Nanuq/TRIMMED/{sample}_R1_trim.fastq.gz')
 SAMPLES_RNA, = glob_wildcards('/home/hfm/Rumen_Microbiome_Genomics/1_Sequences_Guanhui/TRIMMED/{sample}_R1_001_trim.fixed.gz')
-BT2 = '/group/ctbrowngrp2/scratch/annie/2024-cow-rumen/results/bowtie2/DNA/'
+#BT2 = '/group/ctbrowngrp2/scratch/annie/2024-cow-rumen/results/bowtie2/DNA/viral_contigs.95.cluster'
 
 
 rule all:
     input:
-        expand("mapping/{sample}.bam", sample=SAMPLES),
+        expand("../results/bowtie2/DNA/mapping/{sample}.bam", sample=SAMPLES_DNA),
+        expand("../results/bowtie2/DNA/mapping_metaT/{sample}.bam", sample=SAMPLES_RNA),
 
 
 rule bowtie_d:
@@ -16,10 +17,11 @@ rule bowtie_d:
         samfile = temporary("../results/bowtie2/DNA/mapping/{sample}.sam"),
     conda: 
         "bowtie2"
-    threads: 10
+    threads: 8
     shell:
         """
-        bowtie2 --threads {threads} -x {BT2} \
+        bowtie2 --threads {threads} \
+        -x ../results/bowtie2/DNA/viral_contigs.95.cluster \
         -1 {input.fw} -2 {input.rv} \
         -S {output.samfile} --no-unal --sensitive
         """
@@ -30,7 +32,7 @@ rule samtools_d:
         bamfile = "../results/bowtie2/DNA/mapping/{sample}.bam",
     conda: 
         "samtools"
-    threads: 10
+    threads: 8
     shell:
         """
         samtools view -@ {threads} -F 4 -bS {input.samfile} | samtools sort > {output.bamfile} && \
@@ -45,10 +47,11 @@ rule bowtie_r:
         samfile = temporary("../results/bowtie2/DNA/mapping_metaT/{sample}.sam"),
     conda: 
         "bowtie2"
-    threads: 10
+    threads: 8
     shell:
         """
-        bowtie2 --threads {threads} -x {BT2} \
+        bowtie2 --threads {threads} \
+        -x ../results/bowtie2/DNA/viral_contigs.95.cluster \
         -1 {input.fw} -2 {input.rv} \
         -S {output.samfile} --no-unal --sensitive
         """
@@ -59,7 +62,7 @@ rule samtools_r:
         bamfile = "../results/bowtie2/DNA/mapping_metaT/{sample}.bam",
     conda: 
         "samtools"
-    threads: 10
+    threads: 8
     shell:
         """
         samtools view -@ {threads} -F 4 -bS {input.samfile} | samtools sort > {output.bamfile} && \
