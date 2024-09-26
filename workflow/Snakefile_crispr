@@ -1,0 +1,38 @@
+GENOMES, = glob_wildcards('/home/hfm/ER_rumenShotgun/ER_Nanuq/MAG/bins/{ident}.fa')
+
+rule all:
+    input:
+        expand('../results/crispr/minced/{ident}.txt', ident=GENOMES),
+        expand('../results/sourmash/MAGsketch/{ident}.sig.gz', ident=GENOMES),
+
+
+# Run minced for cripsr spacer arrays
+rule minced:
+    input:
+        fasta = '/home/hfm/ER_rumenShotgun/ER_Nanuq/MAG/bins/{ident}.fa', 
+    output:
+        txt='../results/crispr/minced/{ident}.txt',
+    conda: 
+        "minced"
+    threads: 1
+    shell:
+        """
+        minced -spacers {input.fasta} {output.txt}
+        """
+
+
+rule sketch:
+    input:
+        fasta = '/home/hfm/ER_rumenShotgun/ER_Nanuq/MAG/bins/{ident}.fa', 
+    output:
+        sig='../results/sourmash/MAGsketch/{ident}.sig.gz',
+    conda: 
+        "branchwater"
+    threads: 1
+    shell:
+        """
+        sourmash sketch dna \
+        -p k=31,scaled=1000 \
+        {input.fasta} --name {wildcards.ident} \
+        -o {output.sig} 
+        """

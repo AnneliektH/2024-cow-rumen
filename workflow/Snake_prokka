@@ -1,0 +1,74 @@
+FASTA, = glob_wildcards('../results/drep/DNA/split/{fasta}.fa')
+RVD, = glob_wildcards('../resources/RVD/split_file/{rvd}.fa')
+
+rule all:
+    input:
+        expand("../results/prokka/check/{rvd}.done", rvd=RVD),
+    #    expand("../results/TerL/own/{fasta}.faa", fasta=FASTA),
+        
+rule prokka_rvd:
+    input:
+        fasta = '../resources/RVD/split_file/{rvd}.fa',
+    output:
+        check='../results/prokka/check/{rvd}.done',
+    conda: 
+        "prokka"
+    threads: 8
+    shell:
+        """
+        prokka {input.fasta} \
+        --outdir ../results/prokka/{wildcards.rvd} \
+        --kingdom viruses, --norrna --notrna --addgenes --prefix {wildcards.rvd} \
+        --cpus {threads} --force && touch {output.check}
+        """
+
+rule prokka:
+    input:
+        fasta = '../results/drep/DNA/split/{fasta}.fa',
+    output:
+        check='../results/prokka/check/{fasta}.done',
+    conda: 
+        "prokka"
+    threads: 16
+    shell:
+        """
+        prokka {input.fasta} \
+        --outdir ../results/prokka/own_rumvir/{wildcards.fasta} \
+        --kingdom viruses, --norrna --notrna --addgenes --prefix {wildcards.fasta} \
+        --cpus {threads} --force && touch {output.check}
+        """
+
+# rule extract_TerL:
+#     input:
+#         check = '../results/prokka/check/{fasta}.done',
+#     output:
+#         terlist_raw = temporary("../results/prokka/TerL_list/{fasta}.raw.txt"),
+#         terlist = "../results/prokka/TerL_list/{fasta}.txt",
+#         fa='../results/TerL/own/{fasta}.faa',
+#     conda: 
+#         "seqtk"
+#     threads: 1
+#     shell:
+#         """
+#         grep -e 'large terminase' -i ../results/prokka/own_vir/{wildcards.fasta}/PROKKA*.faa \
+#         > {output.terlist_raw} && \
+#         sed 's/>//g' {output.terlist_raw} > {output.terlist} && \
+#         seqtk subseq ../results/prokka/own_vir/{wildcards.fasta}/PROKKA*.faa \
+#         {output.terlist} > {output.fa}
+#         """
+
+rule pharokka:
+    input:
+        fasta = '../results/drep/DNA/contigs/{fasta}.fa',
+    output:
+        check='../results/pharokka/check/{fasta}.done',
+    conda: 
+        "pharokka_env"
+    threads: 12
+    shell:
+        """
+        python /home/amhorst/programs/pharokka/bin/pharokka.py \
+        -i {input.fasta} -o ../results/pharokka/own_vir/{wildcards.fasta} \
+        --database /home/amhorst/databases/pharokka_v1.4.0_databases \
+        -p {wildcards.fasta} --threads {threads} && touch {output.check}
+        """

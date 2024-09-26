@@ -18,3 +18,4 @@ rule virsorter2:
         -i {input.fasta} -d /group/jbemersogrp/databases/virsorter/ \
         --min-length 10000 -j {threads} --min-score 0.9 && touch {output.check}
         """
+

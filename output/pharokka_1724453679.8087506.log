@@ -1,0 +1,11 @@
+2024-08-23 15:54:39.815 | INFO     | __main__:main:95 - Starting Pharokka v1.7.3
+2024-08-23 15:54:39.815 | INFO     | __main__:main:96 - Command executed: Namespace(infile=None, outdir='/group/ctbrowngrp2/scratch/annie/2024-cow-rumen/output/', database='Default', threads='1', force=False, prefix='Default', locustag='Default', gene_predictor='default', meta=False, split=False, coding_table='11', evalue='1E-05', fast=False, mmseqs2_only=False, meta_hmm=False, dnaapler=False, custom_hmm='', genbank=False, terminase=False, terminase_strand='nothing', terminase_start='nothing', skip_extra_annotations=False, skip_mash=False, minced_args='', mash_distance=0.2, citation=False)
+2024-08-23 15:54:39.815 | INFO     | __main__:main:97 - Repository homepage is https://github.com/gbouras13/pharokka
+2024-08-23 15:54:39.816 | INFO     | __main__:main:98 - Written by George Bouras: george.bouras@adelaide.edu.au
+2024-08-23 15:54:39.816 | INFO     | __main__:main:100 - Checking database installation in /home/amhorst/.local/bin/pharokka.py/../databases/.
+2024-08-23 15:54:39.816 | INFO     | databases:check_db_installation:235 - PHROGs Databases are missing.
+2024-08-23 15:54:39.817 | INFO     | databases:check_db_installation:242 - VFDB Databases are missing.
+2024-08-23 15:54:39.817 | INFO     | databases:check_db_installation:249 - CARD Databases are missing.
+2024-08-23 15:54:39.817 | INFO     | databases:check_db_installation:255 - PHROGs Annotation File is missing.
+2024-08-23 15:54:39.817 | INFO     | databases:check_db_installation:261 - INPHARED Mash Annotation File is missing.
+2024-08-23 15:54:39.818 | INFO     | databases:check_db_installation:267 - INPHARED Mash Sketch File is missing.

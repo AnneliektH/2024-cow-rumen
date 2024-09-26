@@ -5,8 +5,8 @@ SAMPLES_RNA, = glob_wildcards('/home/hfm/Rumen_Microbiome_Genomics/1_Sequences_G
 
 rule all:
     input:
-        expand("../results/bowtie2/DNA/mapping/{sample}.bam", sample=SAMPLES_DNA),
-        expand("../results/bowtie2/DNA/mapping_metaT/{sample}.bam", sample=SAMPLES_RNA),
+        expand("../results/bowtie2/RVDown/mapping_DNA/{sample}.bam", sample=SAMPLES_DNA),
+        expand("../results/bowtie2/RVDown/mapping_metaT/{sample}.bam", sample=SAMPLES_RNA),
 
 
 rule bowtie_d:
@@ -14,22 +14,22 @@ rule bowtie_d:
         fw = "/home/hfm/ER_rumenShotgun/ER_Nanuq/TRIMMED/{sample}_R1_trim.fastq.gz", 
         rv = "/home/hfm/ER_rumenShotgun/ER_Nanuq/TRIMMED/{sample}_R2_trim.fastq.gz",
     output:
-        samfile = temporary("../results/bowtie2/DNA/mapping/{sample}.sam"),
+        samfile = temporary("../results/bowtie2/RVDown/mapping_DNA/{sample}.sam"),
     conda: 
         "bowtie2"
     threads: 8
     shell:
         """
         bowtie2 --threads {threads} \
-        -x ../results/bowtie2/DNA/viral_contigs.95.cluster \
+        -x ../results/bowtie2/ownRVD.95.cluster.bowtie \
         -1 {input.fw} -2 {input.rv} \
         -S {output.samfile} --no-unal --sensitive
         """
 rule samtools_d:
     input:
-        samfile = temporary("../results/bowtie2/DNA/mapping/{sample}.sam"),
+        samfile = "../results/bowtie2/RVDown/mapping_DNA/{sample}.sam",
     output:
-        bamfile = "../results/bowtie2/DNA/mapping/{sample}.bam",
+        bamfile = "../results/bowtie2/RVDown/mapping_DNA/{sample}.bam",
     conda: 
         "samtools"
     threads: 8
@@ -44,22 +44,22 @@ rule bowtie_r:
         fw = "/home/hfm/Rumen_Microbiome_Genomics/1_Sequences_Guanhui/TRIMMED/{sample}_R1_001_trim.fixed.gz", 
         rv = "/home/hfm/Rumen_Microbiome_Genomics/1_Sequences_Guanhui/TRIMMED/{sample}_R2_001_trim.fixed.gz",
     output:
-        samfile = temporary("../results/bowtie2/DNA/mapping_metaT/{sample}.sam"),
+        samfile = temporary("../results/bowtie2/RVDown/mapping_metaT/{sample}.sam"),
     conda: 
         "bowtie2"
     threads: 8
     shell:
         """
         bowtie2 --threads {threads} \
-        -x ../results/bowtie2/DNA/viral_contigs.95.cluster \
+        -x ../results/bowtie2/ownRVD.95.cluster.bowtie \
         -1 {input.fw} -2 {input.rv} \
         -S {output.samfile} --no-unal --sensitive
         """
 rule samtools_r:
     input:
-        samfile = temporary("../results/bowtie2/DNA/mapping_metaT/{sample}.sam"),
+        samfile = "../results/bowtie2/RVDown/mapping_metaT/{sample}.sam",
     output:
-        bamfile = "../results/bowtie2/DNA/mapping_metaT/{sample}.bam",
+        bamfile = "../results/bowtie2/RVDown/mapping_metaT/{sample}.bam",
     conda: 
         "samtools"
     threads: 8
